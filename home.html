@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Website Icon" type="png" href="images/Abkon Logo.png">
+    <link rel="stylesheet" href="home.css">
+    <title>Home</title>
+</head>
+<!-- JAVASCRIPT CODE -->
+<script>
+    function toggleNav() {
+    var hamburger = document.querySelector('.hamburgerMenu');
+    var header = document.querySelector('header');
+    hamburger.classList.toggle('active');
+    header.classList.toggle('active');
+    }                  
+</script>
+<!-- HAMBURGER BUTTON -->
+<div class="hamburgerMenu" onclick="toggleNav()">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+</div>
+<!-- NAVBAR -->
+<header>
+    <a href="home.html"><img class="logo" src="images/Abkon Logo.png" alt="logo"></a>
+    <nav>
+        <ul class="navLinks">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="OurTeam.html">The Team</a></li>    
+            <div class="serviceDropdown">
+                <li><a href="service.html">Services</a></li>
+                <div class="serviceOptions">
+                    <a href="off-grid.html">Off Grid System</a>
+                    <a href="off-grid.html">On Grid System</a>
+                    <a href="off-grid.html">Solar Water Pumping System</a>
+                    <a href="off-grid.html">Solar Energy Lighting System</a>
+            </div>
+        </ul>
+    </nav>
+    <a href="contact-us.html"><button class="contactUs">Contact</button></a>
+</header>
+<!-- PADDING -->
+<section class="padding">
+    <img class="pad" src="images/padding.jpg" alt="">
+    <h1>Home</h1>
+</section>
+<!-- CAROUSEL -->
+<section class="carousel">
+    <div class="carouselGallery">
+        <img src="images/carousel (3).jpg" alt="">
+        <img src="images/carousel (1).jpg" alt="">
+        <img src="images/carousel (2).jpg" alt="">
+        <img src="images/carousel (4).jpg" alt="">
+        <img src="images/carousel (5).jpg" alt="">
+        <img src="images/carousel (6).jpg" alt="">
+    </div>
+    <div class="introText">
+        <h1>Abkon Energy</h1>
+        <p>Innovative Energy</p>
+    </div>
+</section>
+<!-- OVERVIEW -->
+<section class="overview">
+    <div class="overviewDiv">
+        <h1>HIGH TECHNOLOGY</h1>
+        <img src="images/overview (3).png" alt="sun icon">
+        <p>We are the largest solar panel
+            manufacturer with products
+            using the latest technology.
+        </p>
+    </div>
+    <div class="overviewDiv">
+        <h1>PROJECTING</h1>
+        <img src="images/overview (4).png" alt="bulb icon">
+        <p>We provide turnkey project
+            development, solar panel installation
+            setup and delivery.
+        </p>
+    </div>
+    <div class="overviewDiv">
+        <h1>SETUP</h1>
+        <img src="images/overview (2).png" alt="solar-panel icon">
+        <p>We provide panel installation on time
+            with first class materials and quality
+            workmanship.
+        </p>
+    </div>
+    <div class="overviewDiv">
+        <h1>SERVICE</h1>
+        <img src="images/overview (1).png" alt="Service icon">
+        <p>Our maintenance, repair and technical
+            service support continues after
+            installation.
+        </p>
+    </div>
+</section>
+<!-- WHO WE ARE -->
+<section class="whoWeAre">
+    <h2>Who We Are</h2>
+    <div class="whoweareGallery">
+        <div class="whoweareGalleryOne">
+            <img src="/Images/bulbs.jpg" alt="">
+        </div>
+        <div class="whoweareGalleryTwo">
+            <div class="wwagTwoOne">
+                <h2>Professional Service in <br>
+                    <span class="bold">Solar Power</span>
+                </h2>
+                <p>
+                    Our company, which is among the first of the sector in 
+                    turnkey solar power plant installations, is one of teh companies
+                    with the longest experience and knowledge, especially in industrial
+                    type rooftop power plant installations. 
+                </p>
+            </div>
+            <div class="wwagTwoOne">
+                <h2>Competent <span class="bold">&</span> Experience </h2>
+                <p>
+                    Our professional team will accompany you on the road to 
+                    the future in solar energy systems, by combining the 
+                    experience and knowledge with excitement and passion, 
+                    carrying the synergy at the highest level and keeping 
+                    the sense of responsibility for the business in the 
+                    foreground
+                </p>
+            </div>
+            <a href="about.html"><button class="button">Get to Know Us</button></a>
+        </div>
+    </div>
+</section>
+<!-- WHAT WE DO -->
+<span class="divider"><h2 class="padText">What We Do</h2></span> 
+<section class="whatWeDo">
+    <div class="whatwedoGallery">
+        <div class="whatwedoGalDiv">
+            <h1>Off Grid Battery System</h1>
+            <img src="images/services (3).png" alt="">
+            <p>
+                Off-grid systems can be called 
+                island systems, off grid systems or battery
+                systems.
+            </p>
+        </div>
+        <div class="whatwedoGalDiv">
+            <h1>On Grid Battery System</h1>
+            <img src="images/services (2).png" alt="">
+            <p>
+                Grid-connected photovoltaic systems
+                work based on on-site consumption of the electricity produced
+            </p>
+        </div>
+        <div class="whatwedoGalDiv">
+            <h1>Solar Water Pumping System</h1>
+            <img src="images/services (1).png" alt="">
+            <p>
+                They are the system made to meet the 
+                electricity needs of agricultural lands in places 
+                far from the grid lines.
+            </p>
+        </div>
+        <div class="whatwedoGalDiv">
+            <h1>Solar Energy Lighting System</h1>
+            <img src="images/services (4).png" alt="">
+            <p>
+                Solar Lighting lighting is the area where solar
+                panels are first applied. it is electricity obtained from solar 
+                panels
+            </p>
+        </div>
+    </div>
+</section>
+<!-- EXECUTED Projects -->
+<section class="executedProjects">
+    <h2>Executed Projects</h2>
+    <div class="executedProjectsGallery">
+        <div class="epGalleryDiv">
+            <video src="/video/production_id_4109223 (2160p).mp4" autoplay loop muted></video>
+            <p>Electrical wiring and electronic installations</p>
+            <a href="service.html"><button class="button">REVIEW</button></a>
+        </div>
+        <div class="epGalleryDiv">
+            <video src="/video/pexels-los-muertos-crew-8853484 (1080p).mp4" autoplay loop muted></video>
+            <p>Solar Panel installations</p>
+            <a href="service.html"><button class="button">REVIEW</button></a>
+        </div>
+        <div class="epGalleryDiv">
+            <video src="/video/pexels-neil-hedley-5274187 (720p).mp4" autoplay loop muted></video>
+            <p>Wind Energy Installation and Optimization</p>
+            <a href="service.html"><button class="button">REVIEW</button></a>
+        </div>
+        <div class="epGalleryDiv">
+            <video src="/video/pexels-cristian-manieri-5989390 (1440p).mp4" autoplay loop muted></video>
+            <p>Grid Energy Supply and Backup Power Supply</p>
+            <a href="service.html"><button class="button">REVIEW</button></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- FOOTER -->
+<footer>
+    <section class="footerOne">
+        <div class="footerOneDiv">
+            <div>
+                <img class="logo" src="images/Abkon Logo.png" alt="logo">
+            </div>
+            <div class="contactImages">
+                <img  src="images/contact (2).png" alt="phone png">
+            </div>
+            <div class="contactText">
+                +2349134876624
+            </div>
+            <div class="contactImages">
+                <img  src="images/contact (1).png" alt="email png">
+            </div>
+            <div class="contactText">
+                tombenjamin7447@gmail.com
+            </div>
+            <div class="contactImages">
+                <img  src="images/contact (3).png" alt="">
+            </div>
+            <div class="contactText">
+                Ile-Ife, Osun State, Nigeria
+            </div> 
+            <div class="socials">
+                <div class="socialsDiv">
+                    <a href="#"><img src="images/social icons (1).png" alt="facebook icon"></a>
+                </div>
+                <div class="socialsDiv">
+                    <a href="#"><img src="images/social icons (2).png" alt="instagram logo"></a>
+                </div>
+                <div class="socialsDiv">
+                    <a href="#"><img src="images/social icons (3).png" alt="twitter logo"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footerTwo">
+        <div class="footerTwoDiv">
+            <p class="f-title">Abkon - Solar Energy</p>
+            <p> Our central goal is to be the most minimal 
+                cost control maker on the planet.
+                We move solar power in US on long haul settled 
+                value contracts to our clients, at costs which 
+                as a rule are at or underneath winning options
+                 for these clies.
+            </p>
+            <a href="contact-us.html"><button class="contactUs">Contact Us</button></a>
+        </div>
+    </section>
+    <section class="footerThree">
+        <div class="footerThreeDiv">
+            <p class="f-title">Services</p>
+            <ul>
+                <li><a href="off-grid.html">Off Grid Battery System</a></li>
+                <li><a href="off-grid.html">On Grid Battery System</a></li>
+                <li><a href="off-grid.html">Solar Water Pumping</a></li>
+                <li><a href="off-grid.html">Solar Energy Lighting</a></li>
+                <li><a href="off-grid.html">Solar Boat Applications</a></li>
+                <li><a href="off-grid.html">Engineering</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="footerFour">
+        <div class="footerFourDiv">
+            <p class="f-title">Quick Links</p>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="OurTeam.html">Our Team</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="client">Clients</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+</footer>
+<body>
+    
+</body>
+</html>
