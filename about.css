@@ -260,36 +260,6 @@ header{
     transition: 0.8s all ease;
     box-shadow: 0 0 20px rgb(36, 60, 116);
 }
-
-
-            /* SECTION-FIVE */
-
-.five{
-    margin: 0 0 50px 0;
-}
-.five-one>h1{
-    font-family: "Anton", sans-serif;
-    font-weight: 50;
-    font-size: 30px;
-    color: rgb(36, 60, 116);
-    text-align: center;
-    margin: 0 0 15px 0;
-}
-.five-one{
-    width: 900px;
-    height: fit-content;
-    padding: 10px;
-    margin: auto;
-    margin-bottom: 0px;
-    /* text edit */
-    color: rgb(36, 60, 116);
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    text-align: justify;
-    text-indent: 20px;
-    font-size: 15px;
-}
-
             /* SECTION-SIX */
 .six{
     margin: 0 0 50px 0;
