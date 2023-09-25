@@ -158,8 +158,8 @@ header{
     gap: 30px;
 }
 .loopedSectionOne video{
-    width: 35vw;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     object-fit: cover;
     padding: 30px 20px;
 }
@@ -176,7 +176,7 @@ header{
     color: rgb(255, 194, 81);
 }
 .loopedSectionTwo{
-    width: 40vw;
+    width: 50%;
     height: 500px;
     padding: 20px;
     /* text edit */
@@ -231,6 +231,7 @@ header{
     height: fit-content;
     padding: 30px;
     margin: auto;
+    
 }
 .ourPartnersDiv>h1{
     font-family: "Anton", sans-serif;
@@ -260,44 +261,39 @@ header{
     transition: 0.8s all ease;
     box-shadow: 0 0 20px rgb(36, 60, 116);
 }
-            /* SECTION-SIX */
-.six{
-    margin: 0 0 50px 0;
-}        
-.scroll-container{
+/* SKILL CAROUSEL */
+.skillCarouselContainer{
     scroll-behavior: smooth;
     overflow: auto;
     white-space: nowrap;
     width: 100%;
     padding: 30px;
+    margin-bottom: 60px;
     background-color: rgba(36, 60, 116, 0.2);
 }
-.scroll-container img{
+.skillCarouselContainer img{
     width: 50%;
     height: 400px;
     object-fit: cover;
     padding: 0px;
     margin: auto;
 }
-
-        /* SECTION-EIGHT */
-.eight{
-    margin: 50px auto;
-    margin-bottom: 100px;
-}
-.eight>p{
-    margin: auto;
-    width: 900px;
+/* WHY CHOOSE US */
+.whyChooseUs{
+    width: 80vw;
     height: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
     /* text edit */
     color: rgb(36, 60, 116);
     font-family: "Montserrat", sans-serif;
+    line-height: 2.5;
     font-weight: 300;
     text-align: justify;
     text-indent: 20px;
-    font-size: 18px;
+    font-size: 15px;
 }
-.eight>h1{
+.whyChooseUs>h1{
     font-family: "cinzel decorative", sans-serif;
     font-weight: 50;
     font-size: 40px;
@@ -305,34 +301,34 @@ header{
     text-align: center;
     margin: 0 0 15px 0;
 }
-.eight-gal{
+.WhyUsGallery{
     margin: 50px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
-    padding: 40px;
-    width: fit-content;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
     height: fit-content;
-    box-shadow: 0 0 20px 0 rgb(36, 60, 116);
+    border: 2px solid rgb(36, 60, 116);
 }
-.wu-one{
+.wuGalleryDiv{
     display: flex;
     flex-direction: row;
-    padding: 40px;
-    gap: 40px;
-    width: 1300px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
     height: fit-content;
+    padding: 10px;
 }
-.wu-two{
-    display: flex;
+.reverse{
     flex-direction: row-reverse;
-    padding: 40px;
-    gap: 40px;
-    width: 1300px;
-    height: fit-content;
+    justify-content: center;
+    align-items: center;
 }
-.w-u-one{
+.textDiv{
     padding: 40px;
     width: 500px;
     height: fit-content;
@@ -345,45 +341,39 @@ header{
     text-indent: 20px;
     font-size: 15px;
 }
-.w-u-one>h2{
+.textDiv>h2{
     font-family: "Anton", sans-serif;
     font-weight: 50;
     font-size: 30px;
     color: rgb(36, 60, 116);
     text-align: center;
-    margin: 40px auto;
-    width: 400px;
-}
-.w-u-ones{
+    margin: auto;
+    margin-bottom: 40px;
     width: fit-content;
+}
+.pictureDiv{
     height: fit-content;
+    width: fit-content;
     padding: 10px;
 }
-.w-u-ones>img{
+.pictureDiv{
+    padding: 50px 10px;
     width: 600px;
     height: 400px;
     object-fit: cover;
 }
-
-
-
-
-
-
-
-
-
+.pictureDiv>img{
+    height: 300px;
+    width: 95%;
+    object-fit: cover;
+}
 /* FOOTER */
 footer{
-    bottom: 0;
-    left: 0;
-    position: absolute;
+    background-color: rgb(36, 60, 116);
     height: 420px;
     width: 100%;
     padding: 40px;
     box-shadow: 0 0 30px rgb(36, 60, 116);
-    background-color: rgb(36, 60, 116);
-    
 }
 .contactImages img{
     width: 50px;
@@ -422,7 +412,6 @@ footer{
 .socialsDiv img:hover{
     transform: translateY(10px);
 }
-
 .footerTwo{
     margin: -385px 0 0 360px;
 }
@@ -483,3 +472,305 @@ footer li{
 .footerFourDiv>ul{
     margin: 0 0 0 50px;
 }
+/* MEDIA QUERY */
+/* 576PX HAMBURGER TOGGLE ON */
+@media (max-width: 576px) {
+/* LOOPED SECTION */
+.loopedSection{
+    width: 90%;
+    height: fit-content;
+    padding: 0px;
+    flex-direction: column;
+    gap: 10px;
+}
+.loopedSectionOne video{
+    display: block;
+    width: 70%;
+    height: 300px;
+    object-fit: cover;
+    padding: 10px;
+    margin: auto;
+}
+.loopedSectionTwo h1{
+    font-size: 30px;
+}
+.bold{
+    color: rgb(255, 194, 81);
+}
+.loopedSectionTwo{
+    width: 90%;
+    height: 500px;
+}
+/* GOALS */
+.goals{
+    margin: 10px 0 50px 0;
+}
+.goalsDiv>h1{
+    font-size: 30px;
+}
+.goalsDiv h2{
+    font-size: 22px;
+}
+.goalsDiv{
+    width: 80vw;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-size: 12px;
+}
+/* OUR PARTNERS */
+.ourPartners{
+    margin: auto;
+    margin: 0 0 30px 0;
+}
+.ourPartnersDiv{
+    padding: 10px;
+    margin: 20px auto;
+}
+.ourPartnersDiv>h1{
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
+.partners>img{
+    width: 100px;
+    height: 100px;
+}
+/* SKILL CAROUSEL */
+.skillCarouselContainer{
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.skillCarouselContainer img{
+    width: 50%;
+    height: 200px;
+}
+/* WHY CHOOSE US */
+.whyChooseUs{
+    line-height: 1.5;
+    font-size: 12px;
+}
+.whyChooseUs>h1{
+    font-size: 30px;
+}
+.WhyUsGallery{
+    padding: 10px;
+    width: 80vw;
+}
+.reverse{
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.textDiv{
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 12px;
+}
+.textDiv>h2{
+    font-family: "Anton", sans-serif;
+    font-weight: 50;
+    font-size: 20px;
+    color: rgb(36, 60, 116);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+.pictureDiv{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+}
+.pictureDiv>img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+    /* FOOTER */
+    footer{ 
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerTwo{
+        margin: 0;
+    }
+    .footerTwoDiv p{
+        margin-bottom: 20px;
+    }
+    .footerTwoDiv {
+        padding: 20px;
+        width: 350px;
+        height: fit-content;
+        margin-bottom: 10px;
+    }
+    .footerThree{
+        margin: 0;
+    }
+    .footerThreeDiv{
+        padding: 20px;
+        width: 300px;
+        height: fit-content;
+    }
+    .footerFour{
+        margin: 0;
+    }
+    .footerFourDiv{
+        padding: 20px;
+        width: 350px;
+        height: fit-content;
+    }
+    .footerFourDiv>ul{
+        margin: 0 0 0 50px;
+    }
+}
+/* HAMBURGER TOGGLE */
+@media (max-width: 893px) {
+    /* HAMBURGER */
+    .hamburgerMenu {
+        z-index: 50;
+        display: block; 
+        top: 0;
+        left: 0;
+        position: fixed;
+        padding: 20px;
+        height: 60px;
+        width: 100vw;
+        background-color: rgb(36, 60, 116);
+        box-shadow: 0 0 10px rgb(3, 3, 3);
+    }
+    .hamburgerMenu.active + header {
+        display: none;
+    }
+    .bar {
+        margin-bottom: 5px;
+        width: 20px;
+        height: 4px;
+        background-color: white;
+        border-radius: 2px;
+    }
+    /* NAVBAR */
+    header{
+        display: none;
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 50px;
+        left: 0;
+        padding: 20px;
+    }
+    .logo{
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        background-color: white;
+        border-radius: 50%;
+        margin: auto;
+    }
+    nav{
+        margin: auto;
+        margin-top: 5px;
+        display: block;
+    }
+    .navLinks li{
+        list-style: none;
+        display: block;
+    }
+    .navLinks li a{
+        width: 100%;
+        display: block;
+    }
+    /* DROPDOWN */
+    .serviceDropdown{
+        display: block;
+        position: relative;
+    }
+    .serviceOptions{
+        width: 200px;
+        margin: -5px 0 0 0;
+    }
+}
+/* 577PX - 699PX - FOOTER INLINE */
+@media (min-width: 890px) and (max-width: 1024px) {
+    /* FOOTER */
+    footer{
+        height: 400px;
+        padding: 20px;
+    }
+    .contactImages img{
+        width: 30px;
+        height: 30px;
+    }
+    .contactText{
+        font-size: 10px;
+        margin: -25px 0 0 40px;
+        width: fit-content;
+    }
+    .socials{
+        justify-content: center;
+        padding: 5px;
+        margin: 20px 0 0 0px;
+    }
+    .socialsDiv img{
+        width: 30px;
+        height: 30px;
+        margin: 0 5px 0 0;
+    }
+    .socialsDiv img:hover{
+        transform: translateY(7px);
+    }
+    .footerTwo{
+        margin: -300px 0 0 200px;
+    }
+    .footerTwoDiv {
+        padding: 10px;
+        width: 250px;
+        height: fit-content;
+        font-size: 10px;
+    }
+    .footerTwoDiv p{
+        margin-bottom: 20px;
+    }
+    .f-title {
+        font-size: 15px;
+    }
+    .footerThree{
+        margin: -210px 0 0 500px;
+    }
+    .footerThreeDiv{
+        padding: 20px;
+        width: fit-content;
+        height: fit-content;
+    }
+    footer li>a{
+        font-size: 10px;
+    }
+    footer li{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .footerFour{
+        margin: -220px 0 0 650px;
+    }
+    .footerFourDiv{
+        padding: 20px;
+        width: fit-content;
+        height: fit-content;
+    }
+    .footerFourDiv>ul{
+        margin: 0 0 0 50px;
+    }
+}
+   

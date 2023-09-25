@@ -651,6 +651,9 @@ footer li{
     .footerTwo{
         margin: 0;
     }
+    .footerTwoDiv p{
+        margin-bottom: 20px;
+    }
     .footerTwoDiv {
         padding: 20px;
         width: 350px;
@@ -862,7 +865,7 @@ footer li{
     header{
         display: none;
         width: 100vw;
-        height: 50vh;
+        height: fit-content;
         display: flex;
         flex-direction: column;
         position: fixed;
