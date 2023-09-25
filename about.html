@@ -7,123 +7,292 @@
     <link rel="stylesheet" href="about.css">
     <title>About Us</title>
 </head>
-<!-- JAVASCRIPT CODE -->
-<script>
-    function toggleNav() {
-    var hamburger = document.querySelector('.hamburgerMenu');
-    var header = document.querySelector('header');
-    hamburger.classList.toggle('active');
-    header.classList.toggle('active');
-    }                  
-</script>
-<!-- HAMBURGER BUTTON -->
-<div class="hamburgerMenu" onclick="toggleNav()">
-    <div class="bar"></div>
-    <div class="bar"></div>
-    <div class="bar"></div>
-</div>
-<!-- NAVBAR -->
-<header>
-    <a href="home.html"><img class="logo" src="images/Abkon Logo.png" alt="logo"></a>
-    <nav>
-        <ul class="navLinks">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="OurTeam.html">The Team</a></li>    
-            <div class="serviceDropdown">
-                <li><a href="service.html">Services</a></li>
-                <div class="serviceOptions">
-                    <a href="off-grid.html">Off Grid System</a>
-                    <a href="off-grid.html">On Grid System</a>
-                    <a href="off-grid.html">Solar Water Pumping System</a>
-                    <a href="off-grid.html">Solar Energy Lighting System</a>
-            </div>
-        </ul>
-    </nav>
-    <a href="contact-us.html"><button class="contactUs">Contact</button></a>
-</header>
-
-
-
-
-
-<!-- FOOTER -->
-<footer>
-    <section class="footerOne">
-        <div class="footerOneDiv">
-            <div>
-                <img class="logo" src="images/Abkon Logo.png" alt="logo">
-            </div>
-            <div class="contactImages">
-                <img  src="images/contact (2).png" alt="phone png">
-            </div>
-            <div class="contactText">
-                +2349134876624
-            </div>
-            <div class="contactImages">
-                <img  src="images/contact (1).png" alt="email png">
-            </div>
-            <div class="contactText">
-                tombenjamin7447@gmail.com
-            </div>
-            <div class="contactImages">
-                <img  src="images/contact (3).png" alt="">
-            </div>
-            <div class="contactText">
-                Ile-Ife, Osun State, Nigeria
-            </div> 
-            <div class="socials">
-                <div class="socialsDiv">
-                    <a href="#"><img src="images/social icons (1).png" alt="facebook icon"></a>
-                </div>
-                <div class="socialsDiv">
-                    <a href="#"><img src="images/social icons (2).png" alt="instagram logo"></a>
-                </div>
-                <div class="socialsDiv">
-                    <a href="#"><img src="images/social icons (3).png" alt="twitter logo"></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="footerTwo">
-        <div class="footerTwoDiv">
-            <p class="f-title">Abkon - Solar Energy</p>
-            <p> Our central goal is to be the most minimal 
-                cost control maker on the planet.
-                We move solar power in US on long haul settled 
-                value contracts to our clients, at costs which 
-                as a rule are at or underneath winning options
-                 for these clies.
-            </p>
-            <a href="contact-us.html"><button class="contactUs">Contact Us</button></a>
-        </div>
-    </section>
-    <section class="footerThree">
-        <div class="footerThreeDiv">
-            <p class="f-title">Services</p>
-            <ul>
-                <li><a href="off-grid.html">Off Grid Battery System</a></li>
-                <li><a href="off-grid.html">On Grid Battery System</a></li>
-                <li><a href="off-grid.html">Solar Water Pumping</a></li>
-                <li><a href="off-grid.html">Solar Energy Lighting</a></li>
-                <li><a href="off-grid.html">Solar Boat Applications</a></li>
-                <li><a href="off-grid.html">Engineering</a></li>
-            </ul>
-        </div>
-    </section>
-    <section class="footerFour">
-        <div class="footerFourDiv">
-            <p class="f-title">Quick Links</p>
-            <ul>
+<body>
+    <!-- JAVASCRIPT CODE -->
+    <script>
+        function toggleNav() {
+        var hamburger = document.querySelector('.hamburgerMenu');
+        var header = document.querySelector('header');
+        hamburger.classList.toggle('active');
+        header.classList.toggle('active');
+        }                  
+    </script>
+    <!-- HAMBURGER BUTTON -->
+    <div class="hamburgerMenu" onclick="toggleNav()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <!-- NAVBAR -->
+    <header>
+        <a href="home.html"><img class="logo" src="images/Abkon Logo.png" alt="logo"></a>
+        <nav>
+            <ul class="navLinks">
                 <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
-                <li><a href="OurTeam.html">Our Team</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="client">Clients</a></li>
-                <li><a href="contact-us.html">Contact</a></li>
+                <li><a href="OurTeam.html">The Team</a></li>    
+                <div class="serviceDropdown">
+                    <li><a href="service.html">Services</a></li>
+                    <div class="serviceOptions">
+                        <a href="off-grid.html">Off Grid System</a>
+                        <a href="off-grid.html">On Grid System</a>
+                        <a href="off-grid.html">Solar Water Pumping System</a>
+                        <a href="off-grid.html">Solar Energy Lighting System</a>
+                </div>
             </ul>
+        </nav>
+        <a href="contact-us.html"><button class="contactUs">Contact</button></a>
+    </header>
+    <!-- PADDING -->
+    <section class="padding">
+        <img src="images/padding (2).jpg" alt="" class="pad">
+        <h1>About Us</h1>
+    </section>
+    <!-- LOOPED SECTION -->
+    <section class="loopedSection">
+        <div class="loopedSectionOne">
+            <video src="/video/looped.mp4" muted autoplay loop></video>
+        </div>
+        <div class="loopedSectionTwo">
+            <div class="loopedText">
+                <h1>
+                    Professional Service in <br>
+                    <span class="bold">Solar Power</span>
+                </h1>
+                <p>
+                    Our company, which is among the first of the sector
+                    in turnkey solar power plant installations, is one of
+                    the companiees with the longest experience and knowledge, 
+                    especially in industrial type rooftop power plant installations.
+                </p>
+            </div>
+            <div class="loopedText">
+                <h1>
+                    Competent <span class="bold">&</span> Experienced
+                </h1>
+                <p>
+                    Our professional team will accompnay you on the road to the 
+                    future in solar energy systems, ny combining the experience 
+                    and knowledge with excitement and passion, carrying the synergy 
+                    at the highest level and keeping the sense of responsibility for
+                    the business in the foreground.
+                </p>
+            </div>
         </div>
     </section>
-</footer>    
+    <!-- GOALS -->
+    <section class="goals">
+        <div class="goalsDiv">
+            <h1>Our Goals</h1>
+            <p>
+                Our central goal is to be the most minimal cost control maker on the planet.
+                We move solar power in US on long haul settled value contracts to our clients, 
+                at costs which as a rule are at or underneath winning options for these clients. <br><br>
+                Since initiation, we have accomplished a generous decrease altogether solar 
+                undertaking cost, which incorporates a noteworthy decline in parity of frameworks 
+                costs due partially to our esteem building, structure and acquisition endeavors.
+            </p>
+        </div>
+        <div class="goalsDiv">
+            <h2>Solar Delivered</h1>
+            <p>
+                We created NIgeria's first utility scale solar power venture in 2023.
+                From that point forward, we brought down levelized cost of vitality 
+                through esteem building, operational research and productive monetary 
+                system to convey cost-effective vitality for our clients. Our power 
+                costs are protected from the unpredictability of product costs. 
+                We additionally ensure the power generation
+                of our solar power plants to our clients.
+            </p>
+        </div>
+    </section>
+    
+    <section class="four">
+        <div class="f-gal">
+            <h1>Our Partners</h1>
+            <div class="sponsor">
+                <img src="/Images/8354067.jpg" alt="">
+                <img src="/Images/8354865.jpg" alt="">
+                <img src="/Images/8355113.jpg" alt="">
+                <img src="/Images/8355361.jpg" alt="">
+                <img src="/Images/8355936.jpg" alt="">
+                <img src="/Images/8356218.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="five">
+        <div class="five-one">
+            <h1>Unrivaled Tecnical and Execution Capabilities</h1>
+            <p>
+                We have created exclusive frameworks that fundamentally 
+                lessen the time it takes to configuration, back, commission,
+                work and look after tasks. <br><br>
+
+                Our lean and effective execution skill encourages finish of 
+                our plants in front of contracted consummation dates, 
+                empowers us to effortlessly scale our tasks without critical
+                increments to headcount, and enables us to develop a few
+                undertakings in parallel without bargaining on effectiveness.
+            </p>
+        </div>
+    </section>
+    <section class="six">
+        <div class="scroll-container">
+            <img src="/Images/pexels-gustavo-fring-4254166.jpg" alt="">
+            <img src="/Images/pexels-los-muertos-crew-8853525.jpg" alt="">
+            <img src="/Images/pexels-kindel-media-9875406.jpg" alt="">
+            <img src="/Images/Solar Installation.jpg" alt="">
+            <img src="/Images/Solar Installation (2).jpg" alt="">
+        </div>
+    </section>
+    <section class="eight">
+        <h1>WHY CHOOSE US</h1>
+        <p>
+            For years, families have come to depend on us for our 
+            expertise, quality, and customer service. We've worked with 
+            designers, architects, government agencies and business owners
+            from a range of industries to transform the way they work.
+        </p>
+        <div class="eight-gal">
+            <div class="wu-one">
+                <div class="w-u-one">
+                    <h2>We Make it Personal</h2>
+                    <p>
+                        When you work with us, you can count on personalized, 
+                        one-on-one service every step of the way. We earn your 
+                        trust by being responsive, intuitive and honest. 
+                        We earn your respect by delivering on time and on budget. 
+                        We built our reputation on exceptional customer service. 
+                        Discover the difference it makes.
+                    </p>
+                </div>
+                <div class="w-u-ones">
+                    <img src="/Images/pexels-gustavo-fring-4254157.jpg" alt="">
+                </div>
+            </div>
+            <div class="wu-two">
+                <div class="w-u-one">
+                    <h2>We Innovate for You</h2>
+                    <p>
+                        We're a team of dreamers, thinkers and creators. 
+                        We're constantly evolving our products to reach
+                        even higher standards for design, quality, manufacturing,
+                        and evironmental sustainability. It's how we earned 
+                        ISO 9001 and ISO 14000 certification and it's how we pledge
+                        to transform the way you work.
+                    </p>
+                </div>
+                <div class="w-u-ones">
+                    <img src="/images/pexels-max-rahubovskiy-6447384.jpg" alt="">
+                </div>
+            </div>
+            <div class="wu-one">
+                <div class="w-u-one">
+                    <h2>Leaders Trust Us</h2>
+                    <p>
+                        We're proud of the company we keep. Ninety-three Fortune 500 
+                        companies choose Egan Visual to transform the way they work. 
+                        This doesn't mean we rest on our laurels. We keep raising our 
+                        standards of quality, innovation, craftsmanship and customer 
+                        service so we continue to earn the trust of every client we work with. 
+                    </p>
+                </div>
+                <div class="w-u-ones">
+                    <img src="/Images/pexels-christina-morillo-1181395.jpg" alt="">
+                </div>
+            </div>
+            <div class="wu-two">
+                <div class="w-u-one">
+                    <h2>Clients are Happy</h2>
+                    <p>
+                        Nothing gives us greater pride than seeing our clients delighted 
+                        with the work we've done together. Our case studies are solid proof 
+                        of all the different ways we've transformed the way people collaborate, 
+                        work, and succeed. 
+                    </p>
+                </div>
+                <div class="w-u-ones">
+                    <img src="/images/pexels-kampus-production-8441870.jpg" alt="">
+                </div>
+            </div>
+    </section> 
+    <!-- FOOTER
+    <footer>
+        <section class="footerOne">
+            <div class="footerOneDiv">
+                <div>
+                    <img class="logo" src="images/Abkon Logo.png" alt="logo">
+                </div>
+                <div class="contactImages">
+                    <img  src="images/contact (2).png" alt="phone png">
+                </div>
+                <div class="contactText">
+                    +2349134876624
+                </div>
+                <div class="contactImages">
+                    <img  src="images/contact (1).png" alt="email png">
+                </div>
+                <div class="contactText">
+                    tombenjamin7447@gmail.com
+                </div>
+                <div class="contactImages">
+                    <img  src="images/contact (3).png" alt="">
+                </div>
+                <div class="contactText">
+                    Ile-Ife, Osun State, Nigeria
+                </div> 
+                <div class="socials">
+                    <div class="socialsDiv">
+                        <a href="#"><img src="images/social icons (1).png" alt="facebook icon"></a>
+                    </div>
+                    <div class="socialsDiv">
+                        <a href="#"><img src="images/social icons (2).png" alt="instagram logo"></a>
+                    </div>
+                    <div class="socialsDiv">
+                        <a href="#"><img src="images/social icons (3).png" alt="twitter logo"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footerTwo">
+            <div class="footerTwoDiv">
+                <p class="f-title">Abkon - Solar Energy</p>
+                <p> Our central goal is to be the most minimal 
+                    cost control maker on the planet.
+                    We move solar power in US on long haul settled 
+                    value contracts to our clients, at costs which 
+                    as a rule are at or underneath winning options
+                    for these clies.
+                </p>
+                <a href="contact-us.html"><button class="contactUs">Contact Us</button></a>
+            </div>
+        </section>
+        <section class="footerThree">
+            <div class="footerThreeDiv">
+                <p class="f-title">Services</p>
+                <ul>
+                    <li><a href="off-grid.html">Off Grid Battery System</a></li>
+                    <li><a href="off-grid.html">On Grid Battery System</a></li>
+                    <li><a href="off-grid.html">Solar Water Pumping</a></li>
+                    <li><a href="off-grid.html">Solar Energy Lighting</a></li>
+                    <li><a href="off-grid.html">Solar Boat Applications</a></li>
+                    <li><a href="off-grid.html">Engineering</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="footerFour">
+            <div class="footerFourDiv">
+                <p class="f-title">Quick Links</p>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="OurTeam.html">Our Team</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="client">Clients</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>     -->
 </body>
 </html>

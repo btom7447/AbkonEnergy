@@ -126,7 +126,275 @@ header{
     margin-bottom: 2px;
     background-color: white;
 }
+/* BODY  */
+/* PADDING */
+.padding h1{
+    margin: -200px 0 180px 0;
+    font-weight: 200;
+    font-size: 70px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "lobster two", sans-serif;
+}
+.pad{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    background-position-y: 150%;
+    margin-top: 11vh;
+}
+/* LOOPED SECTION */
+.loopedSection{
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+}
+.loopedSectionOne video{
+    width: 35vw;
+    height: 500px;
+    object-fit: cover;
+    padding: 30px 20px;
+}
+.loopedSectionTwo h1{
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-weight: 50;
+    font-size: 30px;
+    padding: 5px;
+    color: rgb(36, 60, 116);
+    margin-bottom: 30px;
+}
+.bold{
+    color: rgb(255, 194, 81);
+}
+.loopedSectionTwo{
+    width: 40vw;
+    height: 500px;
+    padding: 20px;
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 15px;
+}
+.loopedText{
+    width: 100%;
+    height: 50%;
+}
+/* GOALS */
+.goals{
+    margin: 0 0 50px 0;
+}
+.goalsDiv>h1{
+    font-family: "cinzel decorative", sans-serif;
+    font-weight: 50;
+    font-size: 40px;
+    color: rgb(255, 194, 81);
+    text-align: center;
+}
+.goalsDiv{
+    width: 70vw;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    line-height: 2.5;
+    font-weight: 300;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 15px;
+}
+.goalsDiv h2{
+    font-family: "Anton", sans-serif;
+    font-weight: 50;
+    font-size: 30px;
+    color: rgb(36, 60, 116);
+    text-align: center;
+}
+            /* SECTION-FOUR */
 
+.four{
+    margin: 0 0 50px 0;
+}
+.f-gal{
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+    margin: auto;
+}
+.f-gal>h1{
+    font-family: "Anton", sans-serif;
+    font-weight: 50;
+    font-size: 30px;
+    color: rgb(36, 60, 116);
+    text-align: center;
+    margin: 0 0 30px 40px;
+}
+.sponsor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+}
+.sponsor>img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin: 2px 0 0 30px;
+    background-color: white;
+    padding: 10px;
+}
+.sponsor>img:hover{
+    transform: scale(1.2);
+    transition: 0.8s all ease;
+    box-shadow: 0 0 20px rgb(36, 60, 116);
+}
+
+
+            /* SECTION-FIVE */
+
+.five{
+    margin: 0 0 50px 0;
+}
+.five-one>h1{
+    font-family: "Anton", sans-serif;
+    font-weight: 50;
+    font-size: 30px;
+    color: rgb(36, 60, 116);
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+.five-one{
+    width: 900px;
+    height: fit-content;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 0px;
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 15px;
+}
+
+            /* SECTION-SIX */
+.six{
+    margin: 0 0 50px 0;
+}        
+.scroll-container{
+    scroll-behavior: smooth;
+    overflow: auto;
+    white-space: nowrap;
+    width: 100%;
+    padding: 30px;
+    background-color: rgba(36, 60, 116, 0.2);
+}
+.scroll-container img{
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+    padding: 0px;
+    margin: auto;
+}
+
+        /* SECTION-EIGHT */
+.eight{
+    margin: 50px auto;
+    margin-bottom: 100px;
+}
+.eight>p{
+    margin: auto;
+    width: 900px;
+    height: fit-content;
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 18px;
+}
+.eight>h1{
+    font-family: "cinzel decorative", sans-serif;
+    font-weight: 50;
+    font-size: 40px;
+    color: rgb(255, 194, 81);
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+.eight-gal{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 40px;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0 0 20px 0 rgb(36, 60, 116);
+}
+.wu-one{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    gap: 40px;
+    width: 1300px;
+    height: fit-content;
+}
+.wu-two{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 40px;
+    gap: 40px;
+    width: 1300px;
+    height: fit-content;
+}
+.w-u-one{
+    padding: 40px;
+    width: 500px;
+    height: fit-content;
+    margin: auto;
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 15px;
+}
+.w-u-one>h2{
+    font-family: "Anton", sans-serif;
+    font-weight: 50;
+    font-size: 30px;
+    color: rgb(36, 60, 116);
+    text-align: center;
+    margin: 40px auto;
+    width: 400px;
+}
+.w-u-ones{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+}
+.w-u-ones>img{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
 
 
 
