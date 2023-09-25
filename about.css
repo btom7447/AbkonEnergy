@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cabin:wght@500&family=Cinzel+Decorative:wght@900&family=Dancing+Script:wght@500&family=Lobster+Two:wght@700&family=Montserrat:wght@500&family=Noto+Naskh+Arabic:wght@600&family=Nunito+Sans:wght@300&display=swap');
+*{
+    /* outline: red solid 2px; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease 0s;
+    scroll-behavior: smooth;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+    /* NAVIGATION BAR */
+header{
+    z-index: 50;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10%;
+    background-color: rgb(36, 60, 116);
+    box-shadow: 0 0 30px rgb(36, 60, 116);
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 60px;
+}
+.navLinks li{
+    list-style: none;
+    display: inline-block;
+}
+.navLinks li>a{
+    padding: 10px;
+    margin-right: 20px;
+    /* textEdit */
+    color: white;
+    font-weight: 50;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+}
+.navLinks li>a:hover{
+    color: rgb(36, 60, 116);
+    font-weight: 700;
+    background-color: rgb(255, 194, 81);
+}
+/* DROPDOWN */
+.serviceDropdown{
+    display: inline-block;
+    position: relative;
+}
+.serviceOptions{
+    display: none;
+    position: absolute;
+    overflow: auto;
+    padding: 10px;
+    margin: 10px 5px;
+    width: 300px;
+    margin: 11px 0 0 0;
+    background-color:rgb(36, 60, 116);
+    box-shadow: 0 0 20px rgb(36, 60, 116);
+}
+.serviceOptions a{
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 8px;
+    display: inline-block;
+    /* textEdit */
+    color: white;
+    font-weight: 200;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+}
+.serviceOptions a:hover{
+    font-weight: 700;
+    color: rgb(36, 60, 116);
+    background-color: rgb(255, 194, 81);
+}
+.serviceDropdown:hover .serviceOptions{
+    display: block;
+}
+.contactUs{
+    display: block;
+    width: 150px;
+    height: 50px;
+    border: none;
+    padding: auto;
+    margin: auto;
+    background-color: white;
+    /* textEdit */
+    font-weight: 200;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+}
+.contactUs:hover{
+    font-weight: 700;
+    color: rgb(36, 60, 116);
+    background-color: rgb(255, 194, 81);
+}
+/* HAMBURGER */
+#navbar.show-navbar {
+    display: block;
+}
+.hamburgerButton {
+    cursor: pointer;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    display: none; 
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bar{
+    width: 20px;
+    height: 4px;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    height: 420px;
+    width: 100%;
+    padding: 40px;
+    box-shadow: 0 0 30px rgb(36, 60, 116);
+    background-color: rgb(36, 60, 116);
+    
+}
+.contactImages img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 30px;
+}
+.contactText{
+    color: white;
+    font-family: Montserrat;
+    font-size: 13px;
+    margin: -40px 0 0 70px;
+    width: 250px;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    margin: 20px 0 0 40px;
+}
+.socialsDiv{
+    display: block;
+    width: fit-content;
+    padding: 5px;
+    cursor: pointer;
+}
+.socialsDiv img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: 0 0 0 10px;
+}
+.socialsDiv img:hover{
+    transform: translateY(10px);
+}
+
+.footerTwo{
+    margin: -385px 0 0 360px;
+}
+.footerTwoDiv {
+    padding: 50px;
+    width: 350px;
+    height: 400px;
+    font-family: Montserrat;
+    text-align: justify;
+    text-indent: 15px;
+    font-size: 12px;
+    font-weight: 70;
+    color: white;
+}
+.f-title {
+    font-size: 19px;
+    font-family: "Cinzel Decorative";
+    color: rgb(255, 194, 81);
+    margin-bottom: 30px;
+    text-align: center;
+}
+.footerThree{
+    margin: -400px 0 0 720px;
+}
+.footerThreeDiv{
+    padding: 50px;
+    width: 300px;
+    height: 400px;
+}
+footer li>a{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 7px;
+    list-style-type:square;
+}
+footer li>a:hover{
+    color: rgb(255, 194, 81);
+}
+footer li{
+    list-style-type:square;
+    color: white;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 18px;
+}
+.footerFour{
+    margin: -400px 0 0 1060px;
+}
+.footerFourDiv{
+    padding: 50px;
+    width: 350px;
+    height: 400px;
+}
+.footerFourDiv>ul{
+    margin: 0 0 0 50px;
+}

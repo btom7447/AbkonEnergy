@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Cabin:wght@500&family=Cinzel+Decorative:wght@900&family=Dancing+Script:wght@500&family=Lobster+Two:wght@700&family=Montserrat:wght@500&family=Noto+Naskh+Arabic:wght@600&family=Nunito+Sans:wght@300&display=swap');
 *{
-    outline: red solid 2px;
+    /* outline: red solid 2px; */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -344,7 +344,7 @@ header{
     height: fit-content;
 }
 .whatwedoGalDiv{
-    width: 400px;
+    width: 350px;
     height: fit-content;
     padding: 40px;
     background-color: white;
@@ -389,7 +389,7 @@ header{
 }
 .executedProjects{
     margin: 31px 0 50px 0;
-    padding: 40px;
+    padding: 0px;
 }
 .executedProjectsGallery{
     display: flex;
@@ -406,8 +406,8 @@ header{
     box-shadow: 0 0 20px 0 rgb(36, 60, 116);
 }
 .epGalleryDiv{
-    width: 400px;
-    height: 400px;
+    width: 370px;
+    height: 450px;
     padding: 40px 20px;
     box-shadow: 0 0 20px 0 rgb(36, 60, 116);
     /* text edit */
@@ -472,7 +472,6 @@ footer{
 .socialsDiv img:hover{
     transform: translateY(10px);
 }
-
 .footerTwo{
     margin: -385px 0 0 360px;
 }
@@ -535,7 +534,7 @@ footer li{
 }
 /* MEDIA QUERY */
 /* HAMBURGER TOGGLE */
-@media (max-width: 700px) {
+@media (max-width: 893px) {
     /* HAMBURGER */
     .hamburgerMenu {
         z-index: 50;
@@ -618,6 +617,7 @@ footer li{
         margin-bottom: 0px;
     }
     .carouselGallery>img{
+        width: 95%;
         height: 95%;
         padding: 0px;
         margin: auto;
@@ -636,10 +636,10 @@ footer li{
     .overview{
         padding: 30px 20px;
         margin: auto;
-        gap: 10px;
+        gap: 30px;
     }
     .overviewDiv{ 
-        height: 60vh;
+        height: 330px;
         width: 60vw;
         padding: 40px;
         /* text edit */
@@ -660,13 +660,13 @@ footer li{
         gap: 10px;
     }
     .whoweareGalleryOne img{
-        width: 70vw;
-        height: 50vh;
+        width: 80vw;
+        height: 300px;
     }
     .whoweareGalleryTwo{
-        width: 70vw;
-        height: 70vh;
-        padding: 20px;
+        width: 80vw;
+        height: 400px;
+        padding: 30px;
     }
     .wwagTwoOne h2{
         font-size: 20px;
@@ -683,7 +683,7 @@ footer li{
     .whatwedoGallery{
         flex-direction: column;
         padding: 10px;
-        gap: 10px;
+        gap: 30px;
         width: 100vw;
     }
     .whatwedoGalDiv{
@@ -745,3 +745,235 @@ footer li{
         margin: 0 0 0 50px;
     }
 }
+    /* 577PX - 699PX - HAMBURGER TOGGLE ON */
+@media (min-width: 577px) and (max-width: 893px) {
+    /* CAROUSEL */
+    .carousel{
+        width: fit-content;
+        height: fit-content;
+        padding: 0;
+        margin-bottom: 100px;
+    }
+    .carouselGallery{
+        height: 300px;
+        padding: 20px 30px;
+        margin: auto;
+        margin-bottom: 0px;
+    }
+    .carouselGallery>img{
+        height: 95%;
+        padding: 0px;
+        margin: auto;
+    }
+    .introText{
+        margin: -240px 0 0 50px;
+    }
+    .introText>h1{
+        font-size: 40px;
+    }
+    .introText>p{
+        text-align: left;
+        font-size: 18px;
+    }
+    /* OVERVIEW */
+    .overview{
+        padding: 30px 20px;
+        margin: auto;
+        gap: 30px;
+    }
+    .overviewDiv{ 
+        height: 380px;
+        width: 40vw;
+        padding: 40px;
+        /* text edit */
+        font-size: 15px;
+    }
+    .overviewDiv>img{
+        width: 120px;
+        height: 120px;
+        margin: 20px auto;
+    }
+    /* WHO WE ARE */
+    .whoWeAre{
+        margin: 31px 0 50px 0;
+        padding: 0px 50px;
+    }
+    .whoweareGallery{
+        padding: 30px 10px;
+        gap: 20px;
+    }
+    .whoweareGalleryOne img{
+        width: 70vw;
+        height: 400px;
+    }
+    .whoweareGalleryTwo{
+        width: 70vw;
+        height: 500px;
+        padding: 60px;
+    }
+    .wwagTwoOne h2{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .wwagTwoOne p{
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+    /* WHAT WE DO*/
+    .whatWeDo{
+        padding: 30px 0px;
+    }
+    .whatwedoGallery{
+        flex-direction: row;
+        padding: 10px;
+        gap: 30px;
+        width: 100%;
+    }
+    .whatwedoGalDiv{
+        height: 300px;
+        width: 40vw;
+        padding: 15px;
+    }
+    .whatwedoGalDiv img{
+        height: 80px;
+        width: 80px;
+    }
+    /* EXECTUED PROJECTS */
+    .executedProjects h2{
+        margin: -20px 0 30px 0;
+    }
+    .executedProjects{
+        margin: 31px 0 50px 0;
+        padding: 20px;
+    }
+    .executedProjectsGallery{ 
+        width: 90vw;
+        gap: 30px;
+        padding: 20px 10px;
+        margin: auto;
+    }
+    .epGalleryDiv{
+        width: 45%;
+        height: 350px;
+        padding: 20px;
+    }
+    .epGalleryDiv video{
+        width: 99%;
+        height: 200px;
+    }
+    /* FOOTER */
+    footer{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerTwo{
+        margin: 0;
+    }
+    .footerTwoDiv{ 
+        padding: 20px;
+        width: 350px;
+        height: fit-content;
+        margin-bottom: 0px;
+    }
+    .footerTwoDiv p{
+        margin-bottom: 20px;
+    }
+    .footerThree{
+        margin: 0;
+    }
+    .footerThreeDiv{
+        padding: 20px;
+        width: 300px;
+        height: fit-content;
+    }
+    .footerFour{
+        margin: 0;
+    }
+    .footerFourDiv{
+        padding: 20px;
+        width: 350px;
+        height: fit-content;
+    }
+    .footerFourDiv>ul{
+        margin: 0 0 0 50px;
+    }
+}
+/* 577PX - 699PX - HAMBURGER TOGGLE ON */
+@media (min-width: 890px) and (max-width: 1024px) {
+    /* FOOTER */
+    footer{
+        height: 400px;
+        padding: 20px;
+    }
+    .contactImages img{
+        width: 30px;
+        height: 30px;
+    }
+    .contactText{
+        font-size: 10px;
+        margin: -25px 0 0 40px;
+        width: fit-content;
+    }
+    .socials{
+        justify-content: center;
+        padding: 5px;
+        margin: 20px 0 0 0px;
+    }
+    .socialsDiv img{
+        width: 30px;
+        height: 30px;
+        margin: 0 5px 0 0;
+    }
+    .socialsDiv img:hover{
+        transform: translateY(7px);
+    }
+    .footerTwo{
+        margin: -300px 0 0 200px;
+    }
+    .footerTwoDiv {
+        padding: 10px;
+        width: 250px;
+        height: fit-content;
+        font-size: 10px;
+    }
+    .footerTwoDiv p{
+        margin-bottom: 20px;
+    }
+    .f-title {
+        font-size: 15px;
+    }
+    .footerThree{
+        margin: -210px 0 0 500px;
+    }
+    .footerThreeDiv{
+        padding: 20px;
+        width: fit-content;
+        height: fit-content;
+    }
+    footer li>a{
+        font-size: 10px;
+    }
+    footer li{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .footerFour{
+        margin: -220px 0 0 650px;
+    }
+    .footerFourDiv{
+        padding: 20px;
+        width: fit-content;
+        height: fit-content;
+    }
+    .footerFourDiv>ul{
+        margin: 0 0 0 50px;
+    }
+
+
+
+}
+    
+
