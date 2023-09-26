@@ -365,8 +365,7 @@ header{
     margin: 0 0 20px 0;
 }
 .join{
-    position: relative;
-    bottom: -250px;
+    margin: 30px auto;
 }
 /* FOOTER */
 footer{ 
@@ -576,10 +575,6 @@ footer li{
         margin: 45px 0 0 40px;
         width: 80%;
     }
-    .join{
-        position: relative;
-        bottom: -120px;
-    }
 }
 /* 577PX - 767PX - HAMBURGER TOGGLE ON */
 @media (min-width: 577px) and (max-width: 767px) { 
@@ -669,10 +664,6 @@ footer li{
         color: rgb(255, 255, 255);
         text-align: center;
         margin: 0 0 20px 0;
-    }
-    .join{
-        position: relative;
-        bottom: -100px;
     }
 }
 /* 767PX - 992PX - HAMBURGER TOGGLE ON */
@@ -764,11 +755,6 @@ footer li{
         text-align: center;
         margin: 0 0 20px 0;
     }
-    .join{
-        position: relative;
-        bottom: -100px;
-    }
-
 }
 /* HAMBURGER TOGGLE */
 @media (max-width: 893px) {
