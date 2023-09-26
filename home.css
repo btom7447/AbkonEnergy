@@ -445,7 +445,7 @@ footer{
     color: white;
     font-family: Montserrat;
     font-size: 13px;
-    margin: -40px 0 0 70px;
+    margin: -100px 0 0 70px;
     width: 250px;
 }
 .socials{
@@ -680,7 +680,7 @@ footer li{
         margin: 0 0 0 50px;
     }
 }
-    /* 577PX - 699PX - HAMBURGER TOGGLE ON */
+    /* 577PX - 893PX - HAMBURGER TOGGLE ON */
 @media (min-width: 577px) and (max-width: 893px) {
     /* CAROUSEL */
     .carousel{
@@ -796,45 +796,6 @@ footer li{
         width: 99%;
         height: 200px;
     }
-    /* FOOTER */
-    footer{
-        height: fit-content;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .footerTwo{
-        margin: 0;
-    }
-    .footerTwoDiv{ 
-        padding: 20px;
-        width: 350px;
-        height: fit-content;
-        margin-bottom: 0px;
-    }
-    .footerTwoDiv p{
-        margin-bottom: 20px;
-    }
-    .footerThree{
-        margin: 0;
-    }
-    .footerThreeDiv{
-        padding: 20px;
-        width: 300px;
-        height: fit-content;
-    }
-    .footerFour{
-        margin: 0;
-    }
-    .footerFourDiv{
-        padding: 20px;
-        width: 350px;
-        height: fit-content;
-    }
-    .footerFourDiv>ul{
-        margin: 0 0 0 50px;
-    }
 }
 /* HAMBURGER TOGGLE */
 @media (max-width: 893px) {
@@ -904,7 +865,7 @@ footer li{
         margin: -5px 0 0 0;
     }
 }
-/* 577PX - 699PX - FOOTER INLINE */
+/* 890PX - 1024PX - FOOTER INLINE */
 @media (min-width: 890px) and (max-width: 1024px) {
     /* FOOTER */
     footer{
