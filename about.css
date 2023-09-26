@@ -625,7 +625,7 @@ footer li{
     }
 }
     /* 577PX - 767PX - HAMBURGER TOGGLE ON */
-@media (min-width: 577px) and (max-width: 766px) { 
+@media (min-width: 577px) and (max-width: 767px) { 
     /* LOOPED SECTION */
     .loopedSection{
         gap: 0px;
@@ -814,16 +814,6 @@ footer li{
     .whyChooseUs>h1{
         font-size: 25px;
     }
-    /* .wuGalleryDiv{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        width: 100%;
-        height: fit-content;
-        padding: 10px;
-    } */
     .reverse{
         flex-direction: row-reverse;
         justify-content: center;
@@ -864,8 +854,6 @@ footer li{
         width: 95%;
         object-fit: cover;
     }
-
-
 }
 /* HAMBURGER TOGGLE */
 @media (max-width: 893px) {
