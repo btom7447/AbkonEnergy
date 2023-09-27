@@ -941,7 +941,53 @@ footer li{
 @media (max-width: 892px) { 
     footer{
         margin: auto;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        width: 100vw;
+    }
+    .footerOne{
+        width: 45%;
+        height: fit-content;
+        padding: 10px;
+        margin: auto;
+    }
+    .footerOneDiv{
+        width: 100%;
+        height: fit-content;
+    }
+    .socials{
+        justify-content: left;
+        align-items: flex-start;
+        width: 30%;
+        padding: 10px;
+        margin: inherit;
+    }
+    .socialsDiv img{
+        width: 30px;
+        height: 30px;
+        margin: 0 0 0 10px;
+    }
+    .socialsDiv img:hover{
+        transform: none;
+    }
+    .footerTwo{
+        width: 40%;
+        height: fit-content;
+        margin: auto;
+    }
+    .footerTwoDiv p{
+        margin-bottom: 10px;
+    }
+    .footerThree{
+        margin: auto;
+        width: 40%;
+        height: fit-content;
+        padding: 0px;
+    }
+    .footerFour{
+        margin: auto;
+        width: 40%;
+        height: fit-content;
+        padding: 10px;
     }
 }
