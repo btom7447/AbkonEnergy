@@ -1,76 +1,95 @@
 
-.offer>p{
-    width: 800px;
-    margin: 20px auto;
-    /* text edit */
-    color: rgb(36, 60, 116);
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    text-align: justify;
-    text-indent: 20px;
-    font-size: 15px;
+/* WHAT WE OFFER */
+.whatWeOffer{
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
 }
-.offer>h1{
+.whatWeOffer h1{
     font-family: "Anton", sans-serif;
     font-weight: 50;
     font-size: 30px;
     color: rgb(36, 60, 116);
     text-align: center;
+    margin-bottom: 20px;
 }
-.offer-gal{
+.whatWeOffer p{
+    width: 70%;
+    margin: auto;
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    text-indent: 20px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.offeredServices{
     display: flex;
     flex-direction: row;
     align-items: center;
-    align-content: center;
-    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
     padding: 20px;
-    width: fit-content;
+    width: 80%;
     height: fit-content;
     margin: 50px auto;
 }
-.offer-services{
-    margin: 50px auto;
-    width: fit-content;
-    height: 300px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
+.offeredServicesDiv{
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border: 2px solid rgb(36, 60, 116);
 }
-.services-one{
-    width: 300px;
-    height: 300px;
-}
-.services-one:hover{
-    transform: translateY(20px);
-    box-shadow: 0 0 20px rgb(36, 60, 116);
-}
-.services-one>h1{
+.offeredServicesDiv h1{
     color: rgb(255, 194, 81);
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     text-align: center;
-    font-size: 25px;
-    margin: 20px 0 30px 0;
+    font-size: 18px;
+    margin: 10px auto;
 }
-.services-one>img{
+.offeredServicesDiv img{
     display: block;
-    margin: auto;
-    margin-bottom: 30px;
-    width: 100px;
-    height: 100px;
+    margin: 20px auto;
+    width: 40%;
+    height: 80px;
     object-fit: cover;
+    padding: 10px;
 }
-
-.og-one>video{
-    width: 600px;
+.offeredServicesDiv:hover{
+    transform: translateY(20px);
+    box-shadow: 0 0 20px rgb(36, 60, 116);
+    border: none;
+}
+.videoPoster {
+    width: 70vw;
+    height: fit-content;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.video{
+    width: 40%;
     height: 300px;
+}
+.video video{
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     box-shadow: 0 0 20px rgb(36, 60, 116);
 }
-.og-two{
-    width: 600px;
-    margin-left: 50px;
+.poster{
+    width: 40%;
+    height: 300px;
+    padding: 20px;
     /* text edit */
     color: rgb(36, 60, 116);
     font-family: "Montserrat", sans-serif;
@@ -78,45 +97,49 @@
     text-align: justify;
     text-indent: 20px;
     font-size: 15px;
+    line-height: 1.5;
 }
-.og-two>h1{
+.poster h1{
     text-align: center;
     font-family: "Anton", sans-serif;
     font-weight: 50;
     font-size: 30px;
     padding: 5px;
     color: rgb(36, 60, 116);
-    margin: 0 0 40px 0;
+    margin-bottom: 20px;
 }
-.one{
-    margin: 400px 0 50px 0;
-    padding: 40px;
+/* WHAT WE DO */
+.whatWeDo{
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
 }
-.one>h1{
+.whatWeDo h1{
     text-align: center;
     font-family: "Anton", sans-serif;
     font-weight: 50;
     font-size: 30px;
     padding: 5px;
     color: rgb(36, 60, 116);
-    margin: 0 0 30px 0;
+    margin-bottom: 20px;
 }
-.one-gal{
+.whatWeDoGallery{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 40px;
     align-items: center;
-    align-content: center;
+    justify-content: center;
     margin: auto;
-    width: 720px;
+    width: 40%;
     height: fit-content;
-    padding: 40px;
+    padding: 10px;
 }
 .flip-card{
     background-color: transparent;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     perspective: 1000px;
 }
 .flip-card-inner {
@@ -127,34 +150,30 @@
     transition: transform 0.6s;
     transform-style: preserve-3d;
     box-shadow: 0 0 20px rgb(36, 60, 116);
-  }
-  
-  .flip-card:hover .flip-card-inner {
+}
+.flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
+}
+.flip-card-front, .flip-card-back {
     position: absolute;
-    padding: 30px;
+    padding: 10px;
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-  }
-  
-  .flip-card-front>img{
+}
+.flip-card-front>img{
     display: block;
     margin: 60px auto;
     width: 100px;
     height: 100px;
     object-fit: cover;
-  }
-  .flip-card-front{
+}
+.flip-card-front{
     background-color: rgb(36, 60, 116);
     color: black;
-  }
-  
-  .flip-card-back {
+}
+.flip-card-back {
     background-color: #ffffff;
     color: rgb(36, 60, 116);
     transform: rotateY(180deg);
@@ -163,62 +182,42 @@
     font-weight: 300;
     text-align: center;
     font-size: 15px;
-  }
-  .flip-card-back>h1{
+}
+.flip-card-back>h1{
     color: rgb(255, 194, 81);
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     margin: 20px 0 30px 0;
-  }
-  .btn2{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 12px;
-    width: 150px;
-    height: 40px;
-    padding: 10px 20px;
-    background-color: rgb(36, 60, 116);
-    color: rgb(255, 254, 253);
-    border: none;
-    display: block;
-    margin: 10px auto;
 }
-.btn2:hover{
-    background-color: rgb(255, 194, 81);
-    color: rgb(36, 60, 116);
-    font-weight: 700;
-    font-size: 16px;
-}
-
-                /* BODY  */
-                /* SECTION-TWO */
-.two{
-    margin: 0 0 50px 0;
+/* WHO PREFER US */
+.whoPreferUs{
+    margin: 20px auto;
+    margin-bottom: 100px;
     padding: 40px;
-    height: 800px;
-    background-color: transparent;
-    background-image: url(/Images/sunset-nature-provides-renewable-energy-through-solar-power-generated-by-ai.jpg);
+    height: fit-content;
+    background-image: url(images/whoPreferUs.jpg);
 }
-.two>h1{
-    text-align: center;
+.whoPreferUs h1{
     font-family: "Anton", sans-serif;
+    text-align: center;
     font-weight: 50;
     font-size: 30px;
     padding: 5px;
     color: rgb(36, 60, 116);
-    margin: 0 0 30px 0;
+    margin: auto;
+    margin-bottom: 20px;
 }
 .wrapper {
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    justify-content: space-around;
-  }
-  
-  .card {
-    width: 220px;
+    justify-content: space-evenly;
+}
+.card {
+    width: 250px;
     height: 250px;
     padding: 1.5rem;
     background: white;
@@ -226,18 +225,18 @@
     display: flex;
     align-items: flex-end;
     box-shadow: 0 0 20px rgb(119, 60, 29);
-  }
-  .card:hover {
+}
+.card:hover {
     transform: translateY(20px);
-  }
-  .card:hover:before {
+}
+.card:hover:before {
     opacity: 1;
-  }
-  .card:hover .info {
+}
+.card:hover .info {
     opacity: 1;
     transform: translateY(0px);
-  }
-  .card:before {
+}
+.card:before {
     content: "";
     position: absolute;
     top: 0;
@@ -249,33 +248,33 @@
     z-index: 2;
     transition: 0.5s;
     opacity: 0;
-  }
-  .card img {
+}
+.card img {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     position: absolute;
     top: 0;
     left: 0;
-  }
-  .card .info {
+}
+.card .info {
     position: relative;
     z-index: 3;
     color: rgb(255, 255, 255);
     opacity: 0;
     transform: translateY(30px);
     transition: 0.5s;
-  }
-  .card .info h1 {
+}
+.card .info h1 {
     color: rgb(255, 194, 81);
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     text-align: center;
     font-size: 25px;
     margin: 0px;
-  }
-  .card .info p {
+}
+.card .info p {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
     text-align: left;
@@ -283,160 +282,122 @@
     letter-spacing: 1px;
     font-size: 10px;
     margin-top: 8px;
-  }
+}
+
 
 
 
 
 
-                    /* FOOTER */
-                /* SECTION-SIX */
-  .six{
-    margin: 0 0 0 0;
-}
-.six-one{
-    width: 350px;
-}
-footer{
-    background-color: rgb(36, 60, 116);
-    height: 420px;
-    width: 100%;
-    padding: 40px;
-    box-shadow: 0 0 30px rgb(36, 60, 116);
-}
-.sf-ones img{
-    background-color: white;
-    padding: 10px;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 90px;
-    margin-left: 90px;
-}
-.f-icon{
-    margin-top: 30px;
-}
-.f-icon img{
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-}
-.f-text{
-    color: white;
-    font-family: Montserrat;
-    font-size: 13px;
-    margin: -40px 0 0 70px;
-    width: 250px;
-}
-.socials{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: fit-content;
-    height: fit-content;
-    padding: 5px;
-    margin: 20px 0 -20px 50px;
-}
-.s-ones{
-    display: block;
-    width: fit-content;
-    margin-left: 40px;
-    padding: 5px;
-    cursor: pointer;
-}
-.s-one img{
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-    margin: 0 0 0 10px;
-}
 
-            /* SECTION-SEVEN-TWO */
-            
-.six-two{
-    margin: -385px 0 0 360px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+/* 576PX HAMBURGER TOGGLE ON */
+@media (max-width: 576px) {
+
+
+
 }
-.f-two{
-    padding: 50px;
-    width: 350px;
-    height: 400px;
-    font-family: Montserrat;
-    text-align: justify;
-    text-indent: 15px;
-    font-size: 12px;
-    font-weight: 70;
-    color: white;
-}
-.f-title {
-    font-size: 19px;
-    font-family: "Cinzel Decorative";
-    color: rgb(255, 194, 81);
-    margin-bottom: 30px;
-    text-align: center;
+/* 577PX - 767PX - HAMBURGER TOGGLE ON */
+@media (min-width: 577px) and (max-width: 767px) { 
+    
     
 }
-.btn4{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 12px;
-    width: 150px;
-    height: 40px;
-    padding: 10px 20px;
-    background-color: rgb(250, 251, 253);
-    color: rgb(36, 60, 116);
-    border: none;
-    display: block;
-    margin: 10px auto;
+/* 767PX - 992PX - HAMBURGER TOGGLE ON */
+@media (min-width: 767px) and (max-width: 992px) {
+    
+    
 }
-.btn4:hover{
-    background-color: rgb(255, 194, 81);
-    color: rgb(36, 60, 116);
-    font-weight: 700;
-    font-size: 16px;
+    /* HAMBURGER TOGGLE */
+@media (max-width: 893px) {
+    /* HAMBURGER */
+    .hamburgerMenu {
+        z-index: 50;
+        display: block; 
+        top: 0;
+        left: 0;
+        position: fixed;
+        padding: 20px;
+        height: 60px;
+        width: 100vw;
+        background-color: rgb(36, 60, 116);
+        box-shadow: 0 0 10px rgb(3, 3, 3);
+    }
+    .hamburgerMenu.active + header {
+        display: none;
+    }
+    .bar {
+        margin-bottom: 5px;
+        width: 20px;
+        height: 4px;
+        background-color: white;
+        border-radius: 2px;
+    }
+    /* NAVBAR */
+    header{
+        display: none;
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 50px;
+        left: 0;
+        padding: 20px;
+    }
+    .logo{ 
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        background-color: white;
+        border-radius: 50%;
+        margin: auto;
+    }
+    nav{
+        margin: auto;
+        margin-top: 5px;
+        display: block;
+    }
+    .navLinks li{
+        list-style: none;
+        display: block;
+    }
+    .navLinks li a{
+        
+        width: 100%;
+        display: block;
+    }
+    /* DROPDOWN */
+    .serviceDropdown{
+        display: block;
+        position: relative;
+    }
+    .serviceOptions{
+        width: 200px;
+        margin: -5px 0 0 0;
+    }
+    .contactUs{
+        margin-top: 10px;
+    }
 }
-
-        /* SECTION-SEVEN-THREE */
-
-.six-three{
-    margin: -400px 0 0 720px;
-}
-.f-three{
-    padding: 50px;
-    width: 300px;
-    height: 400px;
-}
-footer li>a{
-    text-decoration: none;
-    font-family: Montserrat;
-    font-size: 15px;
-    color: white;
-    font-weight: 100;
-    margin-bottom: 7px;
-    list-style-type:square;
-}
-footer li>a:hover{
-    color: rgb(255, 194, 81);
-}
-footer li{
-    list-style-type:square;
-    color: white;
-    font-family: Montserrat;
-    font-size: 15px;
-    font-weight: 100;
-    margin-bottom: 18px;
-}
-
-
-    /* SECTION-SEVEN-FOUR */
-
-.six-four{
-margin: -400px 0 0 1060px;
-}
-.f-four{
-    padding: 50px;
-    width: 350px;
-    height: 400px;
-}
-.f-four>ul{
-    margin: 0 0 0 50px;
+/* 890PX - 1024PX - FOOTER COLUMN */
+@media (max-width: 892px) { 
+    footer{
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+    }
 }

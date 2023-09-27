@@ -575,12 +575,12 @@ footer li{
     }
     .carouselGallery{
         height: 300px;
-        padding: 20px 30px;
+        padding: 10px;
         margin: auto;
         margin-bottom: 0px;
     }
     .carouselGallery>img{
-        width: 95%;
+        width: 60%;
         height: 95%;
         padding: 0px;
         margin: auto;
@@ -597,20 +597,29 @@ footer li{
     }
     /* OVERVIEW */
     .overview{
-        padding: 30px 20px;
+        padding: 50px 20px;
         margin: auto;
-        gap: 30px;
+        gap: 30px 10px;
     }
     .overviewDiv{ 
-        height: 330px;
-        width: 60vw;
-        padding: 40px;
+        margin: auto;
+        height: 250px;
+        width: 40vw;
+        padding: 10px;
         /* text edit */
+        font-size: 12px;
+    }
+    .overviewDiv h1{
         font-size: 15px;
     }
+    .overviewDiv:hover{
+        background-color: rgb(255, 255, 255);
+        color: rgb(36, 60, 116);
+        transform: none;
+    }
     .overviewDiv>img{
-        width: 120px;
-        height: 120px;
+        width: 12vw;
+        height: fit-content;
         margin: 20px auto;
     }
     /* WHO WE ARE */
@@ -621,6 +630,7 @@ footer li{
     .whoweareGallery{
         padding: 20px;
         gap: 10px;
+        box-shadow: none;
     }
     .whoweareGalleryOne img{
         width: 80vw;
@@ -642,34 +652,58 @@ footer li{
     /* WHAT WE DO*/
     .whatWeDo{
         padding: 30px 0px;
+        margin-bottom: 40px;
     }
     .whatwedoGallery{
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         padding: 10px;
-        gap: 30px;
+        gap: 20px;
         width: 100vw;
     }
     .whatwedoGalDiv{
-        width: 60vw;
-        padding: 20px;
+        width: 40vw;
+        height: 300px;
+        padding: 10px;
+    }
+    .whatwedoGalDiv:hover{
+        background-color: rgb(255, 255, 255);
+        color: rgb(36, 60, 116);
+        transform: none;
     }
     .whatwedoGalDiv img{
-        height: 80px;
-        width: 80px;
+        height: fit-content;
+        width: 12vw;
     }
     /* EXECTUED PROJECTS */
     .executedProjects h2{
         margin: -40px 0 30px 0;
     }
     .executedProjects{
-        margin: 31px 0 50px 0;
-        padding: 40px;
-    }
-    .executedProjectsGallery{
-        gap: 10px;
-        padding: 20px;
         margin: auto;
-        width: 80vw;
+        padding: 10px;
+    }
+    .executedProjectsGallery{ 
+        gap: 25px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 100vw;
+        box-shadow: none;
+    }
+    .epGalleryDiv{
+        width: 40vw;
+        height: 280px;
+        padding: 10px;
+        font-size: 12px;
+    }
+    .epGalleryDiv video{
+        width: 80%;
+        height: 150px;
+        object-fit: cover;
+        box-shadow: none;
     }
 }
 /* 577PX - 767PX - HAMBURGER TOGGLE ON */
