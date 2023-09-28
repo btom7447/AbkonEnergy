@@ -166,9 +166,9 @@ header{
 /* WHAT WE OFFER */
 .whatWeOffer{
     margin: auto;
-    width: 100%;
+    width: 100vw;
     height: fit-content;
-    padding: 20px;
+    padding: 40px;
 }
 .whatWeOffer h1{
     font-family: "Anton", sans-serif;
@@ -179,16 +179,16 @@ header{
     margin-bottom: 20px;
 }
 .whatWeOffer p{
-    width: 70%;
+    width: 100%;
     margin: auto;
     /* text edit */
     color: rgb(36, 60, 116);
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
-    text-align: center;
+    text-align: justify;
     text-indent: 20px;
     font-size: 15px;
-    line-height: 1.5;
+    line-height: 2.5;
 }
 .offeredServices{
     display: flex;
@@ -196,15 +196,15 @@ header{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
-    width: 80%;
+    gap: 40px;
+    padding: 30px;
+    width: 70%;
     height: fit-content;
-    margin: 50px auto;
+    margin: 30px auto;
 }
 .offeredServicesDiv{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     padding: 10px;
     border: 2px solid rgb(36, 60, 116);
 }
@@ -213,14 +213,14 @@ header{
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     margin: 10px auto;
 }
 .offeredServicesDiv img{
     display: block;
     margin: 20px auto;
     width: 40%;
-    height: 80px;
+    height: 120px;
     object-fit: cover;
     padding: 10px;
 }
@@ -230,7 +230,7 @@ header{
     border: none;
 }
 .videoPoster {
-    width: 70vw;
+    width: 100vw;
     height: fit-content;
     padding: 20px;
     margin: auto;
@@ -238,11 +238,11 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
 .video{
-    width: 40%;
-    height: 300px;
+    width: 50%;
+    height: 400px;
 }
 .video video{
     width: 100%;
@@ -252,7 +252,7 @@ header{
 }
 .poster{
     width: 40%;
-    height: 300px;
+    height: fit-content;
     padding: 20px;
     /* text edit */
     color: rgb(36, 60, 116);
@@ -261,21 +261,20 @@ header{
     text-align: justify;
     text-indent: 20px;
     font-size: 15px;
-    line-height: 1.5;
+    line-height: 2.5;
 }
 .poster h1{
     text-align: center;
     font-family: "Anton", sans-serif;
     font-weight: 50;
     font-size: 30px;
-    padding: 5px;
     color: rgb(36, 60, 116);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 /* WHAT WE DO */
 .whatWeDo{
     margin: auto;
-    width: 100%;
+    width: 100vw;
     height: fit-content;
     padding: 20px;
 }
@@ -283,7 +282,7 @@ header{
     text-align: center;
     font-family: "Anton", sans-serif;
     font-weight: 50;
-    font-size: 30px;
+    font-size: 35px;
     padding: 5px;
     color: rgb(36, 60, 116);
     margin-bottom: 20px;
@@ -296,14 +295,14 @@ header{
     align-items: center;
     justify-content: center;
     margin: auto;
-    width: 40%;
+    width: 70%;
     height: fit-content;
-    padding: 10px;
+    padding: 40px;
 }
 .flip-card{
     background-color: transparent;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     perspective: 1000px;
 }
 .flip-card-inner {
@@ -328,7 +327,7 @@ header{
 }
 .flip-card-front>img{
     display: block;
-    margin: 60px auto;
+    margin: 80px auto;
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -346,6 +345,7 @@ header{
     font-weight: 300;
     text-align: center;
     font-size: 15px;
+    padding: 30px;
 }
 .flip-card-back>h1{
     color: rgb(255, 194, 81);
@@ -353,13 +353,13 @@ header{
     font-weight: 800;
     text-align: center;
     font-size: 20px;
-    margin: 20px 0 30px 0;
+    margin: 10px 0 30px 0;
 }
 /* WHO PREFER US */
 .whoPreferUs{
     margin: 20px auto;
     margin-bottom: 100px;
-    padding: 40px;
+    padding: 10px;
     height: fit-content;
     background-image: url(images/whoPreferUs.jpg);
 }
@@ -375,15 +375,17 @@ header{
 }
 .wrapper {
     margin: auto;
+    margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-evenly;
+    gap: 10px;
 }
 .card {
-    width: 250px;
-    height: 250px;
-    padding: 1.5rem;
+    width: 19%;
+    height: fit-content;
+    padding: 10px;
     background: white;
     position: relative;
     display: flex;
@@ -586,66 +588,30 @@ footer li{
 /* MEDIA QUERY */
 /* 576PX HAMBURGER TOGGLE ON */
 @media (max-width: 576px) {
+        /* WHAT WE OFFER */
+    .whatWeOffer{
+        padding: 20px;
+    }
+    .whatWeOffer h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .whatWeOffer p{
+        font-size: 15px;
+        line-height: 1.5;
+    }
     .offeredServices{
+        gap: 20px;
         padding: 20px;
         width: 90%;
-        height: fit-content;
-        margin: auto;
-        gap: 30px 20px;
+        margin: 10px auto;
     }
     .offeredServicesDiv{
-        width: 210px;
-        height: 220px;
-        padding: 0px;
-    }
-    .videoPoster {
-        width: 90vw;
-        height: fit-content;
-        padding: 0px;
-        gap: 20px;
-    }
-    .video{
-        width: 50%;
-        height: 200px;
-    }
-    .video video{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        box-shadow: 0 0 20px rgb(36, 60, 116);
-    }
-    .poster{
-        width: 50%;
-        height: 200px;
-        padding: 0px;
-        /* text edit */
-        font-size: 12px;
-        line-height: 1.2;
-    }
-    .poster h1{
-        font-weight: 50;
-        font-size: 20px;
-    }
-    /* WHAT WE DO */
-    .whatWeDo{
-        padding: 10px;
-    }
-    .whatWeDoGallery{
-        gap: 20px;
-        width: 90%;
-        padding: 0px;
-    }
-    .flip-card{
         width: 200px;
         height: 200px;
+        padding: 5px;
     }
-    .flip-card-front>img{
-        margin: 40px auto;
-    }
-    .flip-card-back {
-        font-size: 10px;
-    }
-    .flip-card-back>h1{
+    .offeredServicesDiv h1{
         color: rgb(255, 194, 81);
         font-family: "Montserrat", sans-serif;
         font-weight: 800;
@@ -653,219 +619,411 @@ footer li{
         font-size: 15px;
         margin: 10px auto;
     }
-    /* WHO PREFER US */
-    .whoPreferUs{
+    .offeredServicesDiv img{
+        display: block;
+        margin: 10px auto;
+        width: 40%;
+        height: 80px;
+        object-fit: cover;
         padding: 10px;
     }
-    .wrapper {
-        padding: 20px;
-        margin: auto;
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        gap: 30px 0px;
-        justify-content: space-evenly;
+    .offeredServicesDiv:hover, .offeredServicesDiv:active{
+        transform: none;
+        box-shadow: none;
+        border: solid 2px rgb(36, 60, 116);
     }
-    .card {
+    .videoPoster {
+        width: 100vw;
+        padding: 10px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .video{
+        width: 80%;
+        height: 200px;
+    }
+    .video video{
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 0 20px rgb(36, 60, 116);
+    }
+    .poster{
+        width: 80%;
+        padding: 10px;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .poster h1{
+        font-size: 20px;
+        color: rgb(36, 60, 116);
+        margin-bottom: 10px;
+    }
+    /* WHAT WE DO */
+    .whatWeDo{
+        padding: 10px;
+    }
+    .whatWeDo h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .whatWeDoGallery{
+        gap: 20px;
+        width: 80%;
+        height: fit-content;
+        padding: 10px;
+    }
+    .flip-card{
         width: 200px;
         height: 200px;
     }
+    .flip-card-front>img{
+        display: block;
+        margin: 50px auto;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+    .flip-card-back {
+        text-align: center;
+        font-size: 12px;
+        padding: 10px;
+    }
+    .flip-card-back>h1{
+        font-size: 15px;
+        margin: 10px 0 10px 0;
+    }
+    /* WHO PREFER US */
+    .whoPreferUs h1{
+        margin-bottom: 10px;
+    }
+    .wrapper{
+        gap: 5px;
+        margin-bottom: 20px;
+    }
+    .card {
+        width: 17%;
+        height: fit-content;
+        padding: 2px;
+    }
+    .card:hover, .card:active {
+        transform: translateY(20px);
+    }
+    .card:hover:before, .card:active {
+        opacity: 1;
+    }
+    .card:hover .info, .card:active .info{
+        opacity: 1;
+        transform: translateY(0px);
+    }
     .card .info h1 {
-        font-size: 20px;
+        font-size: 8px;
+        margin: 0px;
     }
     .card .info p {
-        font-size: 8px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        text-align: left;
+        letter-spacing: 0.8px;
+        font-size: 4px;
+        margin-top: 2px;
     }
 }
 /* 577PX - 767PX - HAMBURGER TOGGLE ON */
-@media (min-width: 577px) and (max-width: 767px) { 
-    .offeredServices{
-        padding: 20px;
-        width: 90%;
-        height: fit-content;
+@media (min-width: 577px) and (max-width: 767px) {
+    /* WHAT WE OFFER */
+    .whatWeOffer{
         margin: auto;
-        gap: 30px 20px;
-    }
-    .offeredServicesDiv{
-        width: 210px;
-        height: 220px;
-        padding: 0px;
-    }
-    .videoPoster {
-        width: 90vw;
+        width: 100vw;
         height: fit-content;
-        padding: 0px;
-        gap: 20px;
+        padding: 20px;
     }
-    .video{
-        width: 50%;
-        height: 200px;
-    }
-    .video video{
+    .whatWeOffer p{
         width: 100%;
-        height: 100%;
-        object-fit: cover;
-        box-shadow: 0 0 20px rgb(36, 60, 116);
-    }
-    .poster{
-        width: 50%;
-        height: 200px;
-        padding: 0px;
-        /* text edit */
-        font-size: 12px;
-        line-height: 1.2;
-    }
-    .poster h1{
-        font-weight: 50;
-        font-size: 20px;
-    }
-    /* WHAT WE DO */
-    .whatWeDo{
-        padding: 10px;
-    }
-    .whatWeDoGallery{
-        gap: 20px;
-        width: 90%;
-        padding: 0px;
-    }
-    .flip-card{
-        width: 200px;
-        height: 200px;
-    }
-    .flip-card-front>img{
-        margin: 40px auto;
-    }
-    .flip-card-back {
-        font-size: 10px;
-    }
-    .flip-card-back>h1{
-        color: rgb(255, 194, 81);
-        font-family: "Montserrat", sans-serif;
-        font-weight: 800;
-        text-align: center;
+        text-align: justify;
         font-size: 15px;
+        line-height: 1.5;
+    }
+    .offeredServices{
+        gap: 20px;
+        padding: 10px;
+        width: 100%;
         margin: 10px auto;
     }
-    /* WHO PREFER US */
-    .whoPreferUs{
-        padding: 10px;
-    }
-    .wrapper {
-        padding: 20px;
-        margin: auto;
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        gap: 30px;
-        justify-content: center;
-    }
-    .card {
-        width: 200px;
-        height: 200px;
-    }
-    .card .info h1 {
-        font-size: 20px;
-    }
-    .card .info p {
-        font-size: 8px;
-    }
-}
-/* 767PX - 992PX - HAMBURGER TOGGLE ON */
-@media (min-width: 767px) and (max-width: 1236px) {
-    .offeredServices{
-        padding: 20px;
-        width: 90%;
-        height: fit-content;
-        margin: auto;
-        gap: 30px 20px;
-    }
     .offeredServicesDiv{
-        width: 280px;
-        height: 280px;
-        padding: 30px;
+        width: 240px;
+        height: 240px;
+        padding: 0px;
+    }
+    .offeredServicesDiv h1{
+        font-size: 20px;
+        margin: 10px auto;
+    }
+    .offeredServicesDiv img{
+        display: block;
+        margin: auto;
+        width: 50%;
+        height: 120px;
+    }
+    .offeredServicesDiv:hover{
+        transform: none;
+        box-shadow: none;
+        border: 2px solid rgb(36, 60, 116);
     }
     .videoPoster {
         width: 100vw;
         height: fit-content;
-        padding: 15px;
+        padding: 10px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         gap: 20px;
     }
     .video{
-        width: 50%;
+        width: 45%;
         height: 300px;
-    }
-    .video video{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        box-shadow: 0 0 20px rgb(36, 60, 116);
     }
     .poster{
-        width: 50%;
-        height: 300px;
-        padding: 20px;
-        /* text edit */
-        font-size: 15px;
-        line-height: 1.2;
+        width: 45%;
+        height: fit-content;
+        padding: 10px;
+        font-size: 12px;
+        line-height: 1.5;
     }
     .poster h1{
-        font-weight: 50;
-        font-size: 25px;
+        font-size: 20px;
+        padding: 5px;
+        margin-bottom: 0px;
     }
     /* WHAT WE DO */
     .whatWeDo{
+        margin: auto;
+        width: 100vw;
+        height: fit-content;
         padding: 10px;
+    }
+    .whatWeDo h1{
+        margin-bottom: 0px;
     }
     .whatWeDoGallery{
         gap: 20px;
-        width: 90%;
-        padding: 0px;
+        width: 100%;
+        height: fit-content;
+        padding: 10px;
     }
     .flip-card{
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
+    }
+    .flip-card:hover .flip-card-inner, .flip-card:active .flip-card-inner{
+        transform: rotateY(180deg);
     }
     .flip-card-front>img{
+        display: block;
         margin: 60px auto;
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
     }
     .flip-card-back {
-        font-size: 15px;
-        padding: 30px;
+        font-size: 12px;
+        padding: 20px;
     }
     .flip-card-back>h1{
-        color: rgb(255, 194, 81);
-        font-family: "Montserrat", sans-serif;
-        font-weight: 800;
-        text-align: center;
         font-size: 20px;
-        margin: 20px auto;
+        margin: 10px 0 10px 0;
     }
     /* WHO PREFER US */
     .whoPreferUs{
+        margin: 20px auto;
+        margin-bottom: 100px;
         padding: 10px;
+        width: 100vw;
+        height: fit-content;
+        background-image: url(images/whoPreferUs.jpg);
     }
-    .wrapper {
+    .whoPreferUs h1{
+        margin-bottom: 0px;
+    }
+    .wrapper{
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .card {
+        width: 18.5%;
+        height: fit-content;
+        padding: 5px;
+    }
+    .card:hover, .card:active {
+        transform: translateY(20px);
+    }
+    .card:hover:before, .card:active {
+        opacity: 1;
+    }
+    .card:hover .info, .card:active .info{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    .card .info h1 {
+        font-size: 10px;
+        margin: 0px;
+    }
+    .card .info p {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        text-align: left;
+        letter-spacing: 0.8px;
+        font-size: 6px;
+        margin-top: 3px;
+    }
+}
+/* 767PX - 992PX - HAMBURGER TOGGLE ON */
+@media (min-width: 767px) and (max-width: 992px) {
+    /* WHAT WE OFFER */
+    .whatWeOffer{
+        margin: auto;
+        width: 100vw;
+        height: fit-content;
+        padding: 40px;
+    }
+    .whatWeOffer p{
+        width: 100%;
+        text-align: justify;
+    }
+    .offeredServices{
+        gap: 30px;
+        padding: 10px;
+        width: 100%;
+        margin: 10px auto;
+    }
+    .offeredServicesDiv{
+        width: 280px;
+        height: 280px;
+        padding: 0px;
+    }
+    .offeredServicesDiv h1{
+        font-size: 20px;
+        margin: 10px auto;
+    }
+    .offeredServicesDiv img{
+        display: block;
+        margin: auto;
+        width: 50%;
+        height: 150px;
+    }
+    .videoPoster {
+        width: 100vw;
+        height: fit-content;
         padding: 20px;
         margin: auto;
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
-        width: 100%;
-        gap: 30px;
         justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .video{
+        width: 45%;
+        height: 400px;
+    }
+    .poster{
+        width: 45%;
+        height: fit-content;
+        padding: 10px;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .poster h1{
+        font-size: 25px;
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+    /* WHAT WE DO */
+    .whatWeDo{
+        margin: auto;
+        width: 100vw;
+        height: fit-content;
+        padding: 10px;
+    }
+    .whatWeDo h1{
+        margin-bottom: 20px;
+    }
+    .whatWeDoGallery{
+        gap: 30px;
+        width: 80%;
+        height: fit-content;
+        padding: 00px;
+    }
+    .flip-card{
+        width: 280px;
+        height: 280px;
+    }
+    .flip-card:hover .flip-card-inner, .flip-card:active .flip-card-inner{
+        transform: rotateY(180deg);
+    }
+    .flip-card-front>img{
+        display: block;
+        margin: 80px auto;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+    .flip-card-back {
+        font-size: 15px;
+        padding: 20px;
+    }
+    .flip-card-back>h1{
+        font-size: 20px;
+        margin: 10px 0 10px 0;
+    }
+    /* WHO PREFER US */
+    .whoPreferUs{
+        margin: 20px auto;
+        margin-bottom: 100px;
+        padding: 10px;
+        width: 100vw;
+        height: fit-content;
+        background-image: url(images/whoPreferUs.jpg);
+    }
+    .whoPreferUs h1{
+        margin-bottom: 0px;
+    }
+    .wrapper{
+        gap: 10px;
+        margin-bottom: 20px;
     }
     .card {
-        width: 200px;
-        height: 200px;
+        width: 18.5%;
+        height: fit-content;
+        padding: 10px;
+    }
+    .card:hover, .card:active {
+        transform: translateY(20px);
+    }
+    .card:hover:before, .card:active {
+        opacity: 1;
+    }
+    .card:hover .info, .card:active .info{
+        opacity: 1;
+        transform: translateY(0px);
     }
     .card .info h1 {
-        font-size: 20px;
+        font-size: 14px;
+        margin: 0px;
     }
     .card .info p {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        text-align: left;
+        letter-spacing: 0.8px;
         font-size: 8px;
+        margin-top: 3px;
     }
-    
 }
-/* HAMBURGER TOGGLE */
+    /* HAMBURGER TOGGLE */
 @media (max-width: 893px) {
     /* HAMBURGER */
     .hamburgerMenu {
