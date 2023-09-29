@@ -254,7 +254,7 @@ header{
     border: solid 2px rgb(36, 60, 116);
 }
 .partners>img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 0.8s all ease;
     box-shadow: 0 0 20px rgb(36, 60, 116);
     border: none;

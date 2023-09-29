@@ -1,0 +1,672 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cabin:wght@500&family=Cinzel+Decorative:wght@900&family=Dancing+Script:wght@500&family=Lobster+Two:wght@700&family=Montserrat:wght@500&family=Noto+Naskh+Arabic:wght@600&family=Nunito+Sans:wght@300&display=swap');
+*{
+    /* outline: red solid 2px; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease 0s;
+    scroll-behavior: smooth;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+    /* NAVIGATION BAR */
+header{
+    z-index: 50;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10%;
+    background-color: rgb(36, 60, 116);
+    box-shadow: 0 0 30px rgb(36, 60, 116);
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 60px;
+}
+.navLinks li{
+    list-style: none;
+    display: inline-block;
+}
+.navLinks li>a{
+    padding: 10px;
+    margin-right: 20px;
+    /* textEdit */
+    color: white;
+    font-weight: 50;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+}
+.navLinks li>a:hover{
+    color: rgb(36, 60, 116);
+    font-weight: 700;
+    background-color: rgb(255, 194, 81);
+}
+/* DROPDOWN */
+.serviceDropdown{
+    display: inline-block;
+    position: relative;
+}
+.serviceOptions{
+    display: none;
+    position: absolute;
+    overflow: auto;
+    padding: 10px;
+    margin: 10px 5px;
+    width: 300px;
+    margin: 11px 0 0 0;
+    background-color:rgb(36, 60, 116);
+    box-shadow: 0 0 20px rgb(36, 60, 116);
+}
+.serviceOptions a{
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 8px;
+    display: inline-block;
+    /* textEdit */
+    color: white;
+    font-weight: 200;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+}
+.serviceOptions a:hover{
+    font-weight: 700;
+    color: rgb(36, 60, 116);
+    background-color: rgb(255, 194, 81);
+}
+.serviceDropdown:hover .serviceOptions{
+    display: block;
+}
+.contactUs{
+    display: block;
+    width: 150px;
+    height: 50px;
+    border: none;
+    padding: auto;
+    margin: auto;
+    background-color: white;
+    /* textEdit */
+    font-weight: 200;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+}
+.contactUs:hover{
+    font-weight: 700;
+    color: rgb(36, 60, 116);
+    background-color: rgb(255, 194, 81);
+}
+/* HAMBURGER */
+#navbar.show-navbar {
+    display: block;
+}
+.hamburgerButton {
+    cursor: pointer;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    display: none; 
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bar{
+    width: 20px;
+    height: 4px;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    background-color: white;
+}
+/* BODY  */
+/* PADDING */
+.padding h1{
+    margin: -200px 0 180px 0;
+    font-weight: 200;
+    font-size: 70px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "lobster two", sans-serif;
+}
+.pad{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    background-position-y: 150%;
+    margin-top: 10vh;
+}
+/* OFF GRID SYSTEM */
+.offGridSystem{
+    margin: auto;
+    width: 100vw;
+    height: fit-content;
+    padding: 40px;
+    background-color: white;
+}
+.description{
+    margin: auto;
+    width: 80%;
+    height: fit-content;
+    padding: 10px;
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    line-height: 2;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 15px;
+}
+.description h2{
+    font-family: "cinzel decorative", sans-serif;
+    font-weight: 50;
+    font-size: 40px;
+    color: rgb(255, 194, 81);
+    text-align: center;
+}
+.description h1{
+    font-family: "Anton", sans-serif;
+    font-weight: 50;
+    font-size: 25px;
+    color: rgb(36, 60, 116);
+    text-align: center;
+}
+/* PRICE LIST */
+.priceList{
+    width: 100%;
+    height: 150vh;
+    padding: 50px;
+    margin-bottom: 100px;
+    background-image: url(images/priceList\ \(2\).jpg) ;
+    background-position-y: 40%;
+    background-size: cover;
+}
+.priceList h1{
+    text-align: center;
+    font-family: "Archivo Black";
+    font-size: 100px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px;
+    color:rgba(253, 254, 255, 0.9);
+}
+.priceList h2{
+    width: 100%;
+    font-family: "Roboto Mono";
+    color: rgb(255, 194, 81);
+    font-size: 25px;
+    text-align: center;
+    margin: -38px 0 30px 0;
+}
+.priceList p{
+    margin: 20px auto;
+    width: 500px;
+    /* text edit */
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    text-indent: 20px;
+    font-size: 15px;
+}
+.prices{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px 0;
+    gap: 40px;
+}
+.pricesTtop{
+    background-color:rgba(36, 60, 116, 0.3);
+    width: 100%;
+    height: 120px;
+    margin: 0 0 30px 0;
+}
+.pricesTops{
+    background-color:rgb(36, 60, 116);
+    width: 100%;
+    height: 130px;
+    margin: 0 0 30px 0;
+}
+.pricesTop h1{
+    padding-top: 15px;
+    text-align: center;
+    font-family: "Archivo Black";
+    font-size: 40px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1.5px;
+    color:rgb(36, 60, 116, 0.9);
+}
+.pricesTops h1{
+    padding-top: 15px;
+    text-align: center;
+    font-family: "Archivo Black";
+    font-size: 45px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+    color:rgba(255, 255, 255, 0.9);
+}
+.pricesTop h2{
+    width: fit-content;
+    font-family: "Roboto Mono";
+    color: rgb(224, 158, 37);
+    font-weight: 800;
+    font-size: 20px;
+    margin: auto;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.pricesTops h2{
+    width: fit-content;
+    font-family: "Roboto Mono";
+    color: rgb(255, 194, 81);
+    font-weight: 800;
+    font-size: 23px;
+    margin: auto;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.pricesTop h3{
+    width: 100%;
+    font-family: "Archivo Black";
+    color: rgb(36, 60, 116);
+    font-weight: 800;
+    font-size: 20px;
+    text-align: left;
+    margin: -40px 0 0 0;
+    padding: 0 20px;
+}
+.pricesTops h3{
+    width: 100%;
+    font-family: "Archivo Black";
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 22px;
+    text-align: left;
+    margin: -40px 0 0 0;
+    padding: 0 20px;
+}
+.big{
+    font-family: "Archivo Black";
+    color: rgb(36, 60, 116);
+    font-weight: 800;
+    font-size: 45px;
+}
+.bigs{
+    font-family: "Archivo Black";
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 45px;
+}
+.offers{
+    width: 350px;
+    height: 470px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0 0 20px rgb(36, 60, 116);
+
+}
+.pricesTwo{
+    width: 400px;
+    height: 520px;
+    background-color: white;
+    box-shadow: 0 0 20px rgb(36, 60, 116);
+}
+.priceBody{
+    padding: 40px;
+}
+.high li{
+    list-style-type: square;
+    padding-bottom: 10px;
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    text-indent: 20px;
+    font-size: 17px;
+}
+.nonHigh li{
+    list-style-type: square;
+    padding-bottom: 10px;
+    color: rgba(36, 60, 116, 0.3);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    text-indent: 20px;
+    font-size: 15px;
+}
+.button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    display: block;
+    padding: 10px 20px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(36, 60, 116);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    margin: 10px auto;
+}
+.button:hover{
+    background-color: rgb(255, 194, 81);
+    color: rgb(36, 60, 116);
+    font-weight: 700;
+    font-size: 16px;
+}
+.buttons{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    display: block;
+    padding: 10px 20px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(255, 194, 81);
+    color: rgb(36, 60, 116);
+    border: none;
+    cursor: pointer;
+    margin: 10px auto;
+}
+.buttons:hover{
+    background-color: rgb(36, 60, 116);
+    color: rgb(255, 194, 81);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+
+
+/* FOOTER */
+footer{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: fit-content;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(36, 60, 116);
+    box-shadow: 0 0 30px rgb(36, 60, 116);
+}
+.footerOne{
+    width: 20%;
+    height: fit-content;
+    padding: 0;
+    margin: auto;
+}
+.footerOneDiv{
+    width: 100%;
+    height: fit-content;
+}
+.contactImages{
+    margin-bottom: 40px;
+    width: 100%;
+    height: fit-content;
+}
+.contactImages img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.contactText{
+    color: white;
+    font-family: Montserrat;
+    font-size: 13px;
+    margin: -70px 0 10px 40px;
+    width: fit-content;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: fit-content;
+    margin: 20px auto;
+}
+.socialsDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+.socialsDiv img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin: 0 0 0 10px;
+}
+.socialsDiv img:hover{
+    transform: translateY(10px);
+}
+.footerTwo{
+    width: 30%;
+    height: fit-content;
+    margin: auto;
+}
+.footerTwoDiv {
+    width: 100%;
+    height: fit-content;
+    /* text edit */
+    font-family: Montserrat;
+    text-align: justify;
+    text-indent: 15px;
+    font-size: 12px;
+    font-weight: 70;
+    color: white;
+}
+.footerTwoDiv p{
+    margin-bottom: 10px;
+}
+.f-title {
+    font-size: 19px;
+    font-family: "Cinzel Decorative";
+    color: rgb(255, 194, 81);
+    margin-bottom: 30px;
+    text-align: center;
+}
+.footerThree{
+    margin: auto;
+    width: 20%;
+    height: fit-content;
+    padding: 10px;
+}
+.footerThreeDiv{
+    margin: auto;
+    padding: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+footer li>a{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 7px;
+    list-style-type:square;
+}
+footer li>a:hover{
+    color: rgb(255, 194, 81);
+}
+footer li{
+    list-style-type:square;
+    color: white;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 18px;
+}
+.footerFour{
+    margin: auto;
+    width: 20%;
+    height: fit-content;
+    padding: 10px;
+}
+.footerFourDiv{
+    margin: auto;
+    padding: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+/* MEDIA QUERY */
+/* 576PX HAMBURGER TOGGLE ON */
+@media (max-width: 576px) {
+   
+    
+
+
+}
+/* 577PX - 767PX - HAMBURGER TOGGLE ON */
+@media (min-width: 577px) and (max-width: 767px) { 
+    
+    
+
+}
+/* 767PX - 992PX - HAMBURGER TOGGLE ON */
+@media (min-width: 767px) and (max-width: 992px) {
+     
+
+
+
+}
+/* HAMBURGER TOGGLE */
+@media (max-width: 893px) {
+    /* HAMBURGER */
+    .hamburgerMenu {
+        z-index: 50;
+        display: block; 
+        top: 0;
+        left: 0;
+        position: fixed;
+        padding: 20px;
+        height: 60px;
+        width: 100vw;
+        background-color: rgb(36, 60, 116);
+        box-shadow: 0 0 10px rgb(3, 3, 3);
+    }
+    .hamburgerMenu.active + header {
+        display: none;
+    }
+    .bar {
+        margin-bottom: 5px;
+        width: 20px;
+        height: 4px;
+        background-color: white;
+        border-radius: 2px;
+    }
+    /* NAVBAR */
+    header{
+        display: none;
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 50px;
+        left: 0;
+        padding: 20px;
+    }
+    .logo{ 
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        background-color: white;
+        border-radius: 50%;
+        margin: auto;
+    }
+    nav{
+        margin: auto;
+        margin-top: 5px;
+        display: block;
+    }
+    .navLinks li{
+        list-style: none;
+        display: block;
+    }
+    .navLinks li a{
+        
+        width: 100%;
+        display: block;
+    }
+    /* DROPDOWN */
+    .serviceDropdown{
+        display: block;
+        position: relative;
+    }
+    .serviceOptions{
+        width: 200px;
+        margin: -5px 0 0 0;
+    }
+    .contactUs{
+        margin-top: 10px;
+    }
+}
+/* 890PX - 1024PX - FOOTER COLUMN */
+@media (max-width: 892px) { 
+    footer{
+        margin: auto;
+        flex-direction: row;
+        align-items: center;
+        width: 100vw;
+    }
+    .footerOne{
+        width: 45%;
+        height: fit-content;
+        padding: 10px;
+        margin: auto;
+    }
+    .footerOneDiv{
+        width: 100%;
+        height: fit-content;
+    }
+    .socials{
+        justify-content: left;
+        align-items: flex-start;
+        width: 30%;
+        padding: 10px;
+        margin: inherit;
+    }
+    .socialsDiv img{
+        width: 30px;
+        height: 30px;
+        margin: 0 0 0 10px;
+    }
+    .socialsDiv img:hover{
+        transform: none;
+    }
+    .footerTwo{
+        width: 40%;
+        height: fit-content;
+        margin: auto;
+    }
+    .footerTwoDiv p{
+        margin-bottom: 10px;
+    }
+    .footerThree{
+        margin: auto;
+        width: 40%;
+        height: fit-content;
+        padding: 0px;
+    }
+    .footerFour{
+        margin: auto;
+        width: 40%;
+        height: fit-content;
+        padding: 10px;
+    }
+}
