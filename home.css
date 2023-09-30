@@ -632,9 +632,6 @@ footer li{
         margin: auto;
         margin-bottom: 5vh;
     }
-    *{
-        outline: solid 2px red;
-    }
 }
 /* 767PX - 992PX - HAMBURGER TOGGLE ON */
 @media (min-width: 767px) and (max-width: 992px) {
