@@ -619,10 +619,9 @@ footer li{
         font-size: 1rem;
     }
     .whatwedoGalDiv:hover{
-        color: white;
-        background-color: rgb(36, 60, 116);
-        box-shadow: 0 0 20px 0 rgb(36, 60, 116);
-        transform: scale(1.1);
+        color: rgb(36, 60, 116);
+        background-color:white;
+        transform: none;
     }
     /* EXECTUED PROJECTS */
     .executedProjects{
