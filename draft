@@ -1,149 +1,295 @@
-    /* WHAT WE OFFER */
-    .whatWeOffer{
-        padding: 20px;
-    }
-    .whatWeOffer h1{
-        font-size: 25px;
-        margin-bottom: 10px;
-    }
-    .whatWeOffer p{
-        font-size: 15px;
-        line-height: 1.5;
-    }
-    .offeredServices{
-        gap: 20px;
-        padding: 20px;
-        width: 90%;
-        margin: 10px auto;
-    }
-    .offeredServicesDiv{
-        width: 200px;
-        height: 200px;
-        padding: 5px;
-    }
-    .offeredServicesDiv h1{
-        color: rgb(255, 194, 81);
-        font-family: "Montserrat", sans-serif;
-        font-weight: 800;
-        text-align: center;
-        font-size: 15px;
-        margin: 10px auto;
-    }
-    .offeredServicesDiv img{
-        display: block;
-        margin: 10px auto;
-        width: 40%;
-        height: 80px;
-        object-fit: cover;
-        padding: 10px;
-    }
-    .offeredServicesDiv:hover, .offeredServicesDiv:active{
-        transform: none;
-        box-shadow: none;
-        border: solid 2px rgb(36, 60, 116);
-    }
-    .videoPoster {
-        width: 100vw;
-        padding: 10px;
-        flex-direction: column;
-        gap: 10px;
-    }
-    .video{
-        width: 80%;
-        height: 200px;
-    }
-    .video video{
-        width: 100%;
-        height: 100%;
-        box-shadow: 0 0 20px rgb(36, 60, 116);
-    }
-    .poster{
-        width: 80%;
-        padding: 10px;
-        font-size: 15px;
-        line-height: 1.5;
-    }
-    .poster h1{
-        font-size: 20px;
-        color: rgb(36, 60, 116);
-        margin-bottom: 10px;
-    }
-    /* WHAT WE DO */
-    .whatWeDo{
-        padding: 10px;
-    }
-    .whatWeDo h1{
-        font-size: 25px;
-        margin-bottom: 10px;
-    }
-    .whatWeDoGallery{
-        gap: 20px;
-        width: 80%;
-        height: fit-content;
-        padding: 10px;
-    }
-    .flip-card{
-        width: 200px;
-        height: 200px;
-    }
-    .flip-card-front>img{
-        display: block;
-        margin: 50px auto;
-        width: 70px;
-        height: 70px;
-        object-fit: cover;
-    }
-    .flip-card-back {
-        text-align: center;
-        font-size: 12px;
-        padding: 10px;
-    }
-    .flip-card-back>h1{
-        font-size: 15px;
-        margin: 10px 0 10px 0;
-    }
-    /* WHO PREFER US */
-    .whoPreferUs h1{
-        margin-bottom: 10px;
-    }
-    .wrapper{
-        gap: 5px;
-        margin-bottom: 20px;
-    }
-    .card {
-        width: 17%;
-        height: fit-content;
-        padding: 2px;
-    }
-    .card:hover, .card:active {
-        transform: translateY(20px);
-    }
-    .card:hover:before, .card:active {
-        opacity: 1;
-    }
-    .card:hover .info, .card:active .info{
-        opacity: 1;
-        transform: translateY(0px);
-    }
-    .card .info h1 {
-        font-size: 8px;
-        margin: 0px;
-    }
-    .card .info p {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 200;
-        text-align: left;
-        letter-spacing: 0.8px;
-        font-size: 4px;
-        margin-top: 2px;
-    }
+/* CAROUSEL */
+.carousel{
+    margin: 0 0 180px 0;
+    width: 100vw;
+    height: fit-content;
+}
+.carouselGallery{
+    scroll-behavior: smooth;
+    overflow: auto;
+    white-space: nowrap;
+    width: 100vw;
+    height: 480px;
+    padding: 20px;
+    margin: 0 0 100px 0;
+    background-color: rgba(36, 60, 116, 0.2);
+}
+.carouselGallery>img{
+    cursor: pointer;
+    width: 60%;
+    height: 400px;
+    object-fit: cover;
+    padding: 0px;
+    margin: auto;
+}
+.introText{
+    margin: -480px 0 0 100px;
+    width: fit-content;
+    padding: 10px;
+}
+.introText>h1{
+    font-family: "Cinzel Decorative", 'sans-serif';
+    font-weight: 900;
+    font-size: 60px;
+    letter-spacing: 5px;
+    color: rgb(255, 194, 81);
+    width: 400px;
+}
+.introText>p{
+    font-family: "Lobster two", 'anton';
+    font-weight: 200;
+    text-align: left;
+    font-size: 25px;
+    color:rgb(255, 194, 81);
+}
+/* OVERVIEW */
+.overview{
+    width: 60vw;
+    height: fit-content;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: rgb(255, 255, 255);
+}
+.overviewDiv{ 
+    height: 350px;
+    width: 330px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px 0 rgb(36, 60, 116);
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    text-align: center;
+}
+.overviewDiv>img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+}
+.overviewDiv>h1{
+    color: rgb(255, 194, 81);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+.overviewDiv:hover{
+    background-color: rgb(36, 60, 116);
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    transform: scale(1.1);
+}
+/* WHO WE ARE */
+.whoWeAre{
+    margin: 20px auto;
+    padding: 30px;
+    width: 100vw;
+    height: fit-content;
+}
+.whoWeAre h2{
+    font-family: "Anton", sans-serif;
+    font-weight: 50;
+    font-size: 30px;
+    color: rgb(36, 60, 116);
+    text-align: center;
+    margin: -20px 0 20px 0;
+}
+.whoweareGallery{ 
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px 0 rgb(36, 60, 116);
+}
+.whoweareGalleryOne img{
+    width: 45vw;
+    height: 50%;
+    object-fit: cover;
+}
+.whoweareGalleryTwo{
+    width: 45vw;
+    height: fit-content;
+    object-fit: cover;
+    padding: 10px;
+}
+.wwagTwoOne h2{
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-weight: 10;
+    font-size: 25px;
+    color: rgb(36, 60, 116);
+    margin-bottom: 10px;
+}
+.wwagTwoOne p{
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 10;
+    font-size: 14px;
+    color: rgb(36, 60, 116);
+    margin-bottom: 20px;
+}
+.bold{
+    color: rgb(255, 194, 81)
+}
+.button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    display: block;
+    padding: 10px 20px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(36, 60, 116);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    margin: 10px auto;
+}
+.button:hover{
+    background-color: rgb(255, 194, 81);
+    color: rgb(36, 60, 116);
+    font-weight: 700;
+    font-size: 16px;
+}
+/* WHAT WE DO*/
+.padText{
+    font-family: "Anton", sans-serif;
+    font-weight: 50;
+    font-size: 30px;
+    color: rgb(36, 60, 116);
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+.whatWeDo{
+    height: fit-content;
+    width: 100vw;
+    padding: 30px;
+    background-image: url(images/solar\ panel.jpg);
+    background-position: 40%;
+}
+.whatwedoGallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+    margin: auto;
+    width: 70%;
+    height: fit-content;
+}
+.whatwedoGalDiv{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 0 20px 0 rgb(36, 60, 116);
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 13px;
+    text-align: center;
+}
+.whatwedoGalDiv h1{
+    color: rgb(255, 194, 81);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 19px;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.whatwedoGalDiv img{
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin:  20px auto;
+    object-fit: cover;
+}
+.whatwedoGalDiv:hover{
+    color: white;
+    background-color: rgb(36, 60, 116);
+    box-shadow: 0 0 20px 0 rgb(36, 60, 116);
+    transform: scale(1.1);
+}
+/* EXECTUED PROJECTS */
+.executedProjects h2{
+    font-family: "Anton", sans-serif;
+    font-weight: 50;
+    font-size: 30px;
+    color: rgb(36, 60, 116);
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+.executedProjects{
+    margin: auto;
+    padding: 30px;
+    width: 100vw;
+    height: fit-content;
+}
+.executedProjectsGallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    background-color: transparent;
+}
+.epGalleryDiv{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    text-align: center;
+}
+.epGalleryDiv video{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
 
 
 
 
+319px - 480px - - - - Mobile Devices
 
+481px - 1200px - - - - IPads & Tablets
 
+1201px - 1600px - - - - Laptops
 
+1601px - - - - Desktop & Wider Screens
 
 
 
