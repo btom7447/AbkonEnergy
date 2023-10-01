@@ -1,3 +1,58 @@
+.button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 1.8rem;
+    display: block;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(36, 60, 116);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    margin: 10px auto;
+}
+footer .button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 1.5rem;
+    display: block;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    color:  rgb(36, 60, 116);
+    border: none;
+    cursor: pointer;
+    margin: 10px auto;
+}
+.button:hover{
+    background-color: rgb(255, 194, 81);
+    color: rgb(36, 60, 116);
+    font-weight: 700;
+}
+    /* NAVIGATION BAR */
+header{
+    z-index: 50;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 10%;
+    background-color: rgb(36, 60, 116);
+    box-shadow: 0 0 30px rgb(36, 60, 116);
+}
+.logo{
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 60px;
+}
 .navLinks li{
     list-style: none;
     display: inline-block;
@@ -71,324 +126,264 @@
     color: rgb(36, 60, 116);
     background-color: rgb(255, 194, 81);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-.button{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    font-size: 1.3rem;
+/* HAMBURGER */
+#navbar.show-navbar {
     display: block;
-    padding: 20px;
-    width: fit-content;
-    height: fit-content;
-    background-color: rgb(36, 60, 116);
-    color: rgb(255, 255, 255);
-    border: none;
+}
+.hamburgerButton {
     cursor: pointer;
-    margin: 10px auto;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    display: none; 
+    flex-direction: column;
+    justify-content: space-between;
 }
-footer .button{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    font-size: 1rem;
-    display: block;
-    padding: 20px;
-    width: fit-content;
-    height: fit-content;
-    background-color: rgb(255, 255, 255);
-    color:  rgb(36, 60, 116);
-    border: none;
-    cursor: pointer;
-    margin: 10px auto;
+.bar{
+    width: 20px;
+    height: 4px;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    background-color: white;
 }
-.button:hover{
-    background-color: rgb(255, 194, 81);
-    color: rgb(36, 60, 116);
-    font-weight: 700;
-}
+/* BODY */
+/* PADDING */
 .pad{
     width: 100vw;
     height: 40vh;
     margin-top: 5vh;
 }
 .padding h1{
-    margin: -20vh 0 7vh 0;
+    margin: -18vh 0 8vh 0;
     font-weight: 200;
-    font-size: 5rem;
+    font-size: 8rem;
     text-align: center;
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: "lobster two", sans-serif;
 }
-/* CAROUSEL */
-.carousel{
-    width: 100vw;
+/* LOOPED SECTION */
+.loopedSection{
+    margin: auto;
+    width: fit-content;
     height: fit-content;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
 }
-.carouselGallery{ 
+.loopedSectionOne video{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    padding: 30px 20px;
+}
+.loopedSectionTwo h1{
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-weight: 50;
+    font-size: 30px;
+    padding: 5px;
+    color: rgb(36, 60, 116);
+    margin-bottom: 30px;
+}
+.bold{
+    color: rgb(255, 194, 81);
+}
+.loopedSectionTwo{
+    width: 50%;
+    height: 500px;
+    padding: 20px;
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 15px;
+}
+.loopedText{
+    width: 100%;
+    height: 50%;
+}
+/* GOALS */
+.goals{
+    margin: 0 0 50px 0;
+}
+.goalsDiv>h1{
+    font-family: "cinzel decorative", sans-serif;
+    font-weight: 50;
+    font-size: 40px;
+    color: rgb(255, 194, 81);
+    text-align: center;
+}
+.goalsDiv{
+    width: 70vw;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 15px;
+}
+.goalsDiv h2{
+    font-family: "Anton", sans-serif;
+    font-weight: 50;
+    font-size: 25px;
+    color: rgb(36, 60, 116);
+    text-align: center;
+}
+/* OUR PARTNERS */
+.ourPartners{
+    margin: 0 0 50px 0;
+}
+.ourPartnersDiv{
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+    margin: auto;
+    
+}
+.ourPartnersDiv>h1{
+    font-family: "cinzel decorative", sans-serif;
+    font-weight: 50;
+    font-size: 40px;
+    color: rgb(255, 194, 81);
+    text-align: center;
+}
+.partners{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+.partners>img{
+    width: 180px;
+    height: 180px;
+    margin: 2px 0 0 20px;
+    padding: 10px;
+    border: solid 2px rgb(36, 60, 116);
+}
+.partners>img:hover{
+    transform: scale(1.1);
+    transition: 0.8s all ease;
+    box-shadow: 0 0 20px rgb(36, 60, 116);
+    border: none;
+}
+/* SKILL CAROUSEL */
+.skillCarouselContainer{
     scroll-behavior: smooth;
     overflow: auto;
     white-space: nowrap;
-    width: 100vw;
-    height: 40vh;
-    padding: 1.5rem;
-    margin-top: 3rem;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 50px;
     background-color: rgba(36, 60, 116, 0.2);
 }
-.carouselGallery>img{
-    cursor: pointer;
-    width: 60%;
-    height: 100%;
+.skillCarouselContainer img{
+    width: 90%;
+    height: 300px;
     object-fit: cover;
+    padding: 0px;
     margin: auto;
 }
-.introText{
-    position: absolute;
-    top: 54vh;
-    left: 5vw;
-    width: 35%;
+/* WHY CHOOSE US */
+.whyChooseUs{
+    width: 80vw;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    line-height: 2.5;
+    font-weight: 300;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 15px;
+}
+.whyChooseUs>h1{
+    font-family: "cinzel decorative", sans-serif;
+    font-weight: 50;
+    font-size: 40px;
+    color: rgb(255, 194, 81);
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+.WhyUsGallery{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    height: fit-content;
+    border: 2px solid rgb(36, 60, 116);
+}
+.wuGalleryDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    height: fit-content;
     padding: 10px;
 }
-.introText>h1{
-    font-family: "Cinzel Decorative", 'sans-serif';
-    font-weight: 900;
-    font-size: 3rem;
-    letter-spacing: 5px;
-    color: rgb(255, 194, 81);
-    width: fit-content;
-}
-.introText>p{
-    font-family: "Lobster two", 'anton';
-    font-weight: 200;
-    text-align: left;
-    font-size: 1.5rem;
-    color:rgb(255, 194, 81);
-}
-/* OVERVIEW */
-.overview{
-    width: 98vw;
-    height: fit-content;
-    padding: 2rem;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.reverse{
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
-    background-color: rgb(255, 255, 255);
 }
-.overviewDiv{ 
-    height: 17rem;
-    width: 17rem;
-    padding: 1rem;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 20px 0 rgb(36, 60, 116);
+.textDiv{
+    padding: 40px;
+    width: 500px;
+    height: fit-content;
+    margin: auto;
     /* text edit */
     color: rgb(36, 60, 116);
     font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    font-size: 1rem;
-    text-align: center;
-}
-.overviewDiv:hover{
-    background-color: rgb(36, 60, 116);
-    color: rgb(255, 255, 255);
-    font-family: "Montserrat", sans-serif;
-    transform: scale(1.1);
-}
-.overviewDiv>img{
-    width: 30%;
-    height: 30%;
-    object-fit: cover;
-    display: block;
-    margin: 10px auto;
-}
-.overviewDiv>h1{
-    color: rgb(255, 194, 81);
-    font-family: "Montserrat", sans-serif;
-    font-weight: 800;
-    font-size: 1.3rem;
-    text-align: center;
-}
-/* WHO WE ARE */
-.whoWeAre{
-    margin: 20px auto;
-    padding: 1rem;
-    width: 98vw;
-    height: fit-content;
-}
-.whoWeAre h2{
-    font-family: "Anton", sans-serif;
-    font-size: 3rem;
-    color: rgb(36, 60, 116);
-    text-align: center;
-    margin: -5vh 0 2vh 0;
-}
-.whoweareGallery{ 
-    width: fit-content;
-    height: fit-content;
-    padding: 1.5rem;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0rem;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 20px 0 rgb(36, 60, 116);
-}
-.whoweareGalleryOne{
-    width: 50%;
-    height: 40vh;
-}
-.whoweareGalleryOne img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.whoweareGalleryTwo{
-    width: 50%;
-    height: fit-content;
-    padding: 2rem;
-}
-.wwagTwoOne h2{
-    text-align: center;
-    font-family: "Anton", sans-serif;
-    font-size: 2rem;
-    margin-top: 0.5rem;
-    color: rgb(36, 60, 116);
-}
-.bold{
-    color: rgb(255, 194, 81)
-}
-.wwagTwoOne p{
+    font-weight: 300;
     text-align: justify;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.3rem;
-    color: rgb(36, 60, 116);
-    margin-bottom: 3rem;
+    text-indent: 20px;
+    font-size: 15px;
+    line-height: 1.2;
 }
-/* WHAT WE DO*/
-.padText{
+.textDiv>h2{
     font-family: "Anton", sans-serif;
-    font-size: 3rem;
+    font-weight: 50;
+    font-size: 30px;
     color: rgb(36, 60, 116);
     text-align: center;
-    margin: -2vh 0 2vh 0;
-}
-.whatWeDo{
-    height: fit-content;
-    width: 98vw;
-    padding: 2rem 0rem;
-    background-image: url(images/solar\ panel.jpg);
-    background-position: 40%;
-}
-.whatwedoGallery{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     margin: auto;
-    padding: 0rem;
-    gap: 2.5rem;
-    width: 100%;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+.pictureDiv{
     height: fit-content;
+    width: fit-content;
+    padding: 10px;
 }
-.whatwedoGalDiv{
-    height: 17rem;
-    width: 17rem;
-    padding: 1rem;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 20px 0 rgb(36, 60, 116);
-    /* text edit */
-    color: rgb(36, 60, 116);
-    font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    font-size: 1rem;
-    text-align: center;
-}
-.whatwedoGalDiv:hover{
-    color: white;
-    background-color: rgb(36, 60, 116);
-    box-shadow: 0 0 20px 0 rgb(36, 60, 116);
-    transform: scale(1.1);
-}
-.whatwedoGalDiv h1{
-    color: rgb(255, 194, 81);
-    font-family: "Montserrat", sans-serif;
-    font-weight: 800;
-    font-size: 1.2rem;
-    text-align: center;
-}
-.whatwedoGalDiv img{
-    width: 30%;
-    height: 30%;
+.pictureDiv{
+    padding: 50px 10px;
+    width: 600px;
+    height: 400px;
     object-fit: cover;
-    margin: 20px auto;
-    display: block;
 }
-/* EXECTUED PROJECTS */
-.executedProjects h2{
-    font-family: "Anton", sans-serif;
-    font-size: 3rem;
-    color: rgb(36, 60, 116);
-    text-align: center;
-    margin: auto;
-}
-.executedProjects{
-    width: 98vw;
-    height: fit-content;
-    padding: 3rem 0rem;
-    margin: auto;
-    margin-bottom: 5vh;
-    background-color: rgb(255, 255, 255);
-}
-.executedProjectsGallery{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: auto;
-    gap: 2rem;
-    padding: 0rem;
-    width: 100%;
-    height: fit-content;
-}
-.epGalleryDiv{
-    height: 20rem;
-    width: 18rem;
-    padding: 1rem;
-    /* text edit */
-    color: rgb(36, 60, 116);
-    font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    font-size: 1rem;
-    text-align: center;
-}
-.epGalleryDiv video{
-    width: 100%;
-    height: 10rem;
+.pictureDiv>img{
+    height: 300px;
+    width: 95%;
     object-fit: cover;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-    margin-bottom: 0.5rem;
 }
-
 
 319px - 480px - - - - Mobile Devices
 
@@ -398,148 +393,242 @@ footer .button{
 
 1601px - - - - Desktop & Wider Screens
 
-
-
-/* MEDIA QUERY */
-/* 576PX HAMBURGER TOGGLE ON */
-@media (max-width: 576px) {
-
-
-
+/* BODY */
+/* PADDING */
+.pad{
+    width: 100vw;
+    height: 40vh;
+    margin-top: 5vh;
 }
-/* 577PX - 767PX - HAMBURGER TOGGLE ON */
-@media (min-width: 577px) and (max-width: 767px) { 
+.padding h1{
+    margin: -18vh 0 8vh 0;
+    font-weight: 200;
+    font-size: 8rem;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "lobster two", sans-serif;
+}
+/* LOOPED SECTION */
+.loopedSection{
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+}
+.loopedSectionOne video{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    padding: 30px 20px;
+}
+.loopedSectionTwo h1{
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-weight: 50;
+    font-size: 30px;
+    padding: 5px;
+    color: rgb(36, 60, 116);
+    margin-bottom: 30px;
+}
+.bold{
+    color: rgb(255, 194, 81);
+}
+.loopedSectionTwo{
+    width: 50%;
+    height: 500px;
+    padding: 20px;
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 15px;
+}
+.loopedText{
+    width: 100%;
+    height: 50%;
+}
+/* GOALS */
+.goals{
+    margin: 0 0 50px 0;
+}
+.goalsDiv>h1{
+    font-family: "cinzel decorative", sans-serif;
+    font-weight: 50;
+    font-size: 40px;
+    color: rgb(255, 194, 81);
+    text-align: center;
+}
+.goalsDiv{
+    width: 70vw;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 15px;
+}
+.goalsDiv h2{
+    font-family: "Anton", sans-serif;
+    font-weight: 50;
+    font-size: 25px;
+    color: rgb(36, 60, 116);
+    text-align: center;
+}
+/* OUR PARTNERS */
+.ourPartners{
+    margin: 0 0 50px 0;
+}
+.ourPartnersDiv{
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+    margin: auto;
     
-    
 }
-/* 767PX - 992PX - HAMBURGER TOGGLE ON */
-@media (min-width: 767px) and (max-width: 992px) {
-    
-    
+.ourPartnersDiv>h1{
+    font-family: "cinzel decorative", sans-serif;
+    font-weight: 50;
+    font-size: 40px;
+    color: rgb(255, 194, 81);
+    text-align: center;
 }
-    /* HAMBURGER TOGGLE */
-@media (max-width: 893px) {
-    /* HAMBURGER */
-    .hamburgerMenu {
-        z-index: 50;
-        display: block; 
-        top: 0;
-        left: 0;
-        position: fixed;
-        padding: 20px;
-        height: 60px;
-        width: 100vw;
-        background-color: rgb(36, 60, 116);
-        box-shadow: 0 0 10px rgb(3, 3, 3);
-    }
-    .hamburgerMenu.active + header {
-        display: none;
-    }
-    .bar {
-        margin-bottom: 5px;
-        width: 20px;
-        height: 4px;
-        background-color: white;
-        border-radius: 2px;
-    }
-    /* NAVBAR */
-    header{
-        display: none;
-        width: 100vw;
-        height: fit-content;
-        display: flex;
-        flex-direction: column;
-        position: fixed;
-        top: 50px;
-        left: 0;
-        padding: 20px;
-    }
-    .logo{ 
-        width: 80px;
-        height: 80px;
-        object-fit: cover;
-        background-color: white;
-        border-radius: 50%;
-        margin: auto;
-    }
-    nav{
-        margin: auto;
-        margin-top: 5px;
-        display: block;
-    }
-    .navLinks li{
-        list-style: none;
-        display: block;
-    }
-    .navLinks li a{
-        
-        width: 100%;
-        display: block;
-    }
-    /* DROPDOWN */
-    .serviceDropdown{
-        display: block;
-        position: relative;
-    }
-    .serviceOptions{
-        width: 200px;
-        margin: -5px 0 0 0;
-    }
-    .contactUs{
-        margin-top: 10px;
-    }
+.partners{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
 }
-/* 890PX - 1024PX - FOOTER COLUMN */
-@media (max-width: 892px) { 
-    footer{
-        margin: auto;
-        flex-direction: row;
-        align-items: center;
-        width: 100vw;
-    }
-    .footerOne{
-        width: 45%;
-        height: fit-content;
-        padding: 10px;
-        margin: auto;
-    }
-    .footerOneDiv{
-        width: 100%;
-        height: fit-content;
-    }
-    .socials{
-        justify-content: left;
-        align-items: flex-start;
-        width: 30%;
-        padding: 10px;
-        margin: inherit;
-    }
-    .socialsDiv img{
-        width: 30px;
-        height: 30px;
-        margin: 0 0 0 10px;
-    }
-    .socialsDiv img:hover{
-        transform: none;
-    }
-    .footerTwo{
-        width: 40%;
-        height: fit-content;
-        margin: auto;
-    }
-    .footerTwoDiv p{
-        margin-bottom: 10px;
-    }
-    .footerThree{
-        margin: auto;
-        width: 40%;
-        height: fit-content;
-        padding: 0px;
-    }
-    .footerFour{
-        margin: auto;
-        width: 40%;
-        height: fit-content;
-        padding: 10px;
-    }
+.partners>img{
+    width: 180px;
+    height: 180px;
+    margin: 2px 0 0 20px;
+    padding: 10px;
+    border: solid 2px rgb(36, 60, 116);
 }
+.partners>img:hover{
+    transform: scale(1.1);
+    transition: 0.8s all ease;
+    box-shadow: 0 0 20px rgb(36, 60, 116);
+    border: none;
+}
+/* SKILL CAROUSEL */
+.skillCarouselContainer{
+    scroll-behavior: smooth;
+    overflow: auto;
+    white-space: nowrap;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: rgba(36, 60, 116, 0.2);
+}
+.skillCarouselContainer img{
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+    padding: 0px;
+    margin: auto;
+}
+/* WHY CHOOSE US */
+.whyChooseUs{
+    width: 80vw;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    line-height: 2.5;
+    font-weight: 300;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 15px;
+}
+.whyChooseUs>h1{
+    font-family: "cinzel decorative", sans-serif;
+    font-weight: 50;
+    font-size: 40px;
+    color: rgb(255, 194, 81);
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+.WhyUsGallery{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    height: fit-content;
+    border: 2px solid rgb(36, 60, 116);
+}
+.wuGalleryDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+}
+.reverse{
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.textDiv{
+    padding: 40px;
+    width: 500px;
+    height: fit-content;
+    margin: auto;
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 15px;
+    line-height: 1.2;
+}
+.textDiv>h2{
+    font-family: "Anton", sans-serif;
+    font-weight: 50;
+    font-size: 30px;
+    color: rgb(36, 60, 116);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+.pictureDiv{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+}
+.pictureDiv{
+    padding: 50px 10px;
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+.pictureDiv>img{
+    height: 300px;
+    width: 95%;
+    object-fit: cover;
+}
+

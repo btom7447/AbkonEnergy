@@ -11,6 +11,25 @@ a{
     cursor: pointer;
     text-decoration: none;
 }
+footer .button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    color:  rgb(36, 60, 116);
+    border: none;
+    cursor: pointer;
+    margin: 10px auto;
+}
+.button:hover{
+    background-color: rgb(255, 194, 81);
+    color: rgb(36, 60, 116);
+    font-weight: 700;
+}
     /* NAVIGATION BAR */
 header{
     z-index: 50;
@@ -21,13 +40,13 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px 10%;
+    padding: 2rem 10%;
     background-color: rgb(36, 60, 116);
     box-shadow: 0 0 30px rgb(36, 60, 116);
 }
 .logo{
-    width: 80px;
-    height: 80px;
+    width: 8rem;
+    height: 8rem;
     object-fit: cover;
     background-color: white;
     border-radius: 50%;
@@ -38,12 +57,12 @@ header{
     display: inline-block;
 }
 .navLinks li>a{
-    padding: 10px;
-    margin-right: 20px;
+    padding: 15px;
+    margin-right: 25px;
     /* textEdit */
     color: white;
     font-weight: 50;
-    font-size: 14px;
+    font-size: 25px;
     font-family: "Montserrat", sans-serif;
 }
 .navLinks li>a:hover{
@@ -60,22 +79,22 @@ header{
     display: none;
     position: absolute;
     overflow: auto;
-    padding: 10px;
+    padding: 15px;
     margin: 10px 5px;
-    width: 300px;
+    width: 400px;
     margin: 11px 0 0 0;
     background-color:rgb(36, 60, 116);
     box-shadow: 0 0 20px rgb(36, 60, 116);
 }
 .serviceOptions a{
     width: 100%;
-    padding: 10px 20px;
+    padding: 15px 20px;
     margin-bottom: 8px;
     display: inline-block;
     /* textEdit */
     color: white;
     font-weight: 200;
-    font-size: 14px;
+    font-size: 20px;
     font-family: "Montserrat", sans-serif;
 }
 .serviceOptions a:hover{
@@ -88,15 +107,15 @@ header{
 }
 .contactUs{
     display: block;
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 80px;
     border: none;
     padding: auto;
     margin: auto;
     background-color: white;
     /* textEdit */
     font-weight: 200;
-    font-size: 14px;
+    font-size: 25px;
     text-decoration: none;
     color: rgb(36, 60, 116);
     font-family: "Montserrat", sans-serif;
@@ -126,314 +145,81 @@ header{
     margin-bottom: 2px;
     background-color: white;
 }
-/* BODY  */
-/* PADDING */
-.padding h1{
-    margin: -200px 0 180px 0;
-    font-weight: 200;
-    font-size: 70px;
-    text-align: center;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: "lobster two", sans-serif;
-}
-.pad{
-    width: 100%;
-    height: 50vh;
-    object-fit: cover;
-    background-position-y: 150%;
-    margin-top: 8vh;
-}
-/* LOOPED SECTION */
-.loopedSection{
-    margin: auto;
-    width: fit-content;
-    height: fit-content;
-    padding: 30px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    gap: 30px;
-}
-.loopedSectionOne video{
-    width: 450px;
-    height: 450px;
-    object-fit: cover;
-    padding: 30px 20px;
-}
-.loopedSectionTwo h1{
-    text-align: center;
-    font-family: "Anton", sans-serif;
-    font-weight: 50;
-    font-size: 30px;
-    padding: 5px;
-    color: rgb(36, 60, 116);
-    margin-bottom: 30px;
-}
-.bold{
-    color: rgb(255, 194, 81);
-}
-.loopedSectionTwo{
-    width: 50%;
-    height: 500px;
-    padding: 20px;
-    /* text edit */
-    color: rgb(36, 60, 116);
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    text-align: center;
-    font-size: 15px;
-}
-.loopedText{
-    width: 100%;
-    height: 50%;
-}
-/* GOALS */
-.goals{
-    margin: 0 0 50px 0;
-}
-.goalsDiv>h1{
-    font-family: "cinzel decorative", sans-serif;
-    font-weight: 50;
-    font-size: 40px;
-    color: rgb(255, 194, 81);
-    text-align: center;
-}
-.goalsDiv{
-    width: 70vw;
-    height: fit-content;
-    margin: auto;
-    margin-bottom: 10px;
-    /* text edit */
-    color: rgb(36, 60, 116);
-    font-family: "Montserrat", sans-serif;
-    line-height: 1.5;
-    text-align: justify;
-    text-indent: 20px;
-    font-size: 15px;
-}
-.goalsDiv h2{
-    font-family: "Anton", sans-serif;
-    font-weight: 50;
-    font-size: 25px;
-    color: rgb(36, 60, 116);
-    text-align: center;
-}
-/* OUR PARTNERS */
-.ourPartners{
-    margin: 0 0 50px 0;
-}
-.ourPartnersDiv{
-    width: fit-content;
-    height: fit-content;
-    padding: 30px;
-    margin: auto;
-    
-}
-.ourPartnersDiv>h1{
-    font-family: "cinzel decorative", sans-serif;
-    font-weight: 50;
-    font-size: 40px;
-    color: rgb(255, 194, 81);
-    text-align: center;
-}
-.partners{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 0px;
-}
-.partners>img{
-    width: 180px;
-    height: 180px;
-    margin: 2px 0 0 20px;
-    padding: 10px;
-    border: solid 2px rgb(36, 60, 116);
-}
-.partners>img:hover{
-    transform: scale(1.1);
-    transition: 0.8s all ease;
-    box-shadow: 0 0 20px rgb(36, 60, 116);
-    border: none;
-}
-/* SKILL CAROUSEL */
-.skillCarouselContainer{
-    scroll-behavior: smooth;
-    overflow: auto;
-    white-space: nowrap;
-    width: 100%;
-    padding: 20px;
-    margin-bottom: 50px;
-    background-color: rgba(36, 60, 116, 0.2);
-}
-.skillCarouselContainer img{
-    width: 90%;
-    height: 300px;
-    object-fit: cover;
-    padding: 0px;
-    margin: auto;
-}
-/* WHY CHOOSE US */
-.whyChooseUs{
-    width: 80vw;
-    height: fit-content;
-    margin: auto;
-    margin-bottom: 10px;
-    /* text edit */
-    color: rgb(36, 60, 116);
-    font-family: "Montserrat", sans-serif;
-    line-height: 2.5;
-    font-weight: 300;
-    text-align: justify;
-    text-indent: 20px;
-    font-size: 15px;
-}
-.whyChooseUs>h1{
-    font-family: "cinzel decorative", sans-serif;
-    font-weight: 50;
-    font-size: 40px;
-    color: rgb(255, 194, 81);
-    text-align: center;
-    margin: 0 0 15px 0;
-}
-.WhyUsGallery{
-    margin: 50px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-    width: 100%;
-    height: fit-content;
-    border: 2px solid rgb(36, 60, 116);
-}
-.wuGalleryDiv{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    width: 100%;
-    height: fit-content;
-    padding: 10px;
-}
-.reverse{
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-}
-.textDiv{
-    padding: 40px;
-    width: 500px;
-    height: fit-content;
-    margin: auto;
-    /* text edit */
-    color: rgb(36, 60, 116);
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    text-align: justify;
-    text-indent: 20px;
-    font-size: 15px;
-    line-height: 1.2;
-}
-.textDiv>h2{
-    font-family: "Anton", sans-serif;
-    font-weight: 50;
-    font-size: 30px;
-    color: rgb(36, 60, 116);
-    text-align: center;
-    margin: auto;
-    margin-bottom: 20px;
-    width: fit-content;
-}
-.pictureDiv{
-    height: fit-content;
-    width: fit-content;
-    padding: 10px;
-}
-.pictureDiv{
-    padding: 50px 10px;
-    width: 600px;
-    height: 400px;
-    object-fit: cover;
-}
-.pictureDiv>img{
-    height: 300px;
-    width: 95%;
-    object-fit: cover;
-}
+
+
+
+
+
+
+
+
 /* FOOTER */
 footer{
     margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
     height: fit-content;
-    width: 100%;
-    padding: 10px;
+    width: 100vw;
+    padding: 1.5rem;
     background-color: rgb(36, 60, 116);
     box-shadow: 0 0 30px rgb(36, 60, 116);
 }
 .footerOne{
     width: 20%;
+    padding: 1rem;
     height: fit-content;
-    padding: 0;
     margin: auto;
 }
 .footerOneDiv{
     width: 100%;
+    height: fit-con tent;
+    padding: 1px;
+}
+.contactText {
+    display: inline-block;
+    width: 60%;
     height: fit-content;
+    color: white;
+    font-family: Montserrat;
+    font-size: 0.7rem;
 }
 .contactImages{
-    margin-bottom: 40px;
-    width: 100%;
+    display: inline-block;
+    width: fit-content;
     height: fit-content;
 }
 .contactImages img{
-    width: 30px;
-    height: 30px;
+    width: 1.5rem;
+    height: 1.5rem;
     object-fit: cover;
-}
-.contactText{
-    color: white;
-    font-family: Montserrat;
-    font-size: 13px;
-    margin: -70px 0 10px 40px;
-    width: fit-content;
 }
 .socials{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 80%;
+    width: fit-content;
     height: fit-content;
-    margin: 20px auto;
+    padding: 0.5rem;
 }
 .socialsDiv{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
     margin: auto;
-    width: 100%;
+    margin-right: 20px;
+    width: 2rem;
+    height: 2rem;
 }
 .socialsDiv img{
-    width: 40px;
-    height: 40px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    margin: 0 0 0 10px;
 }
 .socialsDiv img:hover{
     transform: translateY(10px);
 }
 .footerTwo{
-    width: 30%;
+    width: 20%;
+    padding: 1rem;
     height: fit-content;
     margin: auto;
 }
@@ -444,40 +230,32 @@ footer{
     font-family: Montserrat;
     text-align: justify;
     text-indent: 15px;
-    font-size: 12px;
-    font-weight: 70;
+    font-size: 0.7rem;
     color: white;
 }
-.footerTwoDiv p{
-    margin-bottom: 10px;
-}
 .f-title {
-    font-size: 19px;
+    font-size: 0.9rem;
     font-family: "Cinzel Decorative";
     color: rgb(255, 194, 81);
-    margin-bottom: 30px;
+    margin-bottom: 0.5rem;
     text-align: center;
 }
 .footerThree{
     margin: auto;
-    width: 20%;
+    width: 17%;
     height: fit-content;
-    padding: 10px;
+    padding: 0.5rem;
 }
 .footerThreeDiv{
     margin: auto;
-    padding: 10px;
     height: fit-content;
     width: fit-content;
 }
 footer li>a{
     text-decoration: none;
     font-family: Montserrat;
-    font-size: 15px;
+    font-size: 0.7rem;
     color: white;
-    font-weight: 100;
-    margin-bottom: 7px;
-    list-style-type:square;
 }
 footer li>a:hover{
     color: rgb(255, 194, 81);
@@ -486,147 +264,204 @@ footer li{
     list-style-type:square;
     color: white;
     font-family: Montserrat;
-    font-size: 15px;
-    font-weight: 100;
-    margin-bottom: 18px;
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
 }
 .footerFour{
     margin: auto;
-    width: 20%;
+    width: 17%;
     height: fit-content;
-    padding: 10px;
 }
 .footerFourDiv{
     margin: auto;
-    padding: 10px;
     height: fit-content;
     width: fit-content;
 }
 /* MEDIA QUERY */
-/* 576PX HAMBURGER TOGGLE ON */
-@media (max-width: 576px) {
+/*319px - 480px - MOBILE DEVICES*/
+@media (min-width: 319px) and (max-width: 480px) {
+    footer .button{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        font-size: 0.5rem;
+        display: block;
+        padding: 0.5rem 1rem;
+        width: fit-content;
+        height: fit-content;
+        background-color: rgb(255, 255, 255);
+        color:  rgb(36, 60, 116);
+        border: none;
+        cursor: pointer;
+        margin: 10px auto;
+    }
+    .button:hover{
+        background-color: rgb(255, 194, 81);
+        color: rgb(36, 60, 116);
+        font-weight: 700;
+    }
+    /* PADDING */
+    .pad{
+        width: 100vw;
+        height: 30vh;
+        margin-top: 5vh;
+    }
+    .padding h1{
+        margin: -15vh 0 7vh 0;
+        font-weight: 200;
+        font-size: 3rem;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: "lobster two", sans-serif;
+    }
     /* LOOPED SECTION */
-    .loopedSection{ 
+    .loopedSection{
         margin: auto;
         width: 100vw;
         height: fit-content;
-        padding: 10px;
-        gap: 0px;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
     }
     .loopedSectionOne{
-        width: 45vw;
-        height: 35vh;
-        padding: 0px;
+        width: 65%;
+        height: 30vh;
         margin: auto;
     }
     .loopedSectionOne video{
         width: 100%;
         height: 100%;
         object-fit: cover;
-    }
-    .loopedSectionTwo h1{
-        font-size: 20px;
-        padding: 0px;
-        margin: 10px auto;
+
     }
     .loopedSectionTwo{
-        width: 45vw;
+        width: 100%;
         height: fit-content;
-        padding: 0px;
+        padding: 1rem;
         /* text edit */
         color: rgb(36, 60, 116);
         font-family: "Montserrat", sans-serif;
         font-weight: 300;
         text-align: center;
-        font-size: 10px;
+        font-size: 0.8rem;
     }
-    /* .loopedText{
-        width: 100%;
-        height: 50%;
-        /* background-color: red; */
-
+    .loopedSectionTwo h1{
+        text-align: center;
+        font-family: "Anton", sans-serif;
+        font-size: 1.5rem;
+        color: rgb(36, 60, 116);
+        margin-top: 0.5rem;
+    }
+    .bold{
+        color: rgb(255, 194, 81);
+    }
     /* GOALS */
     .goals{
-        margin: auto;
-    }
-    .goalsDiv>h1{
-        font-size: 25px;
-    }
-    .goalsDiv{
-        width: 80vw;
-        margin-bottom: 10px;
-        /* text edit */
-        line-height: 1.5;
-        font-size: 12px;
-    }
-    .goalsDiv h2{
-        font-size: 20px;
-    }
-    /* OUR PARTNERS */
-    .ourPartners{ 
-    margin: auto;
-    }
-    .ourPartnersDiv{
         width: 100vw;
         height: fit-content;
-        padding: 10px;
-        margin: auto;
+        padding: 1rem;
     }
-    .ourPartnersDiv>h1{
-        font-size: 25px;
+    .goalsDiv{
+        width: 90%;
+        height: fit-content;
+        margin: auto;
+        /* text edit */
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.5;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 0.8rem;
+    }
+    .goalsDiv>h1{
+        font-family: "cinzel decorative", sans-serif;
+        font-size: 2rem;
+        color: rgb(255, 194, 81);
+        text-align: center;
+    }
+    .goalsDiv h2{
+        font-family: "Anton", sans-serif;
+        font-size: 1.5rem;
+        color: rgb(36, 60, 116);
+        text-align: center;
+    }
+    /* OUR PARTNERS */
+    .ourPartners{
+        width: 100vw;
+        height: fit-content;
+        padding: 1rem;
+    }
+    .ourPartners h1{
+        font-family: "cinzel decorative", sans-serif;
+        font-size: 2rem;
+        color: rgb(255, 194, 81);
+        text-align: center;
     }
     .partners{
-        width: 80%;
+        width: 100%;
         height: fit-content;
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-evenly;
-        margin: auto;
-        padding: 10px;
+        justify-content: center;
+        gap: 0.5rem;
     }
-    .partners>img{
-        width: 70px;
-        height: 70px;
-        margin: 2px 0 0 20px;
-        padding: 10px;
-        
-    }
-    .partners>img:hover{
-        transform: none;
-        box-shadow: none;
+    .partners img{
+        width: 5rem;
+        height: 5rem;
         border: solid 2px rgb(36, 60, 116);
+    }
+    .partners img:hover{
+        transform: none;
+        transition: 0.8s all ease;
     }
     /* SKILL CAROUSEL */
     .skillCarouselContainer{
+        scroll-behavior: smooth;
+        overflow: auto;
+        white-space: nowrap;
         width: 100vw;
         height: fit-content;
-        padding: 10px;
-        margin-bottom: 20px;
+        padding: 0.5rem;
+        background-color: rgba(36, 60, 116, 0.2);
     }
     .skillCarouselContainer img{
         width: 60%;
-        height: 200px;
+        height: 20vh;
         object-fit: cover;
+        padding: 0px;
+        margin: auto;
     }
     /* WHY CHOOSE US */
     .whyChooseUs{
-        width: 80vw;
+        display: block;
+        padding: 1rem;
+        width: 100vw;
         height: fit-content;
-        margin-bottom: 10px;
-        line-height: 1.5;
-        font-size: 12px;
         margin: auto;
+        margin-bottom: 10vh;
+        /* text edit */
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.5;
+        font-weight: 300;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 0.8rem;
     }
     .whyChooseUs>h1{
-        font-size: 25px;
-        margin: auto;
+        font-family: "cinzel decorative", sans-serif;
+        font-size: 2rem;
+        color: rgb(255, 194, 81);
+        text-align: center;
     }
     .WhyUsGallery{
-        margin: 10px auto;
-        width: 85vw;
+        width: 100%;
         height: fit-content;
-        padding: 10px;
+        margin: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -634,65 +469,98 @@ footer li{
         border: 2px solid rgb(36, 60, 116);
     }
     .wuGalleryDiv{
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 0px;
         width: 100%;
         height: fit-content;
-        margin: auto;
-        padding: 10px;
-    }
-    .reverse{
-        flex-direction: row-reverse;
-        justify-content: center;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
         align-items: center;
+        justify-content: center;
+        gap: 0rem;
     }
     .textDiv{
-        padding: 0px;
-        width: 80vw;
+        width: 100%;
         height: fit-content;
         margin: auto;
-        font-size: 12px;
-        line-height: 1.5;
+        /* text edit */
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 300;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 0.8rem;
     }
-    .textDiv>h2{
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
-    .pictureDiv {
-        
-        width: 80vw;
-        height: fit-content;
-        padding: 0px;
+    .textDiv h2{
+        font-family: "Anton", sans-serif;
+        font-weight: 50;
+        font-size: 30px;
+        color: rgb(36, 60, 116);
+        text-align: center;
         margin: auto;
-        object-fit: cover;
+    }
+    .pictureDiv{
+        width: 100%;
+        height: 20vh;
     }
     .pictureDiv img{
-        display: block;
-        width: 100%;
-        height: 200px;
+       width: 100%;
+       height: 100%;
         object-fit: cover;
-        padding: 0;
+        display: block;
         margin: auto;
     }
 }
-    /* 577PX - 767PX - HAMBURGER TOGGLE ON */
-@media (min-width: 577px) and (max-width: 767px) { 
-    /* LOOPED SECTION */
-    .loopedSection{ 
+/* 481PX - 1200PX - IPADS & TABETS */
+@media (min-width: 481px) and (max-width: 1200px) {
+    footer .button{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        font-size: 1rem;
+        display: block;
+        padding: 0.5rem 1rem;
+        width: fit-content;
+        height: fit-content;
+        background-color: rgb(255, 255, 255);
+        color:  rgb(36, 60, 116);
+        border: none;
+        cursor: pointer;
         margin: 10px auto;
+    }
+    .button:hover{
+        background-color: rgb(255, 194, 81);
+        color: rgb(36, 60, 116);
+        font-weight: 700;
+    }
+    /* PADDING */
+    .pad{
         width: 100vw;
-        height: fit-content200;
-        padding: 20px;
-        gap: 0px;
+        height: 30vh;
+        margin-top: 5vh;
+    }
+    .padding h1{
+        margin: -14vh 0 9vh 0;
+        font-weight: 200;
+        font-size: 4rem;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: "lobster two", sans-serif;
+    }
+    /* LOOPED SECTION */
+    .loopedSection{
+        margin: auto;
+        width: 100vw;
+        height: fit-content;
+        padding: 2rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
     }
     .loopedSectionOne{
-        width: 45vw;
-        height: 40vh;
-        padding: 0px;
+        width: 40%;
+        height: 25vh;
         margin: auto;
     }
     .loopedSectionOne video{
@@ -700,339 +568,294 @@ footer li{
         height: 100%;
         object-fit: cover;
     }
-    .loopedSectionTwo h1{
-        font-size: 25px;
-        padding: 0px;
-        margin: 10px auto;
-    }
     .loopedSectionTwo{
-        width: 45vw;
+        width: 60%;
         height: fit-content;
-        padding: 0px;
+        padding: 2rem;
         /* text edit */
         color: rgb(36, 60, 116);
         font-family: "Montserrat", sans-serif;
         font-weight: 300;
-        text-align: justify;
-        font-size: 15px;
+        text-align: center;
+        font-size: 1rem;
     }
-    /* .loopedText{
-        width: 100%;
-        height: 50%;
-        /* background-color: red; */
-
+    .loopedSectionTwo h1{
+        text-align: center;
+        font-family: "Anton", sans-serif;
+        font-size: 1.8rem;
+        color: rgb(36, 60, 116);
+        margin-top: 0.5rem;
+    }
+    .bold{
+        color: rgb(255, 194, 81);
+    }
     /* GOALS */
     .goals{
-        margin: auto;
-    }
-    .goalsDiv>h1{
-        font-size: 30px;
-    }
-    .goalsDiv{
-        width: 80vw;
-        margin-bottom: 10px;
-        /* text edit */
-        line-height: 1.5;
-        font-size: 15px;
-    }
-    .goalsDiv h2{
-        font-size: 25px;
-    }
-    /* OUR PARTNERS */
-    .ourPartners{ 
-    margin: auto;
-    }
-    .ourPartnersDiv{
         width: 100vw;
         height: fit-content;
-        padding: 10px;
-        margin: auto;
+        padding: 1rem;
     }
-    .ourPartnersDiv>h1{
-        font-size: 30px;
+    .goalsDiv{
+        width: 90%;
+        height: fit-content;
+        margin: auto;
+        /* text edit */
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.5;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 1rem;
+    }
+    .goalsDiv>h1{
+        font-family: "cinzel decorative", sans-serif;
+        font-size: 2.2rem;
+        color: rgb(255, 194, 81);
+        text-align: center;
+    }
+    .goalsDiv h2{
+        font-family: "Anton", sans-serif;
+        font-size: 1.8rem;
+        color: rgb(36, 60, 116);
+        text-align: center;
+    }
+    /* OUR PARTNERS */
+    .ourPartners{
+        width: 100vw;
+        height: fit-content;
+        padding: 2rem;
+    }
+    .ourPartners h1{
+        font-family: "cinzel decorative", sans-serif;
+        font-size: 2.2rem;
+        color: rgb(255, 194, 81);
+        text-align: center;
     }
     .partners{
-        width: 90%;
+        width: 100%;
         height: fit-content;
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-evenly;
-        margin: auto;
-        padding: 10px;
+        justify-content: center;
+        gap: 1rem;
     }
-    .partners>img{
-        width: 120px;
-        height: 120px;
-        margin: 2px 0 0 20px;
-        padding: 10px;
-        
-    }
-    .partners>img:hover{
-        transform: none;
-        box-shadow: none;
+    .partners img{
+        width: 10rem;
+        height: 10rem;
         border: solid 2px rgb(36, 60, 116);
+    }
+    .partners img:hover{
+        transform: none;
+        transition: 0.8s all ease;
     }
     /* SKILL CAROUSEL */
     .skillCarouselContainer{
+        scroll-behavior: smooth;
+        overflow: auto;
+        white-space: nowrap;
         width: 100vw;
         height: fit-content;
-        padding: 10px;
-        margin-bottom: 20px;
+        padding: 1rem;
+        background-color: rgba(36, 60, 116, 0.2);
     }
     .skillCarouselContainer img{
         width: 60%;
-        height: 200px;
+        height: 20vh;
         object-fit: cover;
+        padding: 0px;
+        margin: auto;
     }
     /* WHY CHOOSE US */
     .whyChooseUs{
-        width: fit-content;
+        display: block;
+        padding: 1rem;
+        width: 100vw;
         height: fit-content;
-        margin-bottom: 10px;
-        line-height: 1.5;
-        font-size: 15px;
         margin: auto;
-        padding: 10px;
+        margin-bottom: 10vh;
+        /* text edit */
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.5;
+        font-weight: 300;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 1rem;
     }
     .whyChooseUs>h1{
-        font-size: 25px;
-        margin: auto;
+        font-family: "cinzel decorative", sans-serif;
+        font-size: 2.2rem;
+        color: rgb(255, 194, 81);
+        text-align: center;
     }
     .WhyUsGallery{
-        margin: 20px auto;
-        width: 90vw;
+        width: 100%;
         height: fit-content;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border: 2px solid rgb(36, 60, 116);
-    }
-    .wuGalleryDiv{
+        margin: auto;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 0px;
+        gap: 1rem;
+        border: 2px solid rgb(36, 60, 116);
+    }
+    .wuGalleryDiv{
         width: 100%;
         height: fit-content;
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 0rem;
+    }
+    .textDiv{
+        width: 60%;
+        height: fit-content;
         margin: auto;
-        padding: 10px;
+        padding: 1rem;
+        /* text edit */
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 300;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 1rem;
+    }
+    .textDiv h2{
+        font-family: "Anton", sans-serif;
+        font-weight: 50;
+        font-size: 1.8rem;
+        color: rgb(36, 60, 116);
+        text-align: center;
+        margin: auto;
     }
     .reverse{
         flex-direction: row-reverse;
         justify-content: center;
         align-items: center;
     }
-    .textDiv{
-        padding: 5px;
-        width: 60%;
-        height: fit-content;
-        margin: auto;
-        font-size: 12px;
-        line-height: 1.5;
-    }
-    .textDiv>h2{
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
-    .pictureDiv {
+    .pictureDiv{
         width: 40%;
-        height: fit-content;
-        padding: 0px;
-        margin: auto;
-        object-fit: cover;
+        height: 18vh;
     }
     .pictureDiv img{
-        display: block;
-        width: 100%;
-        height: 200px;
+       width: 100%;
+       height: 100%;
         object-fit: cover;
-        padding: 0;
+        display: block;
         margin: auto;
     }
 }
-     /* 767PX - 992PX - HAMBURGER TOGGLE ON */
-@media (min-width: 767px) and (max-width: 992px) {
-    /* LOOPED SECTION */
-    .loopedSection{ 
-        margin: 10px auto;
-        width: 100vw;
-        height: fit-content200;
-        padding: 20px;
-        gap: 0px;
-    }
-    .loopedSectionOne{
-        width: 50%;
-        height: 400px;
-        padding: 10px;
-        margin: auto;
-    }
-    .loopedSectionOne video{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    .loopedSectionTwo h1{
-        font-size: 30px;
-        padding: 0px;
-        margin: 10px auto;
-    }
-    .loopedSectionTwo{
-        width: 45vw;
-        height: fit-content;
-        padding: 0px;
-        /* text edit */
-        color: rgb(36, 60, 116);
-        font-family: "Montserrat", sans-serif;
-        font-weight: 300;
-        text-align: justify;
-        font-size: 15px;
-    }
-    /* .loopedText{
-        width: 100%;
-        height: 50%;
-        /* background-color: red; */
+/* 1201PX - 1600PX - LAPTOPS */
+@media (min-width: 1201px) and (max-width: 1600px) {
+    
 
-    /* GOALS */
-    .goals{
-        margin: auto;
-    }
-    .goalsDiv>h1{
-        font-size: 30px;
-    }
-    .goalsDiv{
-        width: 80vw;
-        margin-bottom: 10px;
-        /* text edit */
-        line-height: 1.5;
-        font-size: 15px;
-    }
-    .goalsDiv h2{
-        font-size: 25px;
-    }
-    /* OUR PARTNERS */
-    .ourPartners{ 
-    margin: auto;
-    }
-    .ourPartnersDiv{
-        width: 100vw;
-        height: fit-content;
-        padding: 10px;
-        margin: auto;
-    }
-    .ourPartnersDiv>h1{
-        font-size: 30px;
-    }
-    .partners{
-        width: 90%;
-        height: fit-content;
+
+
+}
+/* NAVBAR  */
+@media (min-width: 482px) and (max-width: 1600px ) { 
+        /* NAVIGATION BAR */
+    header{
+        z-index: 50;
+        top: 0;
+        left: 0;
+        position: fixed;
+        width: 100%;
         display: flex;
-        flex-direction: row;
+        justify-content: center;
         align-items: center;
-        justify-content: space-evenly;
-        margin: auto;
-        padding: 10px;
+        padding: 1rem 10%;
+        background-color: rgb(36, 60, 116);
+        box-shadow: 0 0 30px rgb(36, 60, 116);
     }
-    .partners>img{
-        width: 150px;
-        height: 150px;
-        margin: 2px 0 0 20px;
-        padding: 10px;
-        
-    }
-    .partners>img:hover{
-        transform: none;
-        box-shadow: none;
-        border: solid 2px rgb(36, 60, 116);
-    }
-    /* SKILL CAROUSEL */
-    .skillCarouselContainer{
-        width: 100vw;
-        height: fit-content;
-        padding: 10px;
-        margin-bottom: 20px;
-    }
-    .skillCarouselContainer img{
-        width: 60%;
-        height: 200px;
+    .logo{
+        width: 5rem;
+        height: 5rem;
         object-fit: cover;
+        background-color: white;
+        border-radius: 50%;
+        margin-right: 40px;
     }
-    /* WHY CHOOSE US */
-    .whyChooseUs{
+    .navLinks li{
+        list-style: none;
+        display: inline-block;
+    }
+    .navLinks li>a{
+        padding: 10px;
+        margin-right: 15px;
+        /* textEdit */
+        color: white;
+        font-weight: 50;
+        font-size: 0.7rem;
+        font-family: "Montserrat", sans-serif;
+    }
+    .navLinks li>a:hover{
+        color: rgb(36, 60, 116);
+        font-weight: 700;
+        background-color: rgb(255, 194, 81);
+    }
+    /* DROPDOWN */
+    .serviceDropdown{
+        display: inline-block;
+        position: relative;
+    }
+    .serviceOptions{
+        display: none;
+        position: absolute;
+        overflow: auto;
+        padding: 15px;
+        margin: 10px 5px;
+        width: 250px;
+        margin: 11px 0 0 -50px;
+        background-color:rgb(36, 60, 116);
+        box-shadow: 0 0 20px rgb(36, 60, 116);
+    }
+    .serviceOptions a{
+        width: 100%;
+        padding: 10px 15px;
+        margin-bottom: 8px;
+        display: inline-block;
+        /* textEdit */
+        color: white;
+        font-weight: 200;
+        font-size: 0.7rem;
+        font-family: "Montserrat", sans-serif;
+    }
+    .serviceOptions a:hover{
+        font-weight: 700;
+        color: rgb(36, 60, 116);
+        background-color: rgb(255, 194, 81);
+    }
+    .serviceDropdown:hover .serviceOptions{
+        display: block;
+    }
+    .contactUs{
+        display: block;
         width: fit-content;
         height: fit-content;
-        margin-bottom: 10px;
-        line-height: 1.5;
-        font-size: 15px;
+        border: none;
+        padding: 1rem 1.5rem;
         margin: auto;
-        padding: 10px;
+        background-color: white;
+        /* textEdit */
+        font-weight: 200;
+        font-size: 0.8rem;
+        text-decoration: none;
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
     }
-    .whyChooseUs>h1{
-        font-size: 25px;
-        margin: auto;
-    }
-    .WhyUsGallery{
-        margin: 20px auto;
-        width: 90vw;
-        height: fit-content;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border: 2px solid rgb(36, 60, 116);
-    }
-    .wuGalleryDiv{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 0px;
-        width: 100%;
-        height: fit-content;
-        margin: auto;
-        padding: 10px;
-    }
-    .reverse{
-        flex-direction: row-reverse;
-        justify-content: center;
-        align-items: center;
-    }
-    .textDiv{
-        padding: 5px;
-        width: 60%;
-        height: fit-content;
-        margin: auto;
-        font-size: 15px;
-        line-height: 1.5;
-    }
-    .textDiv>h2{
-        font-size: 25px;
-        margin-bottom: 10px;
-    }
-    .pictureDiv {
-        width: 40%;
-        height: fit-content;
-        padding: 0px;
-        margin: auto;
-        object-fit: cover;
-    }
-    .pictureDiv img{
-        display: block;
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-        padding: 0;
-        margin: auto;
+    .contactUs:hover{
+        font-weight: 700;
+        color: rgb(36, 60, 116);
+        background-color: rgb(255, 194, 81);
     }
 }
 /* HAMBURGER TOGGLE */
-@media (max-width: 893px) {
+@media (max-width: 750px) {
     /* HAMBURGER */
     .hamburgerMenu {
         z-index: 50;
@@ -1044,7 +867,7 @@ footer li{
         height: 60px;
         width: 100vw;
         background-color: rgb(36, 60, 116);
-        box-shadow: 0 0 10px rgb(3, 3, 3);
+        box-shadow: 0 0 10px rgb(36, 60, 116);
     }
     .hamburgerMenu.active + header {
         display: none;
@@ -1053,7 +876,7 @@ footer li{
         margin-bottom: 5px;
         width: 20px;
         height: 4px;
-        background-color: white;
+        background-color: rgb(129, 152, 207);
         border-radius: 2px;
     }
     /* NAVBAR */
@@ -1069,14 +892,14 @@ footer li{
         padding: 20px;
     }
     .logo{ 
-        width: 80px;
-        height: 80px;
+        width: 5rem;
+        height: 5rem;
         object-fit: cover;
         background-color: white;
         border-radius: 50%;
         margin: auto;
     }
-    nav{
+    nav{ 
         margin: auto;
         margin-top: 5px;
         display: block;
@@ -1086,9 +909,20 @@ footer li{
         display: block;
     }
     .navLinks li a{
-        
+        padding: 10px;
+        margin-right: 25px;
+        /* textEdit */
+        color: white;
+        font-weight: 50;
+        font-size: 1rem;
+        font-family: "Montserrat", sans-serif;
         width: 100%;
         display: block;
+    }
+    .navLinks li>a:active{
+        color: rgb(36, 60, 116);
+        font-weight: 700;
+        background-color: rgb(255, 194, 81);
     }
     /* DROPDOWN */
     .serviceDropdown{
@@ -1096,64 +930,93 @@ footer li{
         position: relative;
     }
     .serviceOptions{
-        width: 200px;
-        margin: -5px 0 0 0;
+        width: 250px;
+        margin: 0px 0 0 -30px;
+        display: none;
+        position: absolute;
+        overflow: auto;
+        padding: 5px;
+        background-color:rgb(36, 60, 116);
+        box-shadow: 0 0 20px rgb(36, 60, 116);
+    }
+    .serviceOptions a{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 5px;
+        display: inline-block;
+        /* textEdit */
+        color: white;
+        font-weight: 200;
+        font-size: 0.8rem;
+        font-family: "Montserrat", sans-serif;
+    }
+    .serviceOptions a:active{
+        font-weight: 700;
+        color: rgb(36, 60, 116);
+        background-color: rgb(255, 194, 81);
     }
     .contactUs{
-        margin-top: 10px;
+        display: block;
+        width: 8rem;
+        height: 2.2rem;
+        border: none;
+        padding: auto;
+        margin: auto;
+        background-color: white;
+        /* textEdit */
+        font-weight: 200;
+        font-size: 1rem;
+        text-decoration: none;
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
+    }
+    .contactUs:active{
+        font-weight: 700;
+        color: rgb(36, 60, 116);
+        background-color: rgb(255, 194, 81);
     }
 }
 /* 890PX - 1024PX - FOOTER COLUMN */
 @media (max-width: 892px) { 
+        /* FOOTER */
     footer{
-        margin: auto;
-        flex-direction: row;
-        align-items: center;
-        width: 100vw;
+        padding: 0.5rem;
     }
     .footerOne{
-        width: 45%;
-        height: fit-content;
-        padding: 10px;
-        margin: auto;
+        width: 50%;
+        padding: 0rem;
     }
-    .footerOneDiv{
-        width: 100%;
-        height: fit-content;
+    .contactText {
+        display: inline-block;
+        width: 80%;
+    }
+    .contactImages img{
+        width: 1rem;
+        height: 1rem;
     }
     .socials{
-        justify-content: left;
-        align-items: flex-start;
-        width: 40%;
-        padding: 10px;
-        margin: inherit;
+        width: fit-content;
+        padding: 0.5rem;
     }
-    .socialsDiv img{
-        width: 30px;
-        height: 30px;
-        margin: 0 0 0 10px;
+    .socialsDiv{
+        margin-right: 1rem;
+        width: 2rem;
+        height: 2rem;
     }
     .socialsDiv img:hover{
         transform: none;
     }
     .footerTwo{
-        width: 40%;
-        height: fit-content;
-        margin: auto;
-    }
-    .footerTwoDiv p{
-        margin-bottom: 10px;
+        width: 45%;
+        padding: 0;
     }
     .footerThree{
         margin: auto;
-        width: 40%;
-        height: fit-content;
-        padding: 0px;
+        width: 45%;
+        padding: 0;
     }
     .footerFour{
-        margin: auto;
-        width: 40%;
-        height: fit-content;
-        padding: 10px;
+        margin-top: 0.5rem;
+        width: 45%;
     }
 }
