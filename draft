@@ -1,3 +1,394 @@
+.navLinks li{
+    list-style: none;
+    display: inline-block;
+}
+.navLinks li>a{
+    padding: 15px;
+    margin-right: 25px;
+    /* textEdit */
+    color: white;
+    font-weight: 50;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+}
+.navLinks li>a:hover{
+    color: rgb(36, 60, 116);
+    font-weight: 700;
+    background-color: rgb(255, 194, 81);
+}
+/* DROPDOWN */
+.serviceDropdown{
+    display: inline-block;
+    position: relative;
+}
+.serviceOptions{
+    display: none;
+    position: absolute;
+    overflow: auto;
+    padding: 15px;
+    margin: 10px 5px;
+    width: 400px;
+    margin: 11px 0 0 0;
+    background-color:rgb(36, 60, 116);
+    box-shadow: 0 0 20px rgb(36, 60, 116);
+}
+.serviceOptions a{
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 8px;
+    display: inline-block;
+    /* textEdit */
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.serviceOptions a:hover{
+    font-weight: 700;
+    color: rgb(36, 60, 116);
+    background-color: rgb(255, 194, 81);
+}
+.serviceDropdown:hover .serviceOptions{
+    display: block;
+}
+.contactUs{
+    display: block;
+    width: 200px;
+    height: 80px;
+    border: none;
+    padding: auto;
+    margin: auto;
+    background-color: white;
+    /* textEdit */
+    font-weight: 200;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+}
+.contactUs:hover{
+    font-weight: 700;
+    color: rgb(36, 60, 116);
+    background-color: rgb(255, 194, 81);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 1.3rem;
+    display: block;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(36, 60, 116);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    margin: 10px auto;
+}
+footer .button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    display: block;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    color:  rgb(36, 60, 116);
+    border: none;
+    cursor: pointer;
+    margin: 10px auto;
+}
+.button:hover{
+    background-color: rgb(255, 194, 81);
+    color: rgb(36, 60, 116);
+    font-weight: 700;
+}
+.pad{
+    width: 100vw;
+    height: 40vh;
+    margin-top: 5vh;
+}
+.padding h1{
+    margin: -20vh 0 7vh 0;
+    font-weight: 200;
+    font-size: 5rem;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "lobster two", sans-serif;
+}
+/* CAROUSEL */
+.carousel{
+    width: 100vw;
+    height: fit-content;
+}
+.carouselGallery{ 
+    scroll-behavior: smooth;
+    overflow: auto;
+    white-space: nowrap;
+    width: 100vw;
+    height: 40vh;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    background-color: rgba(36, 60, 116, 0.2);
+}
+.carouselGallery>img{
+    cursor: pointer;
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    margin: auto;
+}
+.introText{
+    position: absolute;
+    top: 54vh;
+    left: 5vw;
+    width: 35%;
+    padding: 10px;
+}
+.introText>h1{
+    font-family: "Cinzel Decorative", 'sans-serif';
+    font-weight: 900;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    color: rgb(255, 194, 81);
+    width: fit-content;
+}
+.introText>p{
+    font-family: "Lobster two", 'anton';
+    font-weight: 200;
+    text-align: left;
+    font-size: 1.5rem;
+    color:rgb(255, 194, 81);
+}
+/* OVERVIEW */
+.overview{
+    width: 98vw;
+    height: fit-content;
+    padding: 2rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: rgb(255, 255, 255);
+}
+.overviewDiv{ 
+    height: 17rem;
+    width: 17rem;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px 0 rgb(36, 60, 116);
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    text-align: center;
+}
+.overviewDiv:hover{
+    background-color: rgb(36, 60, 116);
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    transform: scale(1.1);
+}
+.overviewDiv>img{
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+}
+.overviewDiv>h1{
+    color: rgb(255, 194, 81);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 1.3rem;
+    text-align: center;
+}
+/* WHO WE ARE */
+.whoWeAre{
+    margin: 20px auto;
+    padding: 1rem;
+    width: 98vw;
+    height: fit-content;
+}
+.whoWeAre h2{
+    font-family: "Anton", sans-serif;
+    font-size: 3rem;
+    color: rgb(36, 60, 116);
+    text-align: center;
+    margin: -5vh 0 2vh 0;
+}
+.whoweareGallery{ 
+    width: fit-content;
+    height: fit-content;
+    padding: 1.5rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px 0 rgb(36, 60, 116);
+}
+.whoweareGalleryOne{
+    width: 50%;
+    height: 40vh;
+}
+.whoweareGalleryOne img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.whoweareGalleryTwo{
+    width: 50%;
+    height: fit-content;
+    padding: 2rem;
+}
+.wwagTwoOne h2{
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    color: rgb(36, 60, 116);
+}
+.bold{
+    color: rgb(255, 194, 81)
+}
+.wwagTwoOne p{
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3rem;
+    color: rgb(36, 60, 116);
+    margin-bottom: 3rem;
+}
+/* WHAT WE DO*/
+.padText{
+    font-family: "Anton", sans-serif;
+    font-size: 3rem;
+    color: rgb(36, 60, 116);
+    text-align: center;
+    margin: -2vh 0 2vh 0;
+}
+.whatWeDo{
+    height: fit-content;
+    width: 98vw;
+    padding: 2rem 0rem;
+    background-image: url(images/solar\ panel.jpg);
+    background-position: 40%;
+}
+.whatwedoGallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0rem;
+    gap: 2.5rem;
+    width: 100%;
+    height: fit-content;
+}
+.whatwedoGalDiv{
+    height: 17rem;
+    width: 17rem;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px 0 rgb(36, 60, 116);
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    text-align: center;
+}
+.whatwedoGalDiv:hover{
+    color: white;
+    background-color: rgb(36, 60, 116);
+    box-shadow: 0 0 20px 0 rgb(36, 60, 116);
+    transform: scale(1.1);
+}
+.whatwedoGalDiv h1{
+    color: rgb(255, 194, 81);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.whatwedoGalDiv img{
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+}
+/* EXECTUED PROJECTS */
+.executedProjects h2{
+    font-family: "Anton", sans-serif;
+    font-size: 3rem;
+    color: rgb(36, 60, 116);
+    text-align: center;
+    margin: auto;
+}
+.executedProjects{
+    width: 98vw;
+    height: fit-content;
+    padding: 3rem 0rem;
+    margin: auto;
+    margin-bottom: 5vh;
+    background-color: rgb(255, 255, 255);
+}
+.executedProjectsGallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 2rem;
+    padding: 0rem;
+    width: 100%;
+    height: fit-content;
+}
+.epGalleryDiv{
+    height: 20rem;
+    width: 18rem;
+    padding: 1rem;
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    text-align: center;
+}
+.epGalleryDiv video{
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+}
+
 
 319px - 480px - - - - Mobile Devices
 

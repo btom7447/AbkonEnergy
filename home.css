@@ -14,9 +14,9 @@ a{
 .button{
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 1rem;
+    font-size: 1.8rem;
     display: block;
-    padding: 10px 20px;
+    padding: 20px;
     width: fit-content;
     height: fit-content;
     background-color: rgb(36, 60, 116);
@@ -25,11 +25,24 @@ a{
     cursor: pointer;
     margin: 10px auto;
 }
+footer .button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 1.5rem;
+    display: block;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    color:  rgb(36, 60, 116);
+    border: none;
+    cursor: pointer;
+    margin: 10px auto;
+}
 .button:hover{
     background-color: rgb(255, 194, 81);
     color: rgb(36, 60, 116);
     font-weight: 700;
-    font-size: 1.3rem;
 }
     /* NAVIGATION BAR */
 header{
@@ -41,13 +54,13 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px 10%;
+    padding: 2rem 10%;
     background-color: rgb(36, 60, 116);
     box-shadow: 0 0 30px rgb(36, 60, 116);
 }
 .logo{
-    width: 80px;
-    height: 80px;
+    width: 8rem;
+    height: 8rem;
     object-fit: cover;
     background-color: white;
     border-radius: 50%;
@@ -58,12 +71,12 @@ header{
     display: inline-block;
 }
 .navLinks li>a{
-    padding: 10px;
-    margin-right: 20px;
+    padding: 15px;
+    margin-right: 25px;
     /* textEdit */
     color: white;
     font-weight: 50;
-    font-size: 14px;
+    font-size: 25px;
     font-family: "Montserrat", sans-serif;
 }
 .navLinks li>a:hover{
@@ -80,22 +93,22 @@ header{
     display: none;
     position: absolute;
     overflow: auto;
-    padding: 10px;
+    padding: 15px;
     margin: 10px 5px;
-    width: 300px;
+    width: 400px;
     margin: 11px 0 0 0;
     background-color:rgb(36, 60, 116);
     box-shadow: 0 0 20px rgb(36, 60, 116);
 }
 .serviceOptions a{
     width: 100%;
-    padding: 10px 20px;
+    padding: 15px 20px;
     margin-bottom: 8px;
     display: inline-block;
     /* textEdit */
     color: white;
     font-weight: 200;
-    font-size: 14px;
+    font-size: 20px;
     font-family: "Montserrat", sans-serif;
 }
 .serviceOptions a:hover{
@@ -108,15 +121,15 @@ header{
 }
 .contactUs{
     display: block;
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 80px;
     border: none;
     padding: auto;
     margin: auto;
     background-color: white;
     /* textEdit */
     font-weight: 200;
-    font-size: 14px;
+    font-size: 25px;
     text-decoration: none;
     color: rgb(36, 60, 116);
     font-family: "Montserrat", sans-serif;
@@ -146,19 +159,15 @@ header{
     margin-bottom: 2px;
     background-color: white;
 }
-/* BODY  */
-.padding{
-    margin: 0 0 -10vh 0;
-}
 .pad{
     width: 100vw;
-    height: 35vh;
-    margin-top: 8vh;
+    height: 40vh;
+    margin-top: 5vh;
 }
 .padding h1{
-    margin: -20vh 0 20vh 0;
+    margin: -18vh 0 8vh 0;
     font-weight: 200;
-    font-size: 4rem;
+    font-size: 8rem;
     text-align: center;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -169,33 +178,34 @@ header{
     width: 100vw;
     height: fit-content;
 }
-.carouselGallery{
+.carouselGallery{ 
     scroll-behavior: smooth;
     overflow: auto;
     white-space: nowrap;
     width: 100vw;
-    height: 45vh;
-    padding: 0.3rem;
+    height: 40vh;
+    padding: 1.5rem;
+    margin-top: 3rem;
     background-color: rgba(36, 60, 116, 0.2);
 }
 .carouselGallery>img{
     cursor: pointer;
-    width: 70%;
+    width: 60%;
     height: 100%;
     object-fit: cover;
     margin: auto;
 }
 .introText{
     position: absolute;
-    top: 55vh;
-    left: 3vw;
-    width: 70%;
+    top: 56vh;
+    left: 5vw;
+    width: 20%;
     padding: 10px;
 }
 .introText>h1{
     font-family: "Cinzel Decorative", 'sans-serif';
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 5rem;
     letter-spacing: 5px;
     color: rgb(255, 194, 81);
     width: fit-content;
@@ -204,49 +214,34 @@ header{
     font-family: "Lobster two", 'anton';
     font-weight: 200;
     text-align: left;
-    font-size: 25px;
+    font-size: 2rem;
     color:rgb(255, 194, 81);
 }
 /* OVERVIEW */
 .overview{
-    margin-top: 10vh;
     width: 100vw;
     height: fit-content;
-    padding: 30px;
+    padding: 4rem;
     margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 4rem;
     background-color: rgb(255, 255, 255);
 }
 .overviewDiv{ 
-    height: 18rem;
-    width: 18rem;
-    padding: 1.5rem;
+    height: 26rem;
+    width: 26rem;
+    padding: 2rem;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 20px 0 rgb(36, 60, 116);
     /* text edit */
     color: rgb(36, 60, 116);
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 1rem;
-    text-align: center;
-}
-.overviewDiv>img{
-    width: 30%;
-    height: 30%;
-    object-fit: cover;
-    display: block;
-    margin: 20px auto;
-}
-.overviewDiv>h1{
-    color: rgb(255, 194, 81);
-    font-family: "Montserrat", sans-serif;
-    font-weight: 800;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 .overviewDiv:hover{
@@ -255,19 +250,33 @@ header{
     font-family: "Montserrat", sans-serif;
     transform: scale(1.1);
 }
+.overviewDiv>img{
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+}
+.overviewDiv>h1{
+    color: rgb(255, 194, 81);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+}
 /* WHO WE ARE */
 .whoWeAre{
     margin: 20px auto;
-    padding: 20px;
-    width: 100vw;
+    padding: 1rem;
+    width: 98vw;
     height: fit-content;
 }
 .whoWeAre h2{
     font-family: "Anton", sans-serif;
-    font-size: 2rem;
+    font-size: 4rem;
     color: rgb(36, 60, 116);
     text-align: center;
-    margin: -2vh 0 2vh 0;
+    margin: -5vh 0 2vh 0;
 }
 .whoweareGallery{ 
     width: fit-content;
@@ -279,13 +288,13 @@ header{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 0rem;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 20px 0 rgb(36, 60, 116);
 }
 .whoweareGalleryOne{
     width: 50%;
-    height: 60vh;
+    height: 50vh;
 }
 .whoweareGalleryOne img{
     width: 100%;
@@ -293,38 +302,39 @@ header{
     object-fit: cover;
 }
 .whoweareGalleryTwo{
-    width: 48%;
+    width: 50%;
     height: fit-content;
-    object-fit: cover;
+    padding: 2rem;
 }
 .wwagTwoOne h2{
     text-align: center;
     font-family: "Anton", sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-top: 0.5rem;
     color: rgb(36, 60, 116);
-}
-.wwagTwoOne p{
-    text-align: justify;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.1rem;
-    color: rgb(36, 60, 116);
-    margin-bottom: 20px;
 }
 .bold{
     color: rgb(255, 194, 81)
 }
+.wwagTwoOne p{
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+    color: rgb(36, 60, 116);
+    margin-bottom: 3rem;
+}
 /* WHAT WE DO*/
 .padText{
     font-family: "Anton", sans-serif;
-    font-size: 2rem;
+    font-size: 4rem;
     color: rgb(36, 60, 116);
     text-align: center;
-    margin: 0 0 2vh 0;
+    margin: -1vh 0 2vh 0;
 }
 .whatWeDo{
     height: fit-content;
     width: 100vw;
-    padding: 1.5rem;
+    padding: 2rem 0rem;
     background-image: url(images/solar\ panel.jpg);
     background-position: 40%;
 }
@@ -335,38 +345,23 @@ header{
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding: 1rem;
-    gap: 2rem;
+    padding: 2rem;
+    gap: 4rem;
     width: 100%;
     height: fit-content;
 }
-.whatwedoGalDiv{
-    height: 20rem;
-    width: 20rem;
-    padding: 1.5rem;
+.whatwedoGalDiv{ 
+    height: 27rem;
+    width: 28rem;
+    padding: 2rem;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 20px 0 rgb(36, 60, 116);
     /* text edit */
     color: rgb(36, 60, 116);
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
-}
-.whatwedoGalDiv h1{
-    color: rgb(255, 194, 81);
-    font-family: "Montserrat", sans-serif;
-    font-weight: 800;
-    font-size: 1.3rem;
-    text-align: center;
-}
-.whatwedoGalDiv img{
-    width: 40%;
-    height: 40%;
-    object-fit: cover;
-    padding: 0.5rem;
-    display: block;
-    margin: 20px auto;
 }
 .whatwedoGalDiv:hover{
     color: white;
@@ -374,18 +369,32 @@ header{
     box-shadow: 0 0 20px 0 rgb(36, 60, 116);
     transform: scale(1.1);
 }
+.whatwedoGalDiv h1{
+    color: rgb(255, 194, 81);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+}
+.whatwedoGalDiv img{
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+}
 /* EXECTUED PROJECTS */
 .executedProjects h2{
     font-family: "Anton", sans-serif;
-    font-size: 2rem;
+    font-size: 4rem;
     color: rgb(36, 60, 116);
     text-align: center;
     margin: auto;
 }
 .executedProjects{
-    width: fit-content;
+    width: 100vw;
     height: fit-content;
-    padding: 1.5rem;
+    padding: 4rem;
     margin: auto;
     margin-bottom: 5vh;
     background-color: rgb(255, 255, 255);
@@ -395,39 +404,39 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: auto;
     flex-wrap: wrap;
-    gap: 2rem;
-    padding: 1.5rem;
+    margin: auto;
+    gap: 4rem;
+    padding: 4rem;
     width: 100%;
     height: fit-content;
 }
 .epGalleryDiv{
-    height: 19rem;
-    width: 18rem;
-    padding: 1.5rem;
+    height: 28rem;
+    width: 28rem;
+    padding: 2rem;
     /* text edit */
     color: rgb(36, 60, 116);
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 .epGalleryDiv video{
     width: 100%;
-    height: 9rem;
+    height: 12rem;
     object-fit: cover;
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 /* FOOTER */
 footer{
     margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     height: fit-content;
@@ -441,7 +450,6 @@ footer{
     padding: 1rem;
     height: fit-content;
     margin: auto;
-    
 }
 .footerOneDiv{
     width: 100%;
@@ -469,14 +477,13 @@ footer{
 .socials{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    width: 70%;
+    width: fit-content;
     height: fit-content;
-    margin: 0.5rem auto;
     padding: 0.5rem;
 }
 .socialsDiv{
     margin: auto;
+    margin-right: 20px;
     width: 2rem;
     height: 2rem;
 }
@@ -549,95 +556,1025 @@ footer li{
     width: fit-content;
 }
 /* MEDIA QUERY */
-/*319px - 480px */
+/*319px - 480px - MOBILE DEVICES*/
 @media (min-width: 319px) and (max-width: 480px) {
-        /* CAROUSEL */
+    .button{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        font-size: 0.8rem;
+        display: block;
+        padding: 10px 20px;
+        width: fit-content;
+        height: fit-content;
+        background-color: rgb(36, 60, 116);
+        color: rgb(255, 255, 255);
+        border: none;
+        cursor: pointer;
+        margin: 10px auto;
+    }
+    footer .button{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        font-size: 0.8rem;
+        display: block;
+        padding: 10px 20px;
+        width: fit-content;
+        height: fit-content;
+        background-color:rgb(255, 255, 255);
+        color: rgb(36, 60, 116);
+        border: none;
+        cursor: pointer;
+        margin: 10px auto;
+    }
+    .button:hover{
+        background-color: rgb(255, 194, 81);
+        color: rgb(36, 60, 116);
+        font-weight: 700;
+    }
+    .pad{
+        width: 100vw;
+        height: 30vh;
+        margin-top: 5vh;
+    }
+    .padding h1{
+        margin: -15vh 0 7vh 0;
+        font-weight: 200;
+        font-size: 3rem;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: "lobster two", sans-serif;
+    }
+    /* CAROUSEL */
+    .carousel{
+        width: 100vw;
+        height: fit-content;
+    }
     .carouselGallery{
+        scroll-behavior: smooth;
+        overflow: auto;
+        white-space: nowrap;
+        width: 100vw;
         height: 40vh;
         padding: 1rem;
+        margin-top: 3rem;
+        background-color: rgba(36, 60, 116, 0.2);
+    }
+    .carouselGallery>img{
+        cursor: pointer;
+        width: 70%;
+        height: 100%;
+        object-fit: cover;
+        margin: auto;
     }
     .introText{
         position: absolute;
-        top: 59vh;
+        top: 50vh;
         left: 5vw;
+        width: 35%;
+        padding: 10px;
     }
     .introText>h1{
+        font-family: "Cinzel Decorative", 'sans-serif';
+        font-weight: 900;
         font-size: 2rem;
+        letter-spacing: 5px;
+        color: rgb(255, 194, 81);
+        width: fit-content;
     }
     .introText>p{
+        font-family: "Lobster two", 'anton';
+        font-weight: 200;
+        text-align: left;
         font-size: 1rem;
+        color:rgb(255, 194, 81);
     }
     /* OVERVIEW */
     .overview{
+        width: 100vw;
+        height: fit-content;
         padding: 2rem;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        background-color: rgb(255, 255, 255);
     }
     .overviewDiv{ 
         height: 15rem;
         width: 15rem;
-        padding: 0.8rem;
+        padding: 1rem;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 0 20px 0 rgb(36, 60, 116);
+        /* text edit */
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        font-size: 0.8rem;
+        text-align: center;
     }
     .overviewDiv:hover{
         background-color: rgb(255, 255, 255);
         color: rgb(36, 60, 116);
         transform: none;
     }
+    .overviewDiv>img{
+        width: 30%;
+        height: 30%;
+        object-fit: cover;
+        display: block;
+        margin: 20px auto;
+    }
+    .overviewDiv>h1{
+        color: rgb(255, 194, 81);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        font-size: 1rem;
+        text-align: center;
+    }
     /* WHO WE ARE */
     .whoWeAre{
+        margin: 20px auto;
         padding: 1.5rem;
+        width: 100vw;
+        height: fit-content;
     }
     .whoWeAre h2{
+        font-family: "Anton", sans-serif;
+        font-size: 2rem;
+        color: rgb(36, 60, 116);
+        text-align: center;
         margin: -5vh 0 2vh 0;
     }
     .whoweareGallery{ 
+        width: fit-content;
+        height: fit-content;
+        padding: 1.5rem;
+        margin: auto;
+        display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
         gap: 2rem;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 0 20px 0 rgb(36, 60, 116);
     }
     .whoweareGalleryOne{
         width: 100%;
         height: 20vh;
     }
+    .whoweareGalleryOne img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
     .whoweareGalleryTwo{
         width: 100%;
+        height: fit-content;
         padding: 1.5rem;
     }
     .wwagTwoOne h2{
+        text-align: center;
+        font-family: "Anton", sans-serif;
         font-size: 1.5rem;
+        color: rgb(36, 60, 116);
+    }
+    .bold{
+        color: rgb(255, 194, 81)
     }
     .wwagTwoOne p{
-        font-size: 1rem;
+        text-align: justify;
+        font-family: "Montserrat", sans-serif;
+        font-size: 0.7rem;
+        color: rgb(36, 60, 116);
         margin-bottom: 3rem;
     }
     /* WHAT WE DO*/
-    .whatwedoGalDiv img{
-        width: 30%;
-        height: 30%;
+    .padText{
+        font-family: "Anton", sans-serif;
+        font-size: 2rem;
+        color: rgb(36, 60, 116);
+        text-align: center;
+        margin: -2vh 0 2vh 0;
+    }
+    .whatWeDo{
+        height: fit-content;
+        width: 100vw;
+        padding: 1rem;
+        background-image: url(images/solar\ panel.jpg);
+        background-position: 40%;
+    }
+    .whatwedoGallery{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 1rem;
+        gap: 2rem;
+        width: 100%;
+        height: fit-content;
     }
     .whatwedoGalDiv{
-        height: 17rem;
-        width: 17rem;
-        padding: 0.5rem;
-        font-size: 1rem;
+        height: 15rem;
+        width: 15rem;
+        padding: 1rem;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 0 20px 0 rgb(36, 60, 116);
+        /* text edit */
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        font-size: 0.8rem;
+        text-align: center;
     }
     .whatwedoGalDiv:hover{
         color: rgb(36, 60, 116);
         background-color:white;
         transform: none;
     }
+    .whatwedoGalDiv h1{
+        color: rgb(255, 194, 81);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .whatwedoGalDiv img{
+        width: 30%;
+        height: 30%;
+        object-fit: cover;
+        padding: 0.5rem;
+        margin: 10px auto;
+        display: block;
+    }
     /* EXECTUED PROJECTS */
+    .executedProjects h2{
+        font-family: "Anton", sans-serif;
+        font-size: 2rem;
+        color: rgb(36, 60, 116);
+        text-align: center;
+        margin: auto;
+    }
     .executedProjects{
         width: 100vw;
         height: fit-content;
         padding: 1.5rem;
         margin: auto;
         margin-bottom: 5vh;
+        background-color: rgb(255, 255, 255);
+    }
+    .executedProjectsGallery{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        gap: 2rem;
+        padding: 1rem;
+        width: 100%;
+        height: fit-content;
+    }
+    .epGalleryDiv{
+        height: 18rem;
+        width: 18rem;
+        padding: 1.5rem;
+        /* text edit */
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .epGalleryDiv video{
+        width: 100%;
+        height: 9rem;
+        object-fit: cover;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 0.5rem;
     }
 }
-/* 767PX - 992PX - HAMBURGER TOGGLE ON */
-@media (min-width: 767px) and (max-width: 992px) {
-
+/* 481PX - 1200PX - IPADS & TABETS */
+@media (min-width: 481px) and (max-width: 1200px) {
+    .button{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        font-size: 1.5rem;
+        display: block;
+        padding: 20px;
+        width: fit-content;
+        height: fit-content;
+        background-color: rgb(36, 60, 116);
+        color: rgb(255, 255, 255);
+        border: none;
+        cursor: pointer;
+        margin: 10px auto;
+    }
+    footer .button{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        font-size: 1rem;
+        display: block;
+        padding: 20px;
+        width: fit-content;
+        height: fit-content;
+        background-color: rgb(255, 255, 255);
+        color: rgb(36, 60, 116);
+        border: none;
+        cursor: pointer;
+        margin: 10px auto;
+    }
+    .button:hover{
+        background-color: rgb(255, 194, 81);
+        color: rgb(36, 60, 116);
+        font-weight: 700;
+    }
+    .pad{
+        width: 100vw;
+        height: 30vh;
+        margin-top: 5vh;
+    }
+    .padding h1{
+        margin: -15vh 0 7vh 0;
+        font-weight: 200;
+        font-size: 5rem;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: "lobster two", sans-serif;
+    }
+    /* CAROUSEL */
+    .carousel{
+        width: 100vw;
+        height: fit-content;
+    }
+    .carouselGallery{ 
+        scroll-behavior: smooth;
+        overflow: auto;
+        white-space: nowrap;
+        width: 100vw;
+        height: 30vh;
+        padding: 2rem;
+        margin-top: 3rem;
+        background-color: rgba(36, 60, 116, 0.2);
+    }
+    .carouselGallery>img{
+        cursor: pointer;
+        width: 70%;
+        height: 100%;
+        object-fit: cover;
+        margin: auto;
+    }
+    .introText{
+        position: absolute;
+        top: 45vh;
+        left: 5vw;
+        width: 35%;
+        padding: 10px;
+    }
+    .introText>h1{
+        font-family: "Cinzel Decorative", 'sans-serif';
+        font-weight: 900;
+        font-size: 3rem;
+        letter-spacing: 5px;
+        color: rgb(255, 194, 81);
+        width: fit-content;
+    }
+    .introText>p{
+        font-family: "Lobster two", 'anton';
+        font-weight: 200;
+        text-align: left;
+        font-size: 1.5rem;
+        color:rgb(255, 194, 81);
+    }
+    /* OVERVIEW */
+    .overview{
+        width: 100vw;
+        height: fit-content;
+        padding: 2rem;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        background-color: rgb(255, 255, 255);
+    }
+    .overviewDiv{ 
+        height: 20rem;
+        width: 20rem;
+        padding: 1.5rem;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 0 20px 0 rgb(36, 60, 116);
+        /* text edit */
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .overviewDiv:hover{
+        background-color: rgb(255, 255, 255);
+        color: rgb(36, 60, 116);
+        transform: none;
+    }
+    .overviewDiv>img{
+        width: 30%;
+        height: 30%;
+        object-fit: cover;
+        display: block;
+        margin: 20px auto;
+    }
+    .overviewDiv>h1{
+        color: rgb(255, 194, 81);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    /* WHO WE ARE */
+    .whoWeAre{
+        margin: 20px auto;
+        padding: 2.5rem;
+        width: 100vw;
+        height: fit-content;
+    }
+    .whoWeAre h2{
+        font-family: "Anton", sans-serif;
+        font-size: 3rem;
+        color: rgb(36, 60, 116);
+        text-align: center;
+        margin: -5vh 0 2vh 0;
+    }
+    .whoweareGallery{ 
+        width: fit-content;
+        height: fit-content;
+        padding: 2.5rem;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0rem;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 0 20px 0 rgb(36, 60, 116);
+    }
+    .whoweareGalleryOne{
+        width: 100%;
+        height: 30vh;
+    }
+    .whoweareGalleryOne img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .whoweareGalleryTwo{
+        width: 100%;
+        height: fit-content;
+        padding: 2rem;
+    }
+    .wwagTwoOne h2{
+        text-align: center;
+        font-family: "Anton", sans-serif;
+        font-size: 2.5rem;
+        margin-top: 0.5rem;
+        color: rgb(36, 60, 116);
+    }
+    .bold{
+        color: rgb(255, 194, 81)
+    }
+    .wwagTwoOne p{
+        text-align: justify;
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.5rem;
+        color: rgb(36, 60, 116);
+        margin-bottom: 3rem;
+    }
+    /* WHAT WE DO*/
+    .padText{
+        font-family: "Anton", sans-serif;
+        font-size: 3rem;
+        color: rgb(36, 60, 116);
+        text-align: center;
+        margin: -2vh 0 2vh 0;
+    }
+    .whatWeDo{
+        height: fit-content;
+        width: 100vw;
+        padding: 2rem;
+        background-image: url(images/solar\ panel.jpg);
+        background-position: 40%;
+    }
+    .whatwedoGallery{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 0rem;
+        gap: 3rem;
+        width: 100%;
+        height: fit-content;
+    }
+    .whatwedoGalDiv{
+        height: 20rem;
+        width: 20rem;
+        padding: 2rem;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 0 20px 0 rgb(36, 60, 116);
+        /* text edit */
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .whatwedoGalDiv:hover{
+        color: rgb(36, 60, 116);
+        background-color:white;
+        transform: none;
+    }
+    .whatwedoGalDiv h1{
+        color: rgb(255, 194, 81);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .whatwedoGalDiv img{
+        width: 30%;
+        height: 30%;
+        object-fit: cover;
+        margin: 20px auto;
+        display: block;
+    }
+    /* EXECTUED PROJECTS */
+    .executedProjects h2{
+        font-family: "Anton", sans-serif;
+        font-size: 3rem;
+        color: rgb(36, 60, 116);
+        text-align: center;
+        margin: auto;
+    }
+    .executedProjects{
+        width: 100vw;
+        height: fit-content;
+        padding: 2rem;
+        margin: auto;
+        margin-bottom: 5vh;
+        background-color: rgb(255, 255, 255);
+    }
+    .executedProjectsGallery{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: auto;
+        gap: 2rem;
+        padding: 1rem;
+        width: 100%;
+        height: fit-content;
+    }
+    .epGalleryDiv{
+        height: 20rem;
+        width: 20rem;
+        padding: 2rem;
+        /* text edit */
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .epGalleryDiv video{
+        width: 100%;
+        height: 10rem;
+        object-fit: cover;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 0.5rem;
+    }
+}
+/* 1201PX - 1600PX - LAPTOPS */
+@media (min-width: 1201px) and (max-width: 1600px) {
+    .button{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        font-size: 0.8rem;
+        display: block;
+        padding: 20px;
+        width: fit-content;
+        height: fit-content;
+        background-color: rgb(36, 60, 116);
+        color: rgb(255, 255, 255);
+        border: none;
+        cursor: pointer;
+        margin: 10px auto;
+    }
+    footer .button{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        font-size: 0.8rem;
+        display: block;
+        padding: 20px;
+        width: fit-content;
+        height: fit-content;
+        background-color: rgb(255, 255, 255);
+        color:  rgb(36, 60, 116);
+        border: none;
+        cursor: pointer;
+        margin: 10px auto;
+    }
+    .button:hover{
+        background-color: rgb(255, 194, 81);
+        color: rgb(36, 60, 116);
+        font-weight: 700;
+    }
+    .pad{
+        width: 100vw;
+        height: 40vh;
+        margin-top: 5vh;
+    }
+    .padding h1{
+        margin: -20vh 0 8vh 0;
+        font-weight: 200;
+        font-size: 4rem;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: "lobster two", sans-serif;
+    }
+    /* CAROUSEL */
+    .carousel{
+        width: 100vw;
+        height: fit-content;
+    }
+    .carouselGallery{ 
+        scroll-behavior: smooth;
+        overflow: auto;
+        white-space: nowrap;
+        width: 100vw;
+        height: 45vh;
+        padding: 1rem;
+        margin-top: 3rem;
+        background-color: rgba(36, 60, 116, 0.2);
+    }
+    .carouselGallery>img{
+        cursor: pointer;
+        width: 60%;
+        height: 100%;
+        object-fit: cover;
+        margin: auto;
+    }
+    .introText{
+        position: absolute;
+        top: 54vh;
+        left: 5vw;
+        width: 35%;
+        padding: 10px;
+    }
+    .introText>h1{
+        font-family: "Cinzel Decorative", 'sans-serif';
+        font-weight: 900;
+        font-size: 3.5rem;
+        letter-spacing: 5px;
+        color: rgb(255, 194, 81);
+        width: fit-content;
+    }
+    .introText>p{
+        font-family: "Lobster two", 'anton';
+        font-weight: 200;
+        text-align: left;
+        font-size: 1.5rem;
+        color:rgb(255, 194, 81);
+    }
+    /* OVERVIEW */
+    .overview{
+        width: 98vw;
+        height: fit-content;
+        padding: 2rem;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        background-color: rgb(255, 255, 255);
+    }
+    .overviewDiv{ 
+        height: 15rem;
+        width: 15rem;
+        padding: 1.5rem;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 0 20px 0 rgb(36, 60, 116);
+        /* text edit */
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .overviewDiv:hover{
+        background-color: rgb(36, 60, 116);
+        color: rgb(255, 255, 255);
+        font-family: "Montserrat", sans-serif;
+        transform: scale(1.1);
+    }
+    .overviewDiv>img{
+        width: 30%;
+        height: 30%;
+        object-fit: cover;
+        display: block;
+        margin: 25px auto;
+    }
+    .overviewDiv>h1{
+        color: rgb(255, 194, 81);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        font-size: 1rem;
+        text-align: center;
+    }
+    /* WHO WE ARE */
+    .whoWeAre{
+        margin: 20px auto;
+        padding: 1rem;
+        width: 98vw;
+        height: fit-content;
+    }
+    .whoWeAre h2{
+        font-family: "Anton", sans-serif;
+        font-size: 2rem;
+        color: rgb(36, 60, 116);
+        text-align: center;
+        margin: -5vh 0 2vh 0;
+    }
+    .whoweareGallery{ 
+        width: fit-content;
+        height: fit-content;
+        padding: 2.5rem;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0rem;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 0 20px 0 rgb(36, 60, 116);
+    }
+    .whoweareGalleryOne{
+        width: 45%;
+        height: 40vh;
+    }
+    .whoweareGalleryOne img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .whoweareGalleryTwo{
+        width: 50%;
+        height: fit-content;
+        padding: 1rem;
+    }
+    .wwagTwoOne h2{
+        text-align: center;
+        font-family: "Anton", sans-serif;
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+        color: rgb(36, 60, 116);
+    }
+    .bold{
+        color: rgb(255, 194, 81)
+    }
+    .wwagTwoOne p{
+        text-align: justify;
+        font-family: "Montserrat", sans-serif;
+        font-size: 1rem;
+        color: rgb(36, 60, 116);
+        margin-bottom: 0;
+    }
+    /* WHAT WE DO*/
+    .padText{
+        font-family: "Anton", sans-serif;
+        font-size: 2rem;
+        color: rgb(36, 60, 116);
+        text-align: center;
+        margin: -2vh 0 2vh 0;
+    }
+    .whatWeDo{
+        height: fit-content;
+        width: 98vw;
+        padding: 2rem 0rem;
+        background-image: url(images/solar\ panel.jpg);
+        background-position: 40%;
+    }
+    .whatwedoGallery{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 0rem;
+        gap: 3rem;
+        width: 100%;
+        height: fit-content;
+    }
+    .whatwedoGalDiv{
+        height: 15rem;
+        width: 15rem;
+        padding: 1.5rem;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 0 20px 0 rgb(36, 60, 116);
+        /* text edit */
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .whatwedoGalDiv:hover{
+        color: white;
+        background-color: rgb(36, 60, 116);
+        box-shadow: 0 0 20px 0 rgb(36, 60, 116);
+        transform: scale(1.1);
+    }
+    .whatwedoGalDiv h1{
+        color: rgb(255, 194, 81);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .whatwedoGalDiv img{
+        width: 30%;
+        height: 30%;
+        object-fit: cover;
+        margin: 20px auto;
+        display: block;
+    }
+    /* EXECTUED PROJECTS */
+    .executedProjects h2{
+        font-family: "Anton", sans-serif;
+        font-size: 2rem;
+        color: rgb(36, 60, 116);
+        text-align: center;
+        margin: auto;
+    }
+    .executedProjects{
+        width: 98vw;
+        height: fit-content;
+        padding: 1.5rem;
+        margin: auto;
+        margin-bottom: 5vh;
+        background-color: rgb(255, 255, 255);
+    }
+    .executedProjectsGallery{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: auto;
+        gap: 3rem;
+        padding: 1.5rem;
+        width: 100%;
+        height: fit-content;
+    }
+    .epGalleryDiv{
+        height: 16rem;
+        width: 16rem;
+        padding: 1rem;
+        /* text edit */
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .epGalleryDiv video{
+        width: 100%;
+        height: 8rem;
+        object-fit: cover;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 0.5rem;
+    }
+}
+/* NAVBAR  */
+@media (min-width: 482px) and (max-width: 1600px ) { 
+        /* NAVIGATION BAR */
+    header{
+        z-index: 50;
+        top: 0;
+        left: 0;
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 10%;
+        background-color: rgb(36, 60, 116);
+        box-shadow: 0 0 30px rgb(36, 60, 116);
+    }
+    .logo{
+        width: 5rem;
+        height: 5rem;
+        object-fit: cover;
+        background-color: white;
+        border-radius: 50%;
+        margin-right: 40px;
+    }
+    .navLinks li{
+        list-style: none;
+        display: inline-block;
+    }
+    .navLinks li>a{
+        padding: 10px;
+        margin-right: 15px;
+        /* textEdit */
+        color: white;
+        font-weight: 50;
+        font-size: 0.7rem;
+        font-family: "Montserrat", sans-serif;
+    }
+    .navLinks li>a:hover{
+        color: rgb(36, 60, 116);
+        font-weight: 700;
+        background-color: rgb(255, 194, 81);
+    }
+    /* DROPDOWN */
+    .serviceDropdown{
+        display: inline-block;
+        position: relative;
+    }
+    .serviceOptions{
+        display: none;
+        position: absolute;
+        overflow: auto;
+        padding: 15px;
+        margin: 10px 5px;
+        width: 250px;
+        margin: 11px 0 0 -50px;
+        background-color:rgb(36, 60, 116);
+        box-shadow: 0 0 20px rgb(36, 60, 116);
+    }
+    .serviceOptions a{
+        width: 100%;
+        padding: 10px 15px;
+        margin-bottom: 8px;
+        display: inline-block;
+        /* textEdit */
+        color: white;
+        font-weight: 200;
+        font-size: 0.7rem;
+        font-family: "Montserrat", sans-serif;
+    }
+    .serviceOptions a:hover{
+        font-weight: 700;
+        color: rgb(36, 60, 116);
+        background-color: rgb(255, 194, 81);
+    }
+    .serviceDropdown:hover .serviceOptions{
+        display: block;
+    }
+    .contactUs{
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        border: none;
+        padding: 1rem 1.5rem;
+        margin: auto;
+        background-color: white;
+        /* textEdit */
+        font-weight: 200;
+        font-size: 0.8rem;
+        text-decoration: none;
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
+    }
+    .contactUs:hover{
+        font-weight: 700;
+        color: rgb(36, 60, 116);
+        background-color: rgb(255, 194, 81);
+    }
 }
 /* HAMBURGER TOGGLE */
-@media (max-width: 893px) {
+@media (max-width: 750px) {
     /* HAMBURGER */
     .hamburgerMenu {
         z-index: 50;
@@ -649,7 +1586,7 @@ footer li{
         height: 60px;
         width: 100vw;
         background-color: rgb(36, 60, 116);
-        box-shadow: 0 0 10px rgb(3, 3, 3);
+        box-shadow: 0 0 10px rgb(36, 60, 116);
     }
     .hamburgerMenu.active + header {
         display: none;
@@ -658,7 +1595,7 @@ footer li{
         margin-bottom: 5px;
         width: 20px;
         height: 4px;
-        background-color: white;
+        background-color: rgb(129, 152, 207);
         border-radius: 2px;
     }
     /* NAVBAR */
@@ -674,14 +1611,14 @@ footer li{
         padding: 20px;
     }
     .logo{ 
-        width: 80px;
-        height: 80px;
+        width: 5rem;
+        height: 5rem;
         object-fit: cover;
         background-color: white;
         border-radius: 50%;
         margin: auto;
     }
-    nav{
+    nav{ 
         margin: auto;
         margin-top: 5px;
         display: block;
@@ -691,9 +1628,20 @@ footer li{
         display: block;
     }
     .navLinks li a{
-        
+        padding: 10px;
+        margin-right: 25px;
+        /* textEdit */
+        color: white;
+        font-weight: 50;
+        font-size: 1rem;
+        font-family: "Montserrat", sans-serif;
         width: 100%;
         display: block;
+    }
+    .navLinks li>a:active{
+        color: rgb(36, 60, 116);
+        font-weight: 700;
+        background-color: rgb(255, 194, 81);
     }
     /* DROPDOWN */
     .serviceDropdown{
@@ -701,11 +1649,50 @@ footer li{
         position: relative;
     }
     .serviceOptions{
-        width: 200px;
-        margin: -5px 0 0 0;
+        width: 250px;
+        margin: 0px 0 0 -30px;
+        display: none;
+        position: absolute;
+        overflow: auto;
+        padding: 5px;
+        background-color:rgb(36, 60, 116);
+        box-shadow: 0 0 20px rgb(36, 60, 116);
+    }
+    .serviceOptions a{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 5px;
+        display: inline-block;
+        /* textEdit */
+        color: white;
+        font-weight: 200;
+        font-size: 0.8rem;
+        font-family: "Montserrat", sans-serif;
+    }
+    .serviceOptions a:active{
+        font-weight: 700;
+        color: rgb(36, 60, 116);
+        background-color: rgb(255, 194, 81);
     }
     .contactUs{
-        margin-top: 10px;
+        display: block;
+        width: 8rem;
+        height: 2.5rem;
+        border: none;
+        padding: auto;
+        margin: auto;
+        background-color: white;
+        /* textEdit */
+        font-weight: 200;
+        font-size: 1rem;
+        text-decoration: none;
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
+    }
+    .contactUs:active{
+        font-weight: 700;
+        color: rgb(36, 60, 116);
+        background-color: rgb(255, 194, 81);
     }
 }
 /* 890PX - 1024PX - FOOTER COLUMN */
@@ -727,11 +1714,11 @@ footer li{
         height: 1rem;
     }
     .socials{
-        width: 70%;
+        width: fit-content;
         padding: 0.5rem;
     }
     .socialsDiv{
-        margin: auto;
+        margin-right: 1rem;
         width: 2rem;
         height: 2rem;
     }
