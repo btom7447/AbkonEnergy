@@ -145,14 +145,229 @@ header{
     margin-bottom: 2px;
     background-color: white;
 }
-
-
-
-
-
-
-
-
+/* PADDING */
+.pad{
+    width: 100vw;
+    height: 400px;
+    margin-top: 180px;
+    object-fit: cover;
+}
+.padding h1{ 
+    margin: -18vh 0 12vh 0;
+    font-weight: 200;
+    font-size: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "lobster two", sans-serif;
+}
+/* LOOPED SECTION */
+.loopedSection{
+    margin: auto;
+    width: 100vw;
+    height: fit-content;
+    padding: 3rem 15rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.loopedSectionOne{
+    width: 30%;
+    height: fit-content;
+    margin: auto;
+}
+.loopedSectionOne video{
+    width: 500px;
+    height: 450px;
+    object-fit: cover;
+}
+.loopedSectionTwo{
+    width: 60%;
+    height: fit-content;
+    padding: 2rem;
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.loopedSectionTwo h1{
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-size: 2.2rem;
+    color: rgb(36, 60, 116);
+    margin-top: 1.5rem;
+}
+.bold{
+    color: rgb(255, 194, 81);
+}
+/* GOALS */
+.goals{
+    width: 100vw;
+    height: fit-content;
+    padding: 2rem;
+}
+.goalsDiv{
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1.2rem;
+}
+.goalsDiv>h1{
+    font-family: "cinzel decorative", sans-serif;
+    font-size: 2.5rem;
+    color: rgb(255, 194, 81);
+    text-align: center;
+}
+.goalsDiv h2{
+    font-family: "Anton", sans-serif;
+    font-size: 2.2rem;
+    color: rgb(36, 60, 116);
+    text-align: center;
+}
+/* OUR PARTNERS */
+.ourPartners{
+    width: 100vw;
+    height: fit-content;
+    padding: 2rem;
+}
+.ourPartners h1{
+    font-family: "cinzel decorative", sans-serif;
+    font-size: 2.5rem;
+    color: rgb(255, 194, 81);
+    text-align: center;
+}
+.partners{
+    width: 100%;
+    height: fit-content;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.partners img{
+    width: 15rem;
+    height: 15rem;
+    border: solid 2px rgb(36, 60, 116);
+}
+.partners img:hover{
+    transform: scale(1.1);
+    transition: 0.8s all ease;
+    box-shadow: 0 0 20px rgb(36, 60, 116);
+    border: none;
+}
+/* SKILL CAROUSEL */
+.skillCarouselContainer{
+    scroll-behavior: smooth;
+    overflow: auto;
+    white-space: nowrap;
+    width: 100vw;
+    height: fit-content;
+    padding: 1rem;
+    background-color: rgba(36, 60, 116, 0.2);
+}
+.skillCarouselContainer img{
+    width: 60%;
+    height: 30vh;
+    object-fit: cover;
+    padding: 0px;
+    margin: auto;
+}
+/* WHY CHOOSE US */
+.whyChooseUs{
+    display: block;
+    padding: 2rem;
+    width: 95vw;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 10vh;
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-weight: 300;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1.2rem;
+}
+.whyChooseUs>h1{
+    font-family: "cinzel decorative", sans-serif;
+    font-size: 2.5rem;
+    color: rgb(255, 194, 81);
+    text-align: center;
+}
+.WhyUsGallery{
+    width: 100%;
+    height: fit-content;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 1rem;
+    border: 2px solid rgb(36, 60, 116);
+}
+.wuGalleryDiv{
+    width: 100%;
+    height: fit-content;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0rem;
+}
+.textDiv{
+    width: 40%;
+    height: fit-content;
+    margin: auto;
+    padding: 1rem;
+    /* text edit */
+    color: rgb(36, 60, 116);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1.2rem;
+}
+.textDiv h2{
+    font-family: "Anton", sans-serif;
+    font-weight: 50;
+    font-size: 2.5rem;
+    color: rgb(36, 60, 116);
+    text-align: center;
+    margin: auto;
+}
+.reverse{
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.pictureDiv{
+    width: 60%;
+    height: 30vh;
+}
+.pictureDiv img{
+   width: 100%;
+   height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
 /* FOOTER */
 footer{
     margin: auto;
@@ -218,7 +433,7 @@ footer{
     transform: translateY(10px);
 }
 .footerTwo{
-    width: 20%;
+    width: 40%;
     padding: 1rem;
     height: fit-content;
     margin: auto;
@@ -280,7 +495,7 @@ footer li{
 /* MEDIA QUERY */
 /*319px - 480px - MOBILE DEVICES*/
 @media (min-width: 319px) and (max-width: 480px) {
-    footer .button{
+    footer .button{ 
         font-family: "Montserrat", sans-serif;
         font-weight: 200;
         font-size: 0.5rem;
@@ -304,11 +519,12 @@ footer li{
         width: 100vw;
         height: 30vh;
         margin-top: 5vh;
+        object-fit: cover;
     }
     .padding h1{
-        margin: -15vh 0 7vh 0;
+        margin: -15vh 0 10vh 0;
         font-weight: 200;
-        font-size: 3rem;
+        font-size: 2rem;
         text-align: center;
         text-decoration: none;
         color: rgb(255, 255, 255);
@@ -317,6 +533,7 @@ footer li{
     /* LOOPED SECTION */
     .loopedSection{
         margin: auto;
+        margin-bottom: -2rem;
         width: 100vw;
         height: fit-content;
         padding: 1rem;
@@ -328,14 +545,13 @@ footer li{
     }
     .loopedSectionOne{
         width: 65%;
-        height: 30vh;
+        height: 32vh;
         margin: auto;
     }
     .loopedSectionOne video{
         width: 100%;
         height: 100%;
         object-fit: cover;
-
     }
     .loopedSectionTwo{
         width: 100%;
@@ -345,13 +561,13 @@ footer li{
         color: rgb(36, 60, 116);
         font-family: "Montserrat", sans-serif;
         font-weight: 300;
-        text-align: center;
-        font-size: 0.8rem;
+        text-align: justify;
+        font-size: 0.7rem;
     }
     .loopedSectionTwo h1{
         text-align: center;
         font-family: "Anton", sans-serif;
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: rgb(36, 60, 116);
         margin-top: 0.5rem;
     }
@@ -374,34 +590,37 @@ footer li{
         line-height: 1.5;
         text-align: justify;
         text-indent: 20px;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .goalsDiv>h1{
         font-family: "cinzel decorative", sans-serif;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: rgb(255, 194, 81);
         text-align: center;
     }
     .goalsDiv h2{
         font-family: "Anton", sans-serif;
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: rgb(36, 60, 116);
         text-align: center;
     }
     /* OUR PARTNERS */
     .ourPartners{
+        margin-top: -2rem;
         width: 100vw;
         height: fit-content;
-        padding: 1rem;
+        padding: 1.5rem;
     }
     .ourPartners h1{
         font-family: "cinzel decorative", sans-serif;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: rgb(255, 194, 81);
         text-align: center;
     }
     .partners{
-        width: 100%;
+        margin: auto;
+        margin-bottom: 2rem;
+        width: 70%;
         height: fit-content;
         display: flex;
         flex-direction: row;
@@ -410,8 +629,8 @@ footer li{
         gap: 0.5rem;
     }
     .partners img{
-        width: 5rem;
-        height: 5rem;
+        width: 4rem;
+        height: 4rem;
         border: solid 2px rgb(36, 60, 116);
     }
     .partners img:hover{
@@ -438,7 +657,7 @@ footer li{
     /* WHY CHOOSE US */
     .whyChooseUs{
         display: block;
-        padding: 1rem;
+        padding: 2rem;
         width: 100vw;
         height: fit-content;
         margin: auto;
@@ -450,18 +669,18 @@ footer li{
         font-weight: 300;
         text-align: justify;
         text-indent: 20px;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .whyChooseUs>h1{
         font-family: "cinzel decorative", sans-serif;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: rgb(255, 194, 81);
         text-align: center;
     }
     .WhyUsGallery{
         width: 100%;
         height: fit-content;
-        margin: auto;
+        margin: 1rem auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -488,12 +707,12 @@ footer li{
         font-weight: 300;
         text-align: justify;
         text-indent: 20px;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .textDiv h2{
         font-family: "Anton", sans-serif;
         font-weight: 50;
-        font-size: 30px;
+        font-size: 1rem;
         color: rgb(36, 60, 116);
         text-align: center;
         margin: auto;
@@ -515,7 +734,7 @@ footer li{
     footer .button{
         font-family: "Montserrat", sans-serif;
         font-weight: 200;
-        font-size: 1rem;
+        font-size: 0.6rem;
         display: block;
         padding: 0.5rem 1rem;
         width: fit-content;
@@ -536,6 +755,7 @@ footer li{
         width: 100vw;
         height: 30vh;
         margin-top: 5vh;
+        object-fit: cover;
     }
     .padding h1{
         margin: -14vh 0 9vh 0;
@@ -549,6 +769,7 @@ footer li{
     /* LOOPED SECTION */
     .loopedSection{
         margin: auto;
+        margin-bottom: -2rem;
         width: 100vw;
         height: fit-content;
         padding: 2rem;
@@ -576,7 +797,7 @@ footer li{
         color: rgb(36, 60, 116);
         font-family: "Montserrat", sans-serif;
         font-weight: 300;
-        text-align: center;
+        text-align: justify;
         font-size: 1rem;
     }
     .loopedSectionTwo h1{
@@ -609,7 +830,7 @@ footer li{
     }
     .goalsDiv>h1{
         font-family: "cinzel decorative", sans-serif;
-        font-size: 2.2rem;
+        font-size: 2rem;
         color: rgb(255, 194, 81);
         text-align: center;
     }
@@ -627,11 +848,12 @@ footer li{
     }
     .ourPartners h1{
         font-family: "cinzel decorative", sans-serif;
-        font-size: 2.2rem;
+        font-size: 2rem;
         color: rgb(255, 194, 81);
         text-align: center;
     }
     .partners{
+        margin-bottom: 2rem;
         width: 100%;
         height: fit-content;
         display: flex;
@@ -669,7 +891,7 @@ footer li{
     /* WHY CHOOSE US */
     .whyChooseUs{
         display: block;
-        padding: 1rem;
+        padding: 3rem;
         width: 100vw;
         height: fit-content;
         margin: auto;
@@ -685,14 +907,14 @@ footer li{
     }
     .whyChooseUs>h1{
         font-family: "cinzel decorative", sans-serif;
-        font-size: 2.2rem;
+        font-size: 2rem;
         color: rgb(255, 194, 81);
         text-align: center;
     }
     .WhyUsGallery{
         width: 100%;
         height: fit-content;
-        margin: auto;
+        margin: 1rem auto;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -751,10 +973,248 @@ footer li{
 }
 /* 1201PX - 1600PX - LAPTOPS */
 @media (min-width: 1201px) and (max-width: 1600px) {
-    
-
-
-
+    footer .button{ 
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        font-size: 0.8rem;
+        display: block;
+        padding: 0.5rem 1rem;
+        width: fit-content;
+        height: fit-content;
+        background-color: rgb(255, 255, 255);
+        color:  rgb(36, 60, 116);
+        border: none;
+        cursor: pointer;
+        margin: 10px auto;
+    }
+    .button:hover{
+        background-color: rgb(255, 194, 81);
+        color: rgb(36, 60, 116);
+        font-weight: 700;
+    }
+    /* PADDING */
+    .pad{
+        width: 100vw;
+        height: 30vh;
+        margin-top: 10vh;
+        object-fit: cover;
+    }
+    .padding h1{
+        margin: -15vh 0 6vh 0;
+        font-weight: 200;
+        font-size: 3.5rem;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: "lobster two", sans-serif;
+    }
+    /* LOOPED SECTION */
+    .loopedSection{
+        margin: auto;
+        width: fit-content;
+        height: fit-content;
+        padding: 2rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .loopedSectionOne{
+        height: fit-content;
+        width: fit-content;
+    }
+    .loopedSectionOne video{
+        width: 22rem;
+        height: 20rem;
+        object-fit: cover;
+       
+    }
+    .loopedSectionTwo{
+        width: 60%;
+        height: fit-content;
+        padding: 2rem;
+        /* text edit */
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 300;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    .loopedSectionTwo h1{
+        text-align: center;
+        font-family: "Anton", sans-serif;
+        font-size: 1.5rem;
+        color: rgb(36, 60, 116);
+        margin-top: 1rem;
+    }        
+    .bold{
+        color: rgb(255, 194, 81);
+    }
+    /* GOALS */
+    .goals{
+        width: 100vw;
+        height: fit-content;
+        padding: 2rem;
+    }
+    .goalsDiv{
+        width: 80%;
+        height: fit-content;
+        margin: auto;
+        /* text edit */
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.5;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 0.8rem;
+    }
+    .goalsDiv>h1{
+        font-family: "cinzel decorative", sans-serif;
+        font-size: 2rem;
+        color: rgb(255, 194, 81);
+        text-align: center;
+    }
+    .goalsDiv h2{
+        font-family: "Anton", sans-serif;
+        font-size: 1.8rem;
+        color: rgb(36, 60, 116);
+        text-align: center;
+    }
+    /* OUR PARTNERS */
+    .ourPartners{
+        width: 100vw;
+        height: fit-content;
+        padding: 2rem;
+    }
+    .ourPartners h1{
+        font-family: "cinzel decorative", sans-serif;
+        font-size: 2rem;
+        color: rgb(255, 194, 81);
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .partners{
+        margin-bottom: 2rem;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+    .partners img{
+        width: 10rem;
+        height: 10rem;
+        border: solid 2px rgb(36, 60, 116);
+    }
+    .partners img:hover{
+        transform: scale(1.1);
+        transition: 0.8s all ease;
+        box-shadow: 0 0 20px rgb(36, 60, 116);
+        border: none;
+    }
+    /* SKILL CAROUSEL */
+    .skillCarouselContainer{
+        scroll-behavior: smooth;
+        overflow: auto;
+        white-space: nowrap;
+        width: 100vw;
+        height: fit-content;
+        padding: 1rem;
+        background-color: rgba(36, 60, 116, 0.2);
+    }
+    .skillCarouselContainer img{
+        width: 60%;
+        height: 30vh;
+        object-fit: cover;
+        padding: 0px;
+        margin: auto;
+    }
+    /* WHY CHOOSE US */
+    .whyChooseUs{
+        display: block;
+        padding: 2rem;
+        width: 95vw;
+        height: fit-content;
+        margin: auto;
+        margin-bottom: 10vh;
+        /* text edit */
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.5;
+        font-weight: 300;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 0.8rem;
+    }
+    .whyChooseUs>h1{
+        font-family: "cinzel decorative", sans-serif;
+        font-size: 2rem;
+        color: rgb(255, 194, 81);
+        text-align: center;
+    }
+    .WhyUsGallery{
+        width: 100%;
+        height: fit-content;
+        margin: 1rem auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 2rem;
+        border: 2px solid rgb(36, 60, 116);
+    }
+    .wuGalleryDiv{
+        width: 100%;
+        height: fit-content;
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 0rem;
+    }
+    .textDiv{
+        width: 40%;
+        height: fit-content;
+        margin: auto;
+        padding: 1rem;
+        /* text edit */
+        color: rgb(36, 60, 116);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 300;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 0.8rem;
+    }
+    .textDiv h2{
+        font-family: "Anton", sans-serif;
+        font-weight: 50;
+        font-size: 1.5rem;
+        color: rgb(36, 60, 116);
+        text-align: center;
+        margin: auto;
+    }
+    .reverse{
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .pictureDiv{
+        width: 60%;
+        height: 30vh;
+    }
+    .pictureDiv img{
+       width: 100%;
+       height: 100%;
+        object-fit: cover;
+        display: block;
+        margin: auto;
+    }
 }
 /* NAVBAR  */
 @media (min-width: 482px) and (max-width: 1600px ) { 
@@ -976,8 +1436,8 @@ footer li{
         background-color: rgb(255, 194, 81);
     }
 }
-/* 890PX - 1024PX - FOOTER COLUMN */
-@media (max-width: 892px) { 
+/* 760PX FOOTER COLUMN */
+@media (max-width: 760px) { 
         /* FOOTER */
     footer{
         padding: 0.5rem;

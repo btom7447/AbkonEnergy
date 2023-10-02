@@ -14,7 +14,7 @@ a{
 .button{
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     display: block;
     padding: 20px;
     width: fit-content;
@@ -28,7 +28,7 @@ a{
 footer .button{
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     display: block;
     padding: 20px;
     width: fit-content;
@@ -161,13 +161,14 @@ header{
 }
 .pad{
     width: 100vw;
-    height: 40vh;
-    margin-top: 5vh;
+    height: 400px;
+    margin-top: 180px;
+    object-fit: cover;
 }
-.padding h1{
-    margin: -18vh 0 8vh 0;
+.padding h1{ 
+    margin: -20vh 0 14vh 0;
     font-weight: 200;
-    font-size: 8rem;
+    font-size: 80px;
     text-align: center;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -182,22 +183,22 @@ header{
     scroll-behavior: smooth;
     overflow: auto;
     white-space: nowrap;
-    width: 100vw;
-    height: 40vh;
-    padding: 1.5rem;
-    margin-top: 3rem;
+    width: 100%;
+    height: 700px;
+    padding: 20px;
+    margin-top: -20px;
     background-color: rgba(36, 60, 116, 0.2);
 }
 .carouselGallery>img{
     cursor: pointer;
-    width: 60%;
+    width: 70%;
     height: 100%;
     object-fit: cover;
     margin: auto;
 }
 .introText{
     position: absolute;
-    top: 56vh;
+    top: 800px;
     left: 5vw;
     width: 20%;
     padding: 10px;
@@ -205,7 +206,7 @@ header{
 .introText>h1{
     font-family: "Cinzel Decorative", 'sans-serif';
     font-weight: 900;
-    font-size: 5rem;
+    font-size: 80px;
     letter-spacing: 5px;
     color: rgb(255, 194, 81);
     width: fit-content;
@@ -214,7 +215,7 @@ header{
     font-family: "Lobster two", 'anton';
     font-weight: 200;
     text-align: left;
-    font-size: 2rem;
+    font-size: 50px;
     color:rgb(255, 194, 81);
 }
 /* OVERVIEW */
@@ -232,8 +233,8 @@ header{
     background-color: rgb(255, 255, 255);
 }
 .overviewDiv{ 
-    height: 26rem;
-    width: 26rem;
+    height: 24rem;
+    width: 24rem;
     padding: 2rem;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 20px 0 rgb(36, 60, 116);
@@ -241,7 +242,7 @@ header{
     color: rgb(36, 60, 116);
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 .overviewDiv:hover{
@@ -251,11 +252,11 @@ header{
     transform: scale(1.1);
 }
 .overviewDiv>img{
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 30%;
     object-fit: cover;
     display: block;
-    margin: 10px auto;
+    margin: 40px auto;
 }
 .overviewDiv>h1{
     color: rgb(255, 194, 81);
@@ -267,13 +268,13 @@ header{
 /* WHO WE ARE */
 .whoWeAre{
     margin: 20px auto;
-    padding: 1rem;
-    width: 98vw;
+    padding: 5rem;
+    width: 100vw;
     height: fit-content;
 }
 .whoWeAre h2{
     font-family: "Anton", sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     color: rgb(36, 60, 116);
     text-align: center;
     margin: -5vh 0 2vh 0;
@@ -281,7 +282,7 @@ header{
 .whoweareGallery{ 
     width: fit-content;
     height: fit-content;
-    padding: 1.5rem;
+    padding: 2rem;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -293,8 +294,8 @@ header{
     box-shadow: 0 0 20px 0 rgb(36, 60, 116);
 }
 .whoweareGalleryOne{
-    width: 50%;
-    height: 50vh;
+    width: 45%;
+    height: 40vh;
 }
 .whoweareGalleryOne img{
     width: 100%;
@@ -304,12 +305,12 @@ header{
 .whoweareGalleryTwo{
     width: 50%;
     height: fit-content;
-    padding: 2rem;
+    padding: 3rem;
 }
 .wwagTwoOne h2{
     text-align: center;
     font-family: "Anton", sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 0.5rem;
     color: rgb(36, 60, 116);
 }
@@ -319,22 +320,22 @@ header{
 .wwagTwoOne p{
     text-align: justify;
     font-family: "Montserrat", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     color: rgb(36, 60, 116);
-    margin-bottom: 3rem;
+    margin-bottom: 0;
 }
 /* WHAT WE DO*/
 .padText{
     font-family: "Anton", sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     color: rgb(36, 60, 116);
     text-align: center;
-    margin: -1vh 0 2vh 0;
+    margin: -2vh 0 2vh 0;
 }
 .whatWeDo{
     height: fit-content;
     width: 100vw;
-    padding: 2rem 0rem;
+    padding: 4rem;
     background-image: url(images/solar\ panel.jpg);
     background-position: 40%;
 }
@@ -345,14 +346,14 @@ header{
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding: 2rem;
+    padding: 0rem;
     gap: 4rem;
     width: 100%;
     height: fit-content;
 }
-.whatwedoGalDiv{ 
-    height: 27rem;
-    width: 28rem;
+.whatwedoGalDiv{
+    height: 25rem;
+    width: 25rem;
     padding: 2rem;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 20px 0 rgb(36, 60, 116);
@@ -360,7 +361,7 @@ header{
     color: rgb(36, 60, 116);
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 .whatwedoGalDiv:hover{
@@ -373,20 +374,20 @@ header{
     color: rgb(255, 194, 81);
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 .whatwedoGalDiv img{
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 30%;
     object-fit: cover;
-    margin: 20px auto;
+    margin: 40px auto;
     display: block;
 }
 /* EXECTUED PROJECTS */
 .executedProjects h2{
     font-family: "Anton", sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     color: rgb(36, 60, 116);
     text-align: center;
     margin: auto;
@@ -407,29 +408,29 @@ header{
     flex-wrap: wrap;
     margin: auto;
     gap: 4rem;
-    padding: 4rem;
+    padding: 3rem;
     width: 100%;
     height: fit-content;
 }
 .epGalleryDiv{
-    height: 28rem;
-    width: 28rem;
+    height: 24rem;
+    width: 23rem;
     padding: 2rem;
     /* text edit */
     color: rgb(36, 60, 116);
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 .epGalleryDiv video{
     width: 100%;
-    height: 12rem;
+    height: 10rem;
     object-fit: cover;
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2rem;
 }
 /* FOOTER */
 footer{
@@ -496,7 +497,7 @@ footer{
     transform: translateY(10px);
 }
 .footerTwo{
-    width: 20%;
+    width: 40%;
     padding: 1rem;
     height: fit-content;
     margin: auto;
@@ -561,7 +562,7 @@ footer li{
     .button{
         font-family: "Montserrat", sans-serif;
         font-weight: 200;
-        font-size: 0.8rem;
+        font-size: 0.5rem;
         display: block;
         padding: 10px 20px;
         width: fit-content;
@@ -575,7 +576,7 @@ footer li{
     footer .button{
         font-family: "Montserrat", sans-serif;
         font-weight: 200;
-        font-size: 0.8rem;
+        font-size: 0.5rem;
         display: block;
         padding: 10px 20px;
         width: fit-content;
@@ -597,9 +598,9 @@ footer li{
         margin-top: 5vh;
     }
     .padding h1{
-        margin: -15vh 0 7vh 0;
+        margin: -15vh 0 10vh 0;
         font-weight: 200;
-        font-size: 3rem;
+        font-size: 2rem;
         text-align: center;
         text-decoration: none;
         color: rgb(255, 255, 255);
@@ -616,8 +617,8 @@ footer li{
         white-space: nowrap;
         width: 100vw;
         height: 40vh;
-        padding: 1rem;
-        margin-top: 3rem;
+        padding: 0.5rem;
+        margin-top: 3.7rem;
         background-color: rgba(36, 60, 116, 0.2);
     }
     .carouselGallery>img{
@@ -631,13 +632,13 @@ footer li{
         position: absolute;
         top: 50vh;
         left: 5vw;
-        width: 35%;
+        width: 40%;
         padding: 10px;
     }
     .introText>h1{
         font-family: "Cinzel Decorative", 'sans-serif';
         font-weight: 900;
-        font-size: 2rem;
+        font-size: 1rem;
         letter-spacing: 5px;
         color: rgb(255, 194, 81);
         width: fit-content;
@@ -646,7 +647,7 @@ footer li{
         font-family: "Lobster two", 'anton';
         font-weight: 200;
         text-align: left;
-        font-size: 1rem;
+        font-size: 0.8rem;
         color:rgb(255, 194, 81);
     }
     /* OVERVIEW */
@@ -664,16 +665,16 @@ footer li{
         background-color: rgb(255, 255, 255);
     }
     .overviewDiv{ 
-        height: 15rem;
-        width: 15rem;
-        padding: 1rem;
+        height: 14rem;
+        width: 14rem;
+        padding: 1.5rem;
         background-color: rgb(255, 255, 255);
         box-shadow: 0 0 20px 0 rgb(36, 60, 116);
         /* text edit */
         color: rgb(36, 60, 116);
         font-family: "Montserrat", sans-serif;
         font-weight: 200;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         text-align: center;
     }
     .overviewDiv:hover{
@@ -698,13 +699,13 @@ footer li{
     /* WHO WE ARE */
     .whoWeAre{
         margin: 20px auto;
-        padding: 1.5rem;
+        padding: 2rem;
         width: 100vw;
         height: fit-content;
     }
     .whoWeAre h2{
         font-family: "Anton", sans-serif;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: rgb(36, 60, 116);
         text-align: center;
         margin: -5vh 0 2vh 0;
@@ -740,7 +741,7 @@ footer li{
     .wwagTwoOne h2{
         text-align: center;
         font-family: "Anton", sans-serif;
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: rgb(36, 60, 116);
     }
     .bold{
@@ -756,7 +757,7 @@ footer li{
     /* WHAT WE DO*/
     .padText{
         font-family: "Anton", sans-serif;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: rgb(36, 60, 116);
         text-align: center;
         margin: -2vh 0 2vh 0;
@@ -775,7 +776,7 @@ footer li{
         justify-content: center;
         align-items: center;
         margin: auto;
-        padding: 1rem;
+        padding: 1.5rem;
         gap: 2rem;
         width: 100%;
         height: fit-content;
@@ -783,14 +784,14 @@ footer li{
     .whatwedoGalDiv{
         height: 15rem;
         width: 15rem;
-        padding: 1rem;
+        padding: 1.5rem;
         background-color: rgb(255, 255, 255);
         box-shadow: 0 0 20px 0 rgb(36, 60, 116);
         /* text edit */
         color: rgb(36, 60, 116);
         font-family: "Montserrat", sans-serif;
         font-weight: 200;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         text-align: center;
     }
     .whatwedoGalDiv:hover{
@@ -806,8 +807,8 @@ footer li{
         text-align: center;
     }
     .whatwedoGalDiv img{
-        width: 30%;
-        height: 30%;
+        width: 40%;
+        height: 40%;
         object-fit: cover;
         padding: 0.5rem;
         margin: 10px auto;
@@ -816,7 +817,7 @@ footer li{
     /* EXECTUED PROJECTS */
     .executedProjects h2{
         font-family: "Anton", sans-serif;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: rgb(36, 60, 116);
         text-align: center;
         margin: auto;
@@ -848,7 +849,7 @@ footer li{
         color: rgb(36, 60, 116);
         font-family: "Montserrat", sans-serif;
         font-weight: 200;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         text-align: center;
     }
     .epGalleryDiv video{
@@ -866,9 +867,9 @@ footer li{
     .button{
         font-family: "Montserrat", sans-serif;
         font-weight: 200;
-        font-size: 1.5rem;
+        font-size: 0.7rem;
         display: block;
-        padding: 20px;
+        padding: 10px;
         width: fit-content;
         height: fit-content;
         background-color: rgb(36, 60, 116);
@@ -880,9 +881,9 @@ footer li{
     footer .button{
         font-family: "Montserrat", sans-serif;
         font-weight: 200;
-        font-size: 1rem;
+        font-size: 0.7rem;
         display: block;
-        padding: 20px;
+        padding: 10px;
         width: fit-content;
         height: fit-content;
         background-color: rgb(255, 255, 255);
@@ -902,9 +903,9 @@ footer li{
         margin-top: 5vh;
     }
     .padding h1{
-        margin: -15vh 0 7vh 0;
+        margin: -15vh 0 8vh 0;
         font-weight: 200;
-        font-size: 5rem;
+        font-size: 4rem;
         text-align: center;
         text-decoration: none;
         color: rgb(255, 255, 255);
@@ -921,7 +922,7 @@ footer li{
         white-space: nowrap;
         width: 100vw;
         height: 30vh;
-        padding: 2rem;
+        padding: 1rem;
         margin-top: 3rem;
         background-color: rgba(36, 60, 116, 0.2);
     }
@@ -942,7 +943,7 @@ footer li{
     .introText>h1{
         font-family: "Cinzel Decorative", 'sans-serif';
         font-weight: 900;
-        font-size: 3rem;
+        font-size: 2.5rem;
         letter-spacing: 5px;
         color: rgb(255, 194, 81);
         width: fit-content;
@@ -958,7 +959,7 @@ footer li{
     .overview{
         width: 100vw;
         height: fit-content;
-        padding: 2rem;
+        padding: 3rem;
         margin: auto;
         display: flex;
         flex-direction: row;
@@ -969,8 +970,8 @@ footer li{
         background-color: rgb(255, 255, 255);
     }
     .overviewDiv{ 
-        height: 20rem;
-        width: 20rem;
+        height: 18rem;
+        width: 18rem;
         padding: 1.5rem;
         background-color: rgb(255, 255, 255);
         box-shadow: 0 0 20px 0 rgb(36, 60, 116);
@@ -1009,7 +1010,7 @@ footer li{
     }
     .whoWeAre h2{
         font-family: "Anton", sans-serif;
-        font-size: 3rem;
+        font-size: 2rem;
         color: rgb(36, 60, 116);
         text-align: center;
         margin: -5vh 0 2vh 0;
@@ -1045,7 +1046,7 @@ footer li{
     .wwagTwoOne h2{
         text-align: center;
         font-family: "Anton", sans-serif;
-        font-size: 2.5rem;
+        font-size: 1.8rem;
         margin-top: 0.5rem;
         color: rgb(36, 60, 116);
     }
@@ -1055,14 +1056,14 @@ footer li{
     .wwagTwoOne p{
         text-align: justify;
         font-family: "Montserrat", sans-serif;
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: rgb(36, 60, 116);
         margin-bottom: 3rem;
     }
     /* WHAT WE DO*/
     .padText{
         font-family: "Anton", sans-serif;
-        font-size: 3rem;
+        font-size: 2rem;
         color: rgb(36, 60, 116);
         text-align: center;
         margin: -2vh 0 2vh 0;
@@ -1121,7 +1122,7 @@ footer li{
     /* EXECTUED PROJECTS */
     .executedProjects h2{
         font-family: "Anton", sans-serif;
-        font-size: 3rem;
+        font-size: 2rem;
         color: rgb(36, 60, 116);
         text-align: center;
         margin: auto;
@@ -1174,7 +1175,7 @@ footer li{
         font-weight: 200;
         font-size: 0.8rem;
         display: block;
-        padding: 20px;
+        padding: 10px;
         width: fit-content;
         height: fit-content;
         background-color: rgb(36, 60, 116);
@@ -1188,7 +1189,7 @@ footer li{
         font-weight: 200;
         font-size: 0.8rem;
         display: block;
-        padding: 20px;
+        padding: 10px;
         width: fit-content;
         height: fit-content;
         background-color: rgb(255, 255, 255);
@@ -1204,13 +1205,13 @@ footer li{
     }
     .pad{
         width: 100vw;
-        height: 40vh;
-        margin-top: 5vh;
+        height: 30vh;
+        margin-top: 10vh;
     }
-    .padding h1{
-        margin: -20vh 0 8vh 0;
+    .padding h1{ 
+        margin: -15vh 0 6vh 0;
         font-weight: 200;
-        font-size: 4rem;
+        font-size: 3.5rem;
         text-align: center;
         text-decoration: none;
         color: rgb(255, 255, 255);
@@ -1227,8 +1228,8 @@ footer li{
         white-space: nowrap;
         width: 100vw;
         height: 45vh;
-        padding: 1rem;
-        margin-top: 3rem;
+        padding: 0.5rem;
+        margin-top: 3.8rem;
         background-color: rgba(36, 60, 116, 0.2);
     }
     .carouselGallery>img{
@@ -1242,13 +1243,13 @@ footer li{
         position: absolute;
         top: 54vh;
         left: 5vw;
-        width: 35%;
+        width: 20%;
         padding: 10px;
     }
     .introText>h1{
         font-family: "Cinzel Decorative", 'sans-serif';
         font-weight: 900;
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         letter-spacing: 5px;
         color: rgb(255, 194, 81);
         width: fit-content;
@@ -1262,9 +1263,9 @@ footer li{
     }
     /* OVERVIEW */
     .overview{
-        width: 98vw;
+        width: 100vw;
         height: fit-content;
-        padding: 2rem;
+        padding: 3rem;
         margin: auto;
         display: flex;
         flex-direction: row;
@@ -1310,8 +1311,8 @@ footer li{
     /* WHO WE ARE */
     .whoWeAre{
         margin: 20px auto;
-        padding: 1rem;
-        width: 98vw;
+        padding: 4rem;
+        width: 100vw;
         height: fit-content;
     }
     .whoWeAre h2{
@@ -1324,7 +1325,7 @@ footer li{
     .whoweareGallery{ 
         width: fit-content;
         height: fit-content;
-        padding: 2.5rem;
+        padding: 2rem;
         margin: auto;
         display: flex;
         flex-direction: row;
@@ -1362,7 +1363,7 @@ footer li{
     .wwagTwoOne p{
         text-align: justify;
         font-family: "Montserrat", sans-serif;
-        font-size: 1rem;
+        font-size: 0.8rem;
         color: rgb(36, 60, 116);
         margin-bottom: 0;
     }
@@ -1372,12 +1373,12 @@ footer li{
         font-size: 2rem;
         color: rgb(36, 60, 116);
         text-align: center;
-        margin: -2vh 0 2vh 0;
+        margin: -7vh 0 2vh 0;
     }
     .whatWeDo{
         height: fit-content;
-        width: 98vw;
-        padding: 2rem 0rem;
+        width: 100vw;
+        padding: 4rem;
         background-image: url(images/solar\ panel.jpg);
         background-position: 40%;
     }
@@ -1450,7 +1451,7 @@ footer li{
         flex-wrap: wrap;
         margin: auto;
         gap: 3rem;
-        padding: 1.5rem;
+        padding: 1rem;
         width: 100%;
         height: fit-content;
     }
@@ -1695,8 +1696,8 @@ footer li{
         background-color: rgb(255, 194, 81);
     }
 }
-/* 890PX - 1024PX - FOOTER COLUMN */
-@media (max-width: 892px) { 
+/* 760PX - FOOTER COLUMN */
+@media (max-width: 760px) { 
         /* FOOTER */
     footer{
         padding: 0.5rem;
