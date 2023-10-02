@@ -476,8 +476,8 @@ footer li{
         font-size: 0.5rem;
     }
     .cultureContainerDiv img{
-        width: 80%;
-        height: 2rem;
+        width: 40px;
+        height: 40px;
         object-fit: cover;
         margin: auto;
         margin-top: 10px;
